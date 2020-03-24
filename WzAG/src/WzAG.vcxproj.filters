@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="WzAG.cpp">
+      <Filter>Source Files\WzAG</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source Files\StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="WzAG.h">
+      <Filter>Source Files\WzAG</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{af53feb6-dc33-48ce-b81b-61bd53aab024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{6b826231-deba-4f17-9a8b-4817f1a4b3c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StdAfx">
+      <UniqueIdentifier>{fa75f219-1af0-492e-895f-9ca12f3ebebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WzAG">
+      <UniqueIdentifier>{87df9ec7-a9fa-4517-ab74-21f346384084}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WzAG.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

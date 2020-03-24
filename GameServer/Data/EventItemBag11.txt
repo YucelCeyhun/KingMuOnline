@@ -1,0 +1,73 @@
+// Box of Kundun +4
+
+//=========================================================================
+//Drop Options
+//Name			ZenAmount	ItemType	Index	ItemLvl	DropRate NormDrop	ExcDrop
+//=========================================================================
+1
+"Box of Kundun +4"		0		0	0	 0	 0	 100	  	1
+end
+
+//==================================================================
+//Item Drops
+//Type	Item	MinLvl	MaxLvl	Skill	Luck	Option	Exc	Name
+//==================================================================
+2
+10000
+0	16	0	0	1	1	1	1	//Sword of Destruction
+0	17	0	0	1	1	1	1	//Dark Breaker
+0	18	0	0	1	1	1	1	//Thunder Blade
+0	19	0	0	1	1	1	1	//Divine Sword of Archangel
+2	11	0	0	1	1	1	1	//Lord Scepter
+2	12	0	0	1	1	1	1	//Great Lord Scepter
+2	13	0	0	1	1	1	1	//Divine Scepter of Archangel
+3	10	0	0	1	1	1	1	//Dragon Spear
+4	16	0	0	1	1	1	1	//Saint Crossbow
+4	17	0	0	1	1	1	1	//Celestial Bow
+4	18	0	0	1	1	1	1	//Divine Crossbow of Archangel
+4	19	0	0	1	1	1	1	//Great Reign Crossbow
+5	8	0	0	0	1	1	1	//Staff of Destruction
+5	9	0	0	0	1	1	1	//Dragon Soul Staff
+5	10	0	0	0	1	1	1	//Divine Staff of Archangel
+5	19	0	0	0	1	1	1	//Aura Stick
+6	13	0	0	1	1	1	1	//Chaos Dragon Shield
+6	15	0	0	1	1	1	1	//Grand Soul Shield
+6	16	0	0	1	1	1	1	//Elemental Shield
+7	16	0	0	0	1	1	1	//Black Dragon Helm
+7	17	0	0	0	1	1	1	//Dark Phoenix Helm
+7	18	0	0	0	1	1	1	//Grand Soul Helm
+7	19	0	0	0	1	1	1	//Divine Helm
+7	27	0	0	0	1	1	1	//Dark Steel Mask
+7	43	0	0	0	1	1	1	//Rhodon Quartz Helm
+8	16	0	0	0	1	1	1	//Black Dragon Armor
+8	17	0	0	0	1	1	1	//Dark Phoenix Armor
+8	18	0	0	0	1	1	1	//Grand Soul Armor
+8	19	0	0	0	1	1	1	//Divine Armor
+8	20	0	0	0	1	1	1	//Thunder Hawk Armor
+8	27	0	0	0	1	1	1	//Dark Steel Armor
+8	43	0	0	0	1	1	1	//Rhodon Quartz Armor
+9	16	0	0	0	1	1	1	//Black Dragon Pants
+9	17	0	0	0	1	1	1	//Dark Phoenix Pants
+9	18	0	0	0	1	1	1	//Grand Soul Pants
+9	19	0	0	0	1	1	1	//Divine Pants
+9	20	0	0	0	1	1	1	//Thunder Hawk Pants
+9	27	0	0	0	1	1	1	//Dark Steel Pants
+9	43	0	0	0	1	1	1	//Rhodon Quartz Pants
+10	16	0	0	0	1	1	1	//Black Dragon Gloves
+10	17	0	0	0	1	1	1	//Dark Phoenix Gloves
+10	18	0	0	0	1	1	1	//Grand Soul Gloves
+10	19	0	0	0	1	1	1	//Divine Gloves
+10	20	0	0	0	1	1	1	//Thunder Hawk Gloves
+10	27	0	0	0	1	1	1	//Dark Steel Gloves
+10	43	0	0	0	1	1	1	//Rhodon Quartz Gloves
+11	16	0	0	0	1	1	1	//Black Dragon Boots
+11	17	0	0	0	1	1	1	//Dark Phoenix Boots
+11	18	0	0	0	1	1	1	//Grand Soul Boots
+11	19	0	0	0	1	1	1	//Divine Boots
+11	20	0	0	0	1	1	1	//Thunder Hawk Boots
+11	27	0	0	0	1	1	1	//Dark Steel Boots
+11	43	0	0	0	1	1	1	//Rhodon Quartz Boots
+14 12 0 0 0 0 0 0
+14 21 0 0 0 0 0 0
+end
+end

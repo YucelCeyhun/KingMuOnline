@@ -1,0 +1,75 @@
+// Box of Kundun +5
+
+//=========================================================================
+//Drop Options
+//Name			ZenAmount	ItemType	Index	ItemLvl	DropRate NormDrop	ExcDrop
+//=========================================================================
+1
+"Box of Kundun +5"		0		0	0	 0	 0	 100	  	1
+end
+
+//==================================================================
+//Item Drops
+//Type	Item	MinLvl	MaxLvl	Skill	Luck	Option	Exc	Name
+//==================================================================
+2
+10000
+0	20	0	0	1	1	1	1	//Knight Blade
+0	21	0	0	1	1	1	1	//Dark Reign Blade
+0	31	0	0	1	1	1	1	//Rune Blade
+2	15	0	0	1	1	1	1	//Shining Scepter
+4	20	0	0	1	1	1	1	//Arrow Viper Bow
+5	11	0	0	0	1	1	1	//Staff of Kundun
+5	13	0	0	0	1	1	1	//Platina Staff
+7	21	0	0	0	1	1	1	//Great Dragon Helm
+7	22	0	0	0	1	1	1	//Dark Soul Helm
+7	24	0	0	0	1	1	1	//Red Spirit Helm
+7	28	0	0	0	1	1	1	//Dark Master Mask
+7	34	0	0	0	1	1	1	//Ashcrow Helm
+7	35	0	0	0	1	1	1	//Eclipse Helm
+7	36	0	0	0	1	1	1	//Iris Helm
+7	38	0	0	0	1	1	1	//Glorious Helm
+8	21	0	0	0	1	1	1	//Great Dragon Armor
+8	22	0	0	0	1	1	1	//Dark Soul Armor
+8	23	0	0	0	1	1	1	//Hurricane Armor
+8	24	0	0	0	1	1	1	//Red Spirit Armor
+8	28	0	0	0	1	1	1	//Dark Master Armor
+8	34	0	0	0	1	1	1	//Ashcrow Armor
+8	35	0	0	0	1	1	1	//Eclipse Armor
+8	36	0	0	0	1	1	1	//Iris Armor
+8	37	0	0	0	1	1	1	//Valiant Armor
+8	38	0	0	0	1	1	1	//Glorious Armor
+9	21	0	0	0	1	1	1	//Great Dragon Pants
+9	22	0	0	0	1	1	1	//Dark Soul Pants
+9	23	0	0	0	1	1	1	//Hurricane Pants
+9	24	0	0	0	1	1	1	//Red Spirit Pants
+9	28	0	0	0	1	1	1	//Dark Master Pants
+9	34	0	0	0	1	1	1	//Ashcrow Pants
+9	35	0	0	0	1	1	1	//Eclipse Pants
+9	36	0	0	0	1	1	1	//Iris Pants
+9	37	0	0	0	1	1	1	//Valiant Pants
+9	38	0	0	0	1	1	1	//Glorious Pants
+10	21	0	0	0	1	1	1	//Great Dragon Gloves
+10	22	0	0	0	1	1	1	//Dark Soul Gloves
+10	23	0	0	0	1	1	1	//Hurricane Gloves
+10	24	0	0	0	1	1	1	//Red Spirit Gloves
+10	28	0	0	0	1	1	1	//Dark Master Gloves
+10	34	0	0	0	1	1	1	//Ashcrow Gloves
+10	35	0	0	0	1	1	1	//Eclipse Gloves
+10	36	0	0	0	1	1	1	//Iris Gloves
+10	37	0	0	0	1	1	1	//Valiant Gloves
+10	38	0	0	0	1	1	1	//Glorious Gloves
+11	21	0	0	0	1	1	1	//Great Dragon Boots
+11	22	0	0	0	1	1	1	//Dark Soul Boots
+11	23	0	0	0	1	1	1	//Hurricane Boots
+11	24	0	0	0	1	1	1	//Red Spirit Boots
+11	28	0	0	0	1	1	1	//Dark Master Boots
+11	34	0	0	0	1	1	1	//Ashcrow Boots
+11	35	0	0	0	1	1	1	//Eclipse Boots
+11	36	0	0	0	1	1	1	//Iris Boots
+11	37	0	0	0	1	1	1	//Valiant Boots
+11	38	0	0	0	1	1	1	//Glorious Boots
+14 12 0 0 0 0 0 0
+14 21 0 0 0 0 0 0
+end
+end

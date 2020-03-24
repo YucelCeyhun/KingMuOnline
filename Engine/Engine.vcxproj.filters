@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{0aa5d680-8944-449f-87f0-a71e6985fa9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{ce92f8e3-32e3-4b54-a06d-52af9f0caa94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StdAfx">
+      <UniqueIdentifier>{4ae49b27-2acf-48f3-b0c2-9a55cbce90d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\ToolKit">
+      <UniqueIdentifier>{5d458a74-2343-4c96-a658-c1d544ebb360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Launcher">
+      <UniqueIdentifier>{c2624a17-31a5-4e85-8b03-0ee32ea124ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WinTitle">
+      <UniqueIdentifier>{c8eb2483-2473-490d-84ab-ca6d62e33724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Font">
+      <UniqueIdentifier>{8cf99b35-9226-478b-a60c-2be08955fe4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Import">
+      <UniqueIdentifier>{0f2a369f-4d35-42cf-8d68-05a77297fb48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item">
+      <UniqueIdentifier>{fe5521bd-1dea-4357-af65-c400b90d591b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MathLib">
+      <UniqueIdentifier>{0511a202-69f1-4f1d-8c51-295cdbf4a11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loader">
+      <UniqueIdentifier>{6bc58e89-9dfe-4b4f-aedf-bfcfe9a03095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Skills">
+      <UniqueIdentifier>{ce90dd67-2c7a-44c0-bb7d-4861d5da4b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character">
+      <UniqueIdentifier>{c5b76eaa-f616-42c3-9ade-368ca1888476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enums">
+      <UniqueIdentifier>{29b7e1e2-0e39-4bd0-a452-6c1a3ebf7152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\Other">
+      <UniqueIdentifier>{6f8f1e63-1831-44c1-ac17-a0227b83b837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\Level">
+      <UniqueIdentifier>{10fa60ef-1f62-4629-a25f-824c153e9071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\Socket">
+      <UniqueIdentifier>{cbc6e3b2-1685-4669-aa32-62e40ef8b760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\Smoke">
+      <UniqueIdentifier>{f229a22b-e50e-4c85-a7e5-2af629e401f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\Glow">
+      <UniqueIdentifier>{ea7b7d9b-3793-42da-a87a-629b71cad1b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\Jewels">
+      <UniqueIdentifier>{c96d0f7c-2108-44cd-96c3-00ea5698a709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\Jewels\Bundles">
+      <UniqueIdentifier>{3e35ec4c-3be2-4495-8701-bd24697fc0c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Preview">
+      <UniqueIdentifier>{5afc4132-fd84-423b-8766-362d94383993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Preview\Complete">
+      <UniqueIdentifier>{5b9b3f06-ab96-4690-921d-91e50e334e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Defines">
+      <UniqueIdentifier>{d6441658-a058-4f4f-ad5d-a9acddab8268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\Wings">
+      <UniqueIdentifier>{dacd64b8-3755-4cb5-aad3-ce72f106fb99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Connection">
+      <UniqueIdentifier>{57771fe9-0a14-4393-b4e9-87495662c4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effect">
+      <UniqueIdentifier>{098a1fbe-fdfc-4a4b-ad0f-814fcf1c3f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BMD">
+      <UniqueIdentifier>{5e33d3c7-ef78-4843-938c-b3ba302325c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\Bows">
+      <UniqueIdentifier>{3e38e6cc-ca39-48e7-ac38-19d8c9e253fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\ToolTip">
+      <UniqueIdentifier>{284c9c4e-8581-4cf8-8483-47d79be76e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\Bags">
+      <UniqueIdentifier>{dfc873d1-55c2-490c-8691-de62f3f55470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fixes">
+      <UniqueIdentifier>{7ed70deb-e133-4e43-8824-eecdcbf62374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Monster">
+      <UniqueIdentifier>{fcb3605d-1bc9-4cc3-ae02-79e89b2a532d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface">
+      <UniqueIdentifier>{fd5eeeb9-6050-453b-bafd-7a7cd07a813e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MiniMap">
+      <UniqueIdentifier>{c615d907-4a35-4222-bb81-551355f4d26d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\Pets">
+      <UniqueIdentifier>{1e963e81-63f7-480f-838a-af59a0b862c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Maps">
+      <UniqueIdentifier>{0bc46a81-1ea1-4dd8-bc0f-2728549876e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Splash">
+      <UniqueIdentifier>{c3b41acc-daa5-43b6-b10d-7bec8f65ca6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Encode">
+      <UniqueIdentifier>{82379083-a889-46ae-b1b7-1457ed85eadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Script">
+      <UniqueIdentifier>{272e5dee-c772-4541-97b7-fc741ad13f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Frame">
+      <UniqueIdentifier>{7a743849-e689-45bb-9eba-284d59242b48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Protocol">
+      <UniqueIdentifier>{091449d1-6f57-4c5e-8510-2f812f85410b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Protocol\ProtoDef">
+      <UniqueIdentifier>{1c7e2d7e-1a34-4bf2-a7f4-374b205dcd6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\User">
+      <UniqueIdentifier>{919aa6a3-d024-4705-8838-dbda449cb842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\User\Reset">
+      <UniqueIdentifier>{7ce72169-ddbb-4d63-b3b5-9858004b314f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Control">
+      <UniqueIdentifier>{d789d2f0-d307-4213-8bbc-692cd07abe42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structs">
+      <UniqueIdentifier>{9843af97-2688-4169-8fad-68dcb6541850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{8af252f2-1c46-4476-bf65-b48bd537d106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GlowTron">
+      <UniqueIdentifier>{858595e7-4de2-483e-acbe-93973d9bf841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Display">
+      <UniqueIdentifier>{ba8f2d4b-d7e0-46a3-8cbe-76b4fa869749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Detours">
+      <UniqueIdentifier>{6583ec19-af57-47d8-a5e9-5c4fc86729cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Detours\1.5">
+      <UniqueIdentifier>{91c9aaac-21a1-4ccd-b549-989cd14e414f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Detours\2.0">
+      <UniqueIdentifier>{830bc278-53ba-4297-8a3d-cd220ed5ba2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{4b91c113-90b0-4244-b018-6dcc1776209e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound\Load">
+      <UniqueIdentifier>{d38970b1-6830-4c93-ac9d-b5ba900f690b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound\Play">
+      <UniqueIdentifier>{857c625a-3879-4827-92ac-493264a268f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExHP">
+      <UniqueIdentifier>{b316027c-75a9-411b-a301-e655b0c5aac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{aa793483-a2e4-47c1-a991-0f37b910f97f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SkyBox">
+      <UniqueIdentifier>{ae9f966b-6ec9-4fc2-a55c-b5e16fb14a07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera\Damage">
+      <UniqueIdentifier>{a3684eda-1c7a-432c-97a6-5a69e2750818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\Point">
+      <UniqueIdentifier>{5a5f2308-0186-43e0-8eac-247c682c9bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VisualFix">
+      <UniqueIdentifier>{e05f73bf-e476-4feb-99a7-5f00219cb797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fog">
+      <UniqueIdentifier>{b4b01d9e-0e7b-4d31-9cbe-2110088e94a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mobs">
+      <UniqueIdentifier>{fe2da7b4-c3c6-4d4d-8a85-fbdb3740db0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolKit.cpp">
+      <Filter>Source Files\Utilities\ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="Launcher.cpp">
+      <Filter>Source Files\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="WinTitle.cpp">
+      <Filter>Source Files\WinTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Glow.cpp">
+      <Filter>Source Files\Item\Glow</Filter>
+    </ClCompile>
+    <ClCompile Include="zzzMathLib.cpp">
+      <Filter>Source Files\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Smoke.cpp">
+      <Filter>Source Files\Item\Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptEncode.cpp">
+      <Filter>Source Files\Encode</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Source Files\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills.cpp">
+      <Filter>Source Files\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawFrame.cpp">
+      <Filter>Source Files\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSocket.cpp">
+      <Filter>Source Files\Item\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\Item\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemLevel.cpp">
+      <Filter>Source Files\Item\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Pets.cpp">
+      <Filter>Source Files\Item\Pets</Filter>
+    </ClCompile>
+    <ClCompile Include="Jewels.cpp">
+      <Filter>Source Files\Item\Jewels</Filter>
+    </ClCompile>
+    <ClCompile Include="Bundles.cpp">
+      <Filter>Source Files\Item\Jewels\Bundles</Filter>
+    </ClCompile>
+    <ClCompile Include="Preview.cpp">
+      <Filter>Source Files\Preview</Filter>
+    </ClCompile>
+    <ClCompile Include="Complete.cpp">
+      <Filter>Source Files\Preview\Complete</Filter>
+    </ClCompile>
+    <ClCompile Include="Wings.cpp">
+      <Filter>Source Files\Item\Wings</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Source Files\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Source Files\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BMD.cpp">
+      <Filter>Source Files\BMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Bows.cpp">
+      <Filter>Source Files\Item\Bows</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTip.cpp">
+      <Filter>Source Files\Item\ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="Bags.cpp">
+      <Filter>Source Files\Item\Bags</Filter>
+    </ClCompile>
+    <ClCompile Include="Fixes.cpp">
+      <Filter>Source Files\Fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Source Files\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>Source Files\MiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps.cpp">
+      <Filter>Source Files\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>Source Files\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Source Files\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\User</Filter>
+    </ClCompile>
+    <ClCompile Include="Reset.cpp">
+      <Filter>Source Files\User\Reset</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GlowTron.cpp">
+      <Filter>Source Files\GlowTron</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Source Files\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadSound.cpp">
+      <Filter>Source Files\Sound\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySound.cpp">
+      <Filter>Source Files\Sound\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="ExHP.cpp">
+      <Filter>Source Files\ExHP</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Source Files\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Damage.cpp">
+      <Filter>Source Files\Camera\Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="FogEffect.cpp">
+      <Filter>Source Files\Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Item\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualFix.cpp">
+      <Filter>Source Files\VisualFix</Filter>
+    </ClCompile>
+    <ClCompile Include="Mobs.cpp">
+      <Filter>Source Files\Mobs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source Files\StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolKit.h">
+      <Filter>Source Files\Utilities\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="Launcher.h">
+      <Filter>Source Files\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinTitle.h">
+      <Filter>Source Files\WinTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Source Files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Import.h">
+      <Filter>Source Files\Import</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.h">
+      <Filter>Source Files\Item\Glow</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadScript.h">
+      <Filter>Source Files\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="zzzMathLib.h">
+      <Filter>Source Files\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Smoke.h">
+      <Filter>Source Files\Item\Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptEncode.h">
+      <Filter>Source Files\Encode</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Source Files\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills.h">
+      <Filter>Source Files\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawFrame.h">
+      <Filter>Source Files\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSocket.h">
+      <Filter>Source Files\Item\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Source Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Source Files\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Source Files\Item\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemLevel.h">
+      <Filter>Source Files\Item\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Pets.h">
+      <Filter>Source Files\Item\Pets</Filter>
+    </ClInclude>
+    <ClInclude Include="Jewels.h">
+      <Filter>Source Files\Item\Jewels</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundles.h">
+      <Filter>Source Files\Item\Jewels\Bundles</Filter>
+    </ClInclude>
+    <ClInclude Include="Preview.h">
+      <Filter>Source Files\Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Source Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Complete.h">
+      <Filter>Source Files\Preview\Complete</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Source Files\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Wings.h">
+      <Filter>Source Files\Item\Wings</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Source Files\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Source Files\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BMD.h">
+      <Filter>Source Files\BMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Bows.h">
+      <Filter>Source Files\Item\Bows</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTip.h">
+      <Filter>Source Files\Item\ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="Bags.h">
+      <Filter>Source Files\Item\Bags</Filter>
+    </ClInclude>
+    <ClInclude Include="Fixes.h">
+      <Filter>Source Files\Fixes</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Source Files\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Source Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>Source Files\MiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps.h">
+      <Filter>Source Files\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>Source Files\Splash</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Source Files\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtoDef.h">
+      <Filter>Source Files\Protocol\ProtoDef</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Source Files\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Reset.h">
+      <Filter>Source Files\User\Reset</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Source Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowTron.h">
+      <Filter>Source Files\GlowTron</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Source Files\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Detours.h">
+      <Filter>Source Files\Detours\1.5</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadSound.h">
+      <Filter>Source Files\Sound\Load</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySound.h">
+      <Filter>Source Files\Sound\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="ExHP.h">
+      <Filter>Source Files\ExHP</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Source Files\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Damage.h">
+      <Filter>Source Files\Camera\Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="NewDetours.h">
+      <Filter>Source Files\Detours\2.0</Filter>
+    </ClInclude>
+    <ClInclude Include="FogEffect.h">
+      <Filter>Source Files\Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Source Files\Item\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualFix.h">
+      <Filter>Source Files\VisualFix</Filter>
+    </ClInclude>
+    <ClInclude Include="Mobs.h">
+      <Filter>Source Files\Mobs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

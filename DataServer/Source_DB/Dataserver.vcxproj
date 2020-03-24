@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>DataServer</ProjectName>
+    <ProjectGuid>{55A8FEBF-4625-6512-3DEA-2C5F18FA4D8A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\Dataserver.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\Dataserver.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\Dataserver.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\Dataserver.exe</OutputFile>
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Release\Dataserver.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\Dataserver.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\Dataserver.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\DataServer.exe</OutputFile>
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountCharDBSet.cpp" />
+    <ClCompile Include="ActiveMng.cpp" />
+    <ClCompile Include="BadSyntaxChk.cpp" />
+    <ClCompile Include="BaseDAO.cpp" />
+    <ClCompile Include="CastleDBSet.cpp" />
+    <ClCompile Include="CharDBSet.cpp" />
+    <ClCompile Include="CharPreviewDBSet.cpp" />
+    <ClCompile Include="ChildView.cpp" />
+    <ClCompile Include="CQuery.cpp" />
+    <ClCompile Include="CrywolfDBSet.cpp" />
+    <ClCompile Include="Dataserver.cpp" />
+    <ClCompile Include="DBConBase.cpp" />
+    <ClCompile Include="DelayHandler.cpp" />
+    <ClCompile Include="DirPath.cpp" />
+    <ClCompile Include="giocp.cpp" />
+    <ClCompile Include="GSDBSet.cpp" />
+    <ClCompile Include="ItemExtDbSet.cpp" />
+    <ClCompile Include="LogToFile.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MasterLevelSystemDBSet.cpp" />
+    <ClCompile Include="MiniDump.cpp" />
+    <ClCompile Include="MuNameCheck.cpp" />
+    <ClCompile Include="OptionDbSet.cpp" />
+    <ClCompile Include="PeriodItemDBSet.cpp" />
+    <ClCompile Include="PetDBSet.cpp" />
+    <ClCompile Include="QuestMonKillDBSet.cpp" />
+    <ClCompile Include="WarehouseDBSet.cpp" />
+    <ClCompile Include="wsJoinServer.cpp" />
+    <ClCompile Include="WZIPCheck.cpp" />
+    <ClCompile Include="WzItemSerial.cpp" />
+    <ClCompile Include="WZQueue.cpp" />
+    <ClCompile Include="WZScriptEncode.cpp" />
+    <ClCompile Include="classdef.cpp" />
+    <ClCompile Include="logproc.cpp" />
+    <ClCompile Include="MyWinsockBase.cpp" />
+    <ClCompile Include="SetItemOption.cpp" />
+    <ClCompile Include="winutil.cpp" />
+    <ClCompile Include="WzMemScript.cpp" />
+    <ClCompile Include="ZenEvenDb.cpp" />
+    <ClCompile Include="zzzitem.cpp" />
+    <ClCompile Include="ServerPrc.cpp" />
+    <ClCompile Include="protocol.cpp" />
+    <ClCompile Include="MapServerManager_DS.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountCharDBSet.h" />
+    <ClInclude Include="ActiveMng.h" />
+    <ClInclude Include="BadSyntaxChk.h" />
+    <ClInclude Include="BaseDAO.h" />
+    <ClInclude Include="CastleDBSet.h" />
+    <ClInclude Include="CharDBSet.h" />
+    <ClInclude Include="CharPreviewDBSet.h" />
+    <ClInclude Include="ChildView.h" />
+    <ClInclude Include="CQuery.h" />
+    <ClInclude Include="CrywolfDBSet.h" />
+    <ClInclude Include="Dataserver.h" />
+    <ClInclude Include="DBConBase.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="DelayHandler.h" />
+    <ClInclude Include="DirPath.h" />
+    <ClInclude Include="giocp.h" />
+    <ClInclude Include="GSDBSet.h" />
+    <ClInclude Include="ItemDef.h" />
+    <ClInclude Include="ItemExtDbSet.h" />
+    <ClInclude Include="LogToFile.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MasterLevelSystemDBSet.h" />
+    <ClInclude Include="MiniDump.h" />
+    <ClInclude Include="MuNameCheck.h" />
+    <ClInclude Include="OptionDbSet.h" />
+    <ClInclude Include="PeriodItemDBSet.h" />
+    <ClInclude Include="PetDBSet.h" />
+    <ClInclude Include="ProDef.h" />
+    <ClInclude Include="public.h" />
+    <ClInclude Include="QuestMonKillDBSet.h" />
+    <ClInclude Include="ReadScript.h" />
+    <ClInclude Include="Sprodef.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="WarehouseDBSet.h" />
+    <ClInclude Include="wsJoinServer.h" />
+    <ClInclude Include="WZIPCheck.h" />
+    <ClInclude Include="WzItemSerial.h" />
+    <ClInclude Include="WZQueue.h" />
+    <ClInclude Include="WZScriptEncode.h" />
+    <ClInclude Include="classdef.h" />
+    <ClInclude Include="logproc.h" />
+    <ClInclude Include="MyWinsockBase.h" />
+    <ClInclude Include="SetItemOption.h" />
+    <ClInclude Include="winutil.h" />
+    <ClInclude Include="WzMemScript.h" />
+    <ClInclude Include="ZenEvenDb.h" />
+    <ClInclude Include="zzzitem.h" />
+    <ClInclude Include="ServerPrc.h" />
+    <ClInclude Include="protocol.h" />
+    <ClInclude Include="MapServerManager_DS.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\Dataserver.ico" />
+    <CustomBuild Include="res\Dataserver.rc2">
+      <FileType>RC</FileType>
+    </CustomBuild>
+    <CustomBuild Include="res\DataserverDoc.ico" />
+    <CustomBuild Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Dataserver.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

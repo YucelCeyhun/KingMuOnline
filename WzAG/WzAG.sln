@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WzAG", "src\WzAG.vcxproj", "{9BD1F848-B108-4801-9198-D82F0FB1E5C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		ReleaseCS|Win32 = ReleaseCS|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BD1F848-B108-4801-9198-D82F0FB1E5C4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9BD1F848-B108-4801-9198-D82F0FB1E5C4}.Debug|Win32.Build.0 = Debug|Win32
+		{9BD1F848-B108-4801-9198-D82F0FB1E5C4}.Release|Win32.ActiveCfg = Release|Win32
+		{9BD1F848-B108-4801-9198-D82F0FB1E5C4}.Release|Win32.Build.0 = Release|Win32
+		{9BD1F848-B108-4801-9198-D82F0FB1E5C4}.ReleaseCS|Win32.ActiveCfg = ReleaseCS|Win32
+		{9BD1F848-B108-4801-9198-D82F0FB1E5C4}.ReleaseCS|Win32.Build.0 = ReleaseCS|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

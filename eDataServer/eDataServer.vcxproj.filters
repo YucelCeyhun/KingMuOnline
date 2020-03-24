@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5cec58ef-6853-4b7a-bf9a-f4652dd7eec2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4df25c20-5230-4f7c-8c4e-bb5dc696b75c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e55a8928-e680-495c-b0b9-f264134b9165}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ConnectServer">
+      <UniqueIdentifier>{89e6871d-59e6-41c5-b81f-01a80c3c6d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ConnectServer\Manager">
+      <UniqueIdentifier>{cbd17b08-0001-4379-a113-9f6e9ce264fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ConnectServer\Protocol">
+      <UniqueIdentifier>{9a7f9a79-69c1-4924-81c5-fdea6fb91746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JoinServer">
+      <UniqueIdentifier>{8c6526f9-f265-4248-9df0-3c22cfe6193c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JoinServer\Manager">
+      <UniqueIdentifier>{62a546f1-47f0-4178-a353-4efac2d26007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JoinServer\Protocol">
+      <UniqueIdentifier>{358dd0c1-76f7-4466-97ee-9d939039a320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventServer">
+      <UniqueIdentifier>{1b9f5f55-d6ba-4319-b84c-26a6ff9ae97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventServer\Manager">
+      <UniqueIdentifier>{db362cbe-cc34-44c4-8e5e-1f2d6417a482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventServer\Protocol">
+      <UniqueIdentifier>{6559f25a-682f-434e-ad02-ff33eff94974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RankingServer">
+      <UniqueIdentifier>{af47e4f2-04a5-4361-8920-0db50ff27f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RankingServer\Manager">
+      <UniqueIdentifier>{0d499d1c-292f-47af-9ee5-6294da73231a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RankingServer\Protocol">
+      <UniqueIdentifier>{d459242e-543c-45c8-9587-e23d95494b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShopServer">
+      <UniqueIdentifier>{4f449126-6446-44e2-9210-7e3bfdf9ea6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShopServer\Manager">
+      <UniqueIdentifier>{b3c63dad-19d3-4364-96ca-11a2f5d4d24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShopServer\Protocol">
+      <UniqueIdentifier>{b5671748-6ec4-46d6-af57-ffaa6bfdbe31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GuildServer">
+      <UniqueIdentifier>{3c1d4a20-7602-40cd-aaca-e2ed3cd7a9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GuildServer\Manager">
+      <UniqueIdentifier>{6b4f9c25-319a-4100-8946-49e7a11129ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GuildServer\Protocol">
+      <UniqueIdentifier>{3663191e-044d-462f-a624-a64447b5dc98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapServer">
+      <UniqueIdentifier>{b0d8957c-e7e0-4dd5-b416-6345264ddab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapServer\Protocol">
+      <UniqueIdentifier>{6d1132e4-9a3b-40b2-9a72-33d8c34ae779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChatServer">
+      <UniqueIdentifier>{68cd3d3b-42dd-427b-909c-3817a7d5662d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChatServer\Manager">
+      <UniqueIdentifier>{dcd55551-cc54-46ed-af00-182e8287a691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChatServer\Protocol">
+      <UniqueIdentifier>{c883b98c-9ead-46f9-a549-2b1e7febfb12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapServer\Manager">
+      <UniqueIdentifier>{603a0e72-12c4-499e-9f55-4f63e6846dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SQLServer">
+      <UniqueIdentifier>{542a0333-6a0c-4bec-889a-58841fdced47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SQLServer\Query">
+      <UniqueIdentifier>{db1eefd5-7967-44d6-b30a-4ea958bf027a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SQLServer\DataBase">
+      <UniqueIdentifier>{445cb25f-09b6-4115-a43b-b4fdb88c721f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SQLServer\IOCP">
+      <UniqueIdentifier>{ddfbc214-98ec-49a6-8484-0fdae6f057c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ToolKit">
+      <UniqueIdentifier>{23cbf06f-f174-4276-9835-be50e2416371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ToolKit\Log">
+      <UniqueIdentifier>{1a7744ee-f44f-4ff7-a59d-9344aa8d5a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Display">
+      <UniqueIdentifier>{7c60a77f-704f-456b-81d2-f82a062b2040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StdAfx">
+      <UniqueIdentifier>{c782d08b-2806-4061-85ed-b987c2d91f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ToolKit\WebZen">
+      <UniqueIdentifier>{6af86de9-9ac3-4bd0-87a9-68d0091178d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ToolKit\WinUtil">
+      <UniqueIdentifier>{ddde97ba-8e74-4a8c-a154-492e2c38d02b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enums">
+      <UniqueIdentifier>{fd701e1b-af6b-4e61-b56c-79cf247bc769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structs">
+      <UniqueIdentifier>{ab0a7b56-70cc-4162-84e0-4a8421173b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Defines">
+      <UniqueIdentifier>{be6ccc4c-fbf5-4c5e-ae1f-9acdb1804c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IOCP">
+      <UniqueIdentifier>{d952bb30-0d64-4a94-8cbf-6003c588cedb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TSync">
+      <UniqueIdentifier>{542f7617-9ceb-4e0f-9e56-d84a49c3c35b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CSprotocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSprotocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eDataServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EDSprotocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Eprotocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="giocp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapServerManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Query.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RSprotocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprotocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Source Files\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="WzUdp.cpp">
+      <Filter>Source Files\ToolKit\WebZen</Filter>
+    </ClCompile>
+    <ClCompile Include="LogProc.cpp">
+      <Filter>Source Files\ToolKit\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="winutil.cpp">
+      <Filter>Source Files\ToolKit\WinUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="JSProtocol.cpp">
+      <Filter>Source Files\JoinServer\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="JSManager.cpp">
+      <Filter>Source Files\JoinServer\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCP.cpp">
+      <Filter>Source Files\IOCP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSprotocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSprotocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eDataServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EDSprotocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Eprotocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="giocp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapServerManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prodef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Query.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RSprotocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprotocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Source Files\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source Files\StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="WzUdp.h">
+      <Filter>Source Files\ToolKit\WebZen</Filter>
+    </ClInclude>
+    <ClInclude Include="LogProc.h">
+      <Filter>Source Files\ToolKit\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="winutil.h">
+      <Filter>Source Files\ToolKit\WinUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="JSProtocol.h">
+      <Filter>Source Files\JoinServer\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Source Files\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Source Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="JSManager.h">
+      <Filter>Source Files\JoinServer\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Source Files\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCP.h">
+      <Filter>Source Files\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="TSynchro.h">
+      <Filter>Source Files\TSync</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="eDataServer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="eDataServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

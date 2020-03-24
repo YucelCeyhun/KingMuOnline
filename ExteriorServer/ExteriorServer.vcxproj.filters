@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ChatServer">
+      <UniqueIdentifier>{c589616f-97a6-4417-bcd7-9a9b7587192b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GuildServer">
+      <UniqueIdentifier>{c1f66ed8-15fe-46f0-b256-31cd30bf8df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JoinServer">
+      <UniqueIdentifier>{15a3be24-2fdb-44d4-8395-e2b2a8f53ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapServer">
+      <UniqueIdentifier>{d285e0a2-5fa3-4b48-a8bb-ea3af159e81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShopServer">
+      <UniqueIdentifier>{6b9c0872-341a-4088-8e2c-360c61c6cff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataBase">
+      <UniqueIdentifier>{e086c3fa-6127-4de4-acbc-a4baffdb5049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataBase\MD5">
+      <UniqueIdentifier>{9251238b-fe66-463c-b1df-0d150b0560cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LogProc">
+      <UniqueIdentifier>{1f94ec13-98a2-4f65-ad13-7641943cf7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ToolKit">
+      <UniqueIdentifier>{b593690b-1d53-4cc2-a73a-fae69fe5e7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataBase\Connection">
+      <UniqueIdentifier>{8fb0b314-9375-4157-a976-35e661677909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Displayer">
+      <UniqueIdentifier>{f034958a-4e54-48c5-b86b-d9b7f5ce56fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExteriorServer">
+      <UniqueIdentifier>{e123b125-fe5e-435d-a3c3-4b5cbcd7f03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Protocol">
+      <UniqueIdentifier>{e16c76a4-7768-4b6c-8392-2ea1155fe3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventServer">
+      <UniqueIdentifier>{f2e5f96f-f438-412e-8064-469a8b51ef44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RankingServer">
+      <UniqueIdentifier>{d26a6104-7a30-447e-bc21-d57fcc757cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataServer">
+      <UniqueIdentifier>{2f90073a-266f-4f88-87ec-9f868ba87c3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChatServer.h">
+      <Filter>Source Files\ChatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildServer.h">
+      <Filter>Source Files\GuildServer</Filter>
+    </ClInclude>
+    <ClInclude Include="JoinServer.h">
+      <Filter>Source Files\JoinServer</Filter>
+    </ClInclude>
+    <ClInclude Include="MapServerManager.h">
+      <Filter>Source Files\MapServer</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="winutil.h">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="WzUdp.h">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadScript.h">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="Query.h">
+      <Filter>Source Files\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>Source Files\DataBase\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="md5_keyval.h">
+      <Filter>Source Files\DataBase\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="LogProc.h">
+      <Filter>Source Files\LogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="GIOCP.h">
+      <Filter>Source Files\DataBase\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="IGSProtocol.h">
+      <Filter>Source Files\ShopServer</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameShopProtocol.h">
+      <Filter>Source Files\ShopServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Displayer.h">
+      <Filter>Source Files\Displayer</Filter>
+    </ClInclude>
+    <ClInclude Include="ExteriorServer.h">
+      <Filter>Source Files\ExteriorServer</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerEngine.h">
+      <Filter>Source Files\ExteriorServer</Filter>
+    </ClInclude>
+    <ClInclude Include="prodef.h">
+      <Filter>Source Files\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="DataServer.h">
+      <Filter>Source Files\DataServer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChatServer.cpp">
+      <Filter>Source Files\ChatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildServer.cpp">
+      <Filter>Source Files\GuildServer</Filter>
+    </ClCompile>
+    <ClCompile Include="JoinServer.cpp">
+      <Filter>Source Files\JoinServer</Filter>
+    </ClCompile>
+    <ClCompile Include="MapServerManager.cpp">
+      <Filter>Source Files\MapServer</Filter>
+    </ClCompile>
+    <ClCompile Include="WzUdp.cpp">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="winutil.cpp">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="Query.cpp">
+      <Filter>Source Files\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>Source Files\DataBase\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="LogProc.cpp">
+      <Filter>Source Files\LogProc</Filter>
+    </ClCompile>
+    <ClCompile Include="GIOCP.cpp">
+      <Filter>Source Files\DataBase\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="IGSProtocol.cpp">
+      <Filter>Source Files\ShopServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Displayer.cpp">
+      <Filter>Source Files\Displayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ExteriorServer.cpp">
+      <Filter>Source Files\ExteriorServer</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerEngine.cpp">
+      <Filter>Source Files\ExteriorServer</Filter>
+    </ClCompile>
+    <ClCompile Include="DataServer.cpp">
+      <Filter>Source Files\DataServer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ExteriorServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

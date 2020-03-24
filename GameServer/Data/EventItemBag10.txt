@@ -1,0 +1,86 @@
+// Box of Kundun +3
+
+//--------------------------------------//
+// Drop Options                         //
+//--------------------------------------//
+1
+//        Name         ZenAmount    ItemType  Index   ItemLvl DropRate NormDrop ExcDrop
+     "BoxOfKundun3"	  0		0	0	 0	 0	 100	  1
+end
+
+//--------------------------------------//
+// Item Drops                           //
+//--------------------------------------//
+2
+//  ItemType  Index  MinLvl MaxLvl    Skill    Luck   Option  Excellent
+
+10000
+0	11	0	0	1	1	1	1	//Legendary Sword
+0	12	0	0	1	1	1	1	//Heliacal Sword
+0	13	0	0	1	1	1	1	//Double Blade
+0	14	0	0	1	1	1	1	//Lightning Sword
+0	15	0	0	1	1	1	1	//Giant Sword
+1	8	0	0	1	1	1	1	//Crescent Axe
+2	5	0	0	1	1	1	1	//Crystal Sword
+2	6	0	0	1	1	1	1	//Chaos Dragon Axe
+2	7	0	0	1	1	1	1	//Elemental Mace
+2	10	0	0	1	1	1	1	//Great Scepter
+3	9	0	0	1	1	1	1	//Bill of Balrog
+4	5	0	0	1	1	1	1	//Silver Bow
+4	6	0	0	1	1	1	1	//Chaos Nature Bow
+4	13	0	0	1	1	1	1	//Bluewing Crossbow
+4	14	0	0	1	1	1	1	//Aquagold Crossbow
+5	5	0	0	0	1	1	1	//Legendary Staff
+5	3	0	0	0	1	1	1	//Staff of Resurrection
+5	7	0	0	0	1	1	1	//Chaos Lightning Staff
+5	17	0	0	0	1	1	1	//Ancient Stick
+5	18	0	0	0	1	1	1	//Black Rose Stick
+6	9	0	0	1	1	1	1	//Plate Shield
+6	10	0	0	1	1	1	1	//Large Round Shield
+6	11	0	0	1	1	1	1	//Serpent Shield
+6	12	0	0	1	1	1	1	//Bronze Shield
+6	14	0	0	1	1	1	1	//Legendary Shield
+7	9	0	0	0	1	1	1	//Plate Helm
+7	1	0	0	0	1	1	1	//Dragon Helm
+7	3	0	0	0	1	1	1	//Legendary Helm
+7	14	0	0	0	1	1	1	//Guardian Helm
+7	26	0	0	0	1	1	1	//Adamantine Mask
+7	42	0	0	0	1	1	1	//Bloody Amethyst Helm
+8	9	0	0	0	1	1	1	//Plate Armor
+8	1	0	0	0	1	1	1	//Dragon Armor
+8	3	0	0	0	1	1	1	//Legendary Armor
+8	14	0	0	0	1	1	1	//Guardian Armor
+8	15	0	0	0	1	1	1	//Storm Crow Armor
+8	26	0	0	0	1	1	1	//Adamantine Armor
+8	42	0	0	0	1	1	1	//Bloody Amethyst Armor
+9	9	0	0	0	1	1	1	//Plate Pants
+9	1	0	0	0	1	1	1	//Dragon Pants
+9	3	0	0	0	1	1	1	//Legendary Pants
+9	14	0	0	0	1	1	1	//Guardian Pants
+9	15	0	0	0	1	1	1	//Storm Crow Pants
+9	26	0	0	0	1	1	1	//Adamantine Pants
+9	42	0	0	0	1	1	1	//Bloody Amethyst Pants
+10	9	0	0	0	1	1	1	//Plate Gloves
+10	1	0	0	0	1	1	1	//Dragon Gloves
+10	3	0	0	0	1	1	1	//Legendary Gloves
+10	14	0	0	0	1	1	1	//Guardian Gloves
+10	15	0	0	0	1	1	1	//Storm Crow Gloves
+10	26	0	0	0	1	1	1	//Adamantine Gloves
+10	42	0	0	0	1	1	1	//Bloody Amethyst Gloves
+11	9	0	0	0	1	1	1	//Plate Boots
+11	1	0	0	0	1	1	1	//Dragon Boots
+11	3	0	0	0	1	1	1	//Legendary Boots
+11	14	0	0	0	1	1	1	//Guardian Boots
+11	15	0	0	0	1	1	1	//Storm Crow Boots
+11	26	0	0	0	1	1	1	//Adamantine Boots
+11	42	0	0	0	1	1	1	//Bloody Amethyst Boots
+13	21	0	0	0	0	1	1	//Anillo de Fuego
+13	22	0	0	0	0	1	1	//Anillo de Tierra
+13	23	0	0	0	0	1	1	//Anillo de Viento
+13	24	0	0	0	0	1	1	//Anillo de Magia
+13	25	0	0	0	0	1	1	//Pendiente de Hielo
+13	26	0	0	0	0	1	1	//Pendiente de Viento
+13	27	0	0	0	0	1	1	//Pendiente de Agua
+13	28	0	0	0	0	1	1	//Pendiente de la Habilidad
+end
+end

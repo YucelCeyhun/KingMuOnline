@@ -1,0 +1,25 @@
+//---------------------------------------------------------------------------------------------------------
+// Pasi The Wizard
+//---------------------------------------------------------------------------------------------------------
+//Type	Index	Lvl	Dur	Skill	Luck	Opt	Exc	Anc	Name
+//---------------------------------------------------------------------------------------------------------
+7 	2 	0 	255 	0 	1 	0 	0	0	//Pad Helm
+7 	3 	0 	255 	0 	1 	0 	0	0	//Legendary Helm
+8 	2 	0 	255 	0	1 	0 	0	0	//Pad Armor
+8 	3 	0 	255 	0 	1 	0 	0	0	//Legendary Armor
+9 	2 	0 	255 	0 	1 	0 	0	0	//Pad Pants
+9 	3 	0 	255 	0 	1 	0 	0	0	//Legendary Pants
+15 	4 	0 	255 	0 	0 	0 	0	0	//Flame Spell
+10 	2 	0 	255 	0 	1 	0 	0	0	//Pad Gloves
+10 	3 	0 	255 	0 	1 	0 	0	0	//Legendary Gloves
+11 	2 	0 	255 	0 	1 	0 	0	0	//Pad Boots
+11 	3 	0 	255 	0 	1 	0 	0	0	//Legendary Boots
+5	0	0	255	0	1	0	0	0	//Skull Staff
+5	5	0	255	0	1	0	0	0	//Legendary Staff
+15 	3 	0 	255 	0 	0 	0 	0	0	//Scroll of Fireball
+15 	10	0 	255 	0 	0 	0 	0	0	//Scroll of Power Wave
+15 	2 	0 	255 	0 	0 	0 	0	0	//Scroll of Lightning
+15 	6 	0 	255	0 	0 	0 	0	0	//Scroll of Ice
+15 	0 	0 	255 	0 	0 	0 	0	0	//Scroll of Poison
+15 	1 	0 	255 	0 	0 	0 	0	0	//Scroll of Meteorite
+end

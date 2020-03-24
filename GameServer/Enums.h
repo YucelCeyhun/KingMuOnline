@@ -1,0 +1,26 @@
+#ifndef __ENUMS_H__
+#define __ENUMS_H__
+
+enum ePETS
+{
+	eANGEL_PET		= 0,
+	eSATAN_PET		= 1,
+	eUNIRIA_PET		= 2,
+	eDINORANT_PET	= 3,
+	eDARKHORSE_PET	= 4,
+	eFENRIR_PET		= 37,
+	eDEMON_PET		= 64,
+	eFAIRY_PET		= 65,
+	eRUDOLF_PET		= 67,
+	eSKELETON_PET	= 77,
+	eUNICORN_PET	= 78,
+	eSPARKY_PET		= 79,
+	ePANDA_PET		= 80,
+	eDARKWOLF_PET	= 97,
+	eSABLEFANG_PET	= 98,
+	eMISTIGER_PET	= 99,
+	eGIANTLYON_PET	= 100,
+	eLYCANWOLF_PET	= 101,
+};
+
+#endif

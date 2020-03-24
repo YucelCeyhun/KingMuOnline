@@ -1,0 +1,50 @@
+0
+//------------------------------------------------------
+//	Type	Index	Color	Description
+//------------------------------------------------------
+	7	100	5	// -> Evolve Dragon Helm
+	8	100	5	// -> Evolve Dragon Armor
+	9	100	5	// -> Evolve Dragon Pants
+	10	100	5	// -> Evolve Dragon Gloves
+	11	100	5	// -> Evolve Dragon Boots
+	7	101	8	// -> Evolve Guardian Helm
+	8	101	8	// -> Evolve Guardian Armor
+	9	101	8	// -> Evolve Guardian Pants
+	10	101	8	// -> Evolve Guardian Gloves
+	11	101	8	// -> Evolve Guardian Boots
+	7	102	7	// -> Evolve Legendary Helm
+	8	102	7	// -> Evolve Legendary Armor
+	9	102	7	// -> Evolve Legendary Pants
+	10	102	7	// -> Evolve Legendary Gloves
+	11	102	7	// -> Evolve Legendary Boots
+	12	240	3	// -> Wings of Heaven
+	12	241	3	// -> Wings of Demonic
+	12	242	3	// -> Wings of Blossom
+	12	243	3	// -> Wings of Thunder
+	12	244	3	// -> Wings of Raven
+	12	245	3	// -> Wings of Eternal
+	12	246	2	// -> Wings of Legend
+	12	247	2	// -> Wings of Flaming
+	12	248	2	// -> Wings of Nightwish
+	12	249	8	// -> Wings of Imperial Dragon
+	12	250	3	// -> Wings of Conqueror
+	12	251	3	// -> Wings of Angel and Devil
+	13	99	3	// -> Mask of Mistic
+	14	101	3	// -> Box of Pandora
+	14	102	1	// -> Blue Legendary Box
+	14	103	2	// -> Red Legendary Box
+	14	104	4	// -> Green Legendary Box
+	14	170	2	// -> Crystal Feather
+	14	171	2	// -> Legend Amulet
+	14	172	3	// -> Golden Fragment
+	14	200	2	// -> Gem of Life (Fire)
+	14	201	4	// -> Gem of Life (Earth)
+	14	202	1	// -> Gem of Life (Water)
+	14	240	3	// -> Jewel of Level
+	14	241	3	// -> Jewel of Luck
+	14	242	3	// -> Jewel of Skill
+	14	243	3	// -> Jewel of Option
+	14	244	3	// -> Jewel of Excellent
+	14	245	3	// -> Jewel of Ancient
+	14	246	3	// -> Jewel of Socket
+end

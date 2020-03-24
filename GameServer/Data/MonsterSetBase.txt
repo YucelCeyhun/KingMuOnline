@@ -1,0 +1,4907 @@
+//----------------------------------------------------------------------------------------------------------
+// MonsterSetBase.txt
+//----------------------------------------------------------------------------------------------------------
+
+// 0 - Guards / NPC / Traps
+// 1 - Spots
+// 2 - Normal Monster
+// 3 - Bone King / Golden Monsters
+// 4 - Blood Castle Monsters / Gate / Others
+
+//=========================================================================================
+//	Invasion Golden
+//=========================================================================================
+//Mob	Map	Radio	CordX	CordY	CordX2	CordY2	Dir 	Quant  Name	
+3
+43	3	5	10	10	240	240	-1	16	//Golden Budge Dragon
+44	0	5	182	128	195	145	-1	13	//Golden Dragon
+53	0	5	185	132	185	132	-1	13	//Golden Titan
+55	0	5	132	83	132	83	-1	13	//Death King
+54	0	5	183	128	188	135	-1	16	//Golden Soldier
+56	0	5	132	83	138	90	-1	16	//Death Bone
+78	0	5	10	10	240	240	-1	16	//Golden Goblin
+79	0	5	10	10	240	240	-1	13	//Golden Dragon
+80	0	5	185	132	185	132	-1	13	//Golden Lizard King
+81	0	5	132	83	132	83	-1	16	//Golden Vepar
+82	0	5	183	128	188	135	-1	13	//Golden Tantallos
+83	0	5	132	83	138	90	-1	16	//Golden Iron Wheel
+end
+
+//Devil Square 1-4
+//Mob	Mapa	Rad	X	Y	X2	Y2	Dir 	Cant  	Nombre
+1
+17	9	30	119 	80  	150 	115  	-1 	35	//Cyclops
+15	9	30	119 	80  	150 	115  	-1 	35	//Skeleton Archer
+10	9	30	121 	152 	151 	184  	-1 	35	//Dark Knight
+39	9	30 	121 	152 	151 	184  	-1 	35	//Poison Shadow
+41	9	30	49  	138 	79  	173  	-1 	35	//Death Cow
+37	9	30	49  	138 	79  	173  	-1 	35	//Devil
+64	9	30  	53  	74  	83  	109  	-1 	35	//Orc Archer
+65	9	30  	53  	74  	83  	109  	-1 	35	//Elite Orc
+end
+
+//Devil Square 5-7
+//Mob	Mapa	Rad	X	Y	X2	Y2	Dir 	Cant  Nombre
+1
+294	32	30	120 	80  	150 	115  	-1 	35	//Axe Warrior
+293	32	30	120 	80  	150 	115  	-1 	35	//Poison Golem
+290	32	30	122 	152 	151 	184  	-1 	35	//Lizard Warrior
+291	32	30	122 	152 	151 	184  	-1 	35	//Fire Golem
+448	32	30	49	138	79	173	-1	35	//Ghost Four Pin
+449	32	30	49	138	79	173	-1	35	//Four Pin
+end
+
+//=========================================================================================
+//	Loren Market NPC's
+//=========================================================================================
+//Mob	Map	Rad	X	Y	Str	Name
+0
+240	67	0	117	145	1	//Storage Guard
+226	67	0	94	137	1	//Trainer
+375	67	0	87	137	1	//Chaos Card Master
+256	67	0	81	128	2	//Lahap
+249	67	60	111	130	1	//Berdysh Guard
+369	67	0	142	141	1	//Osbourne
+370	67	0	146	141	1	//Jerridon
+450	67	0	137	142	2	//Cherry Blossom Spirit
+231	67	0	125	149	2	//Thompson Kenel
+end
+
+//=========================================================================================
+//	Acheron NPC's
+//=========================================================================================
+//Mob	Map	Rad	X	Y	Dir	Name
+0
+245	69	0	52	195	2	//Wizard
+253	69	0	56	202	3	//Potion Girl
+240	69	0	53	206	4	//Baz the Vault Keeper
+end
+
+//=========================================================================================
+//	Kalimdor NPC's
+//=========================================================================================
+//Mob	Map	Rad	X	Y	Str	Name
+0
+406	65	0	185	114	0	//Priest Devin
+end
+
+//=========================================================================================
+//	Arkania NPC's
+//=========================================================================================
+//Mob	Map	Rad	X	Y	Str	Name
+0
+369	66	0	216	23	0	//Osbourne
+240	66	0	214	57	2	//Storage Guard
+256	66	0	211	54	2	//Lahap
+235	66	0	219	31	0	//Priest Sevina
+406	66	0	219	37	0	//Priest Devin
+229	66	0	219	34	0	//Marlon
+241	66	0	219	40	0	//Guild Master
+415	66	0	216	59	2	//Silvia
+238	66	0	232	57	1	//Chaos Goblin
+369	66	0	229	58	1	//Osbourne
+370	66	0	230	57	1	//Jerridon
+226	66	0	210	50	3	//Trainer
+231	66	0	209	47	3	//Thompson Kenel
+246	66	0	210	44	3	//Weapons Merchant Zienna
+417	66	0	211	39	2	//Marseille
+251	66	0	210	34	3	//Hanzo The Blacksmith
+416	66	0	210	30	2	//Leah
+230	66	0	212	26	3	//Thompson The Merchant
+257	66	0	222	69	3	//Elf Buffer
+237	66	0	236	92	1	//Charon
+237	66	0	218	92	1	//Charon
+233	66	0	230	92	1	//Messenger of Arch.
+233	66	0	212	92	1	//Messenger of Arch.
+380	66	0	224	92	1	//Stone Statue
+247	66	0	226	69	0	//Berdysh Guard
+247	66	0	234	135	2	//Berdysh Guard
+247	66	0	235	192	2	//Berdysh Guard
+247	66	0	223	214	2	//Berdysh Guard
+375	66	0	219	59	1	//Chaos Card Master
+end
+
+//=========================================================================================						
+//	Silent Map NPC's					
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Pos	Name
+0
+371	40	0	219	36	2	//Leo the Helper
+258	40	0	221	38	2	//Luke the Helper
+478	40	0	228	38	1	//Delgado
+240	40	0	232	38	1	//Baz the Vault Keeper
+end
+
+//=========================================================================================						
+//	Lorencia NPC's					
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Pos	Name
+0
+230	0	0	121	130	2	//Alex (Bar)
+480	0	0	124	130	2       //Zombie Fighter
+230	0	0	62	130	2	//Alex
+250	0	0	121	128	4	//Harold The Wandering (NPC No Bar)
+248	0	0	122	128	4	//Martin The Wenderin (NPC No Bar)
+248	0	0	183	137	2	//Martin The Wenderin (Portao de baixo)
+248	0	0	6	146	2	//Martin The Wenderin (NPC No Bar)
+226	0	0	122	110	3	//Trainer
+236	0	0	175	120	3	//Golden Archer
+240	0	0	146	110	3	//Baz, Storage Guard
+240	0	0	148	145	1	//Baz, Storage Guard
+249	0	60	131	88	1	//Berdysh Guard
+247	0	60	173	125	3	//Crosbow Guard
+249	0	60	94	125	7	//Berdysh Guard
+247	0	60	94	130	7	//Crosbow Guard
+249	0	60	131	148	1	//Berdysh Guard
+247	0	60	114	125	3	//Crosbow Guard
+251	0	0	116	141	3	//Hanzo The Blacksmith
+253	0	0	127	86	2	//Potion Girl
+375	0	0	130	148	2	//Chaos Card Master
+254	0	0	118	113	3	//Pasi The Wizard
+255	0	0	123	135	1	//Liam the Barmaid
+257	0	0	96	129	1	//Elf Soldier
+257	0	0	174	129	1	//Elf Soldier
+257	0	0	132	90	3	//Elf Soldier
+257	0	0	132	165	3	//Elf Soldier
+229	0	0	139	140	2	//Marlon
+492     0       0       130     134     3       //Moss Merchant
+231	0	0	123	144	3	//Thompson Kenel
+406	0	0	145	140	1	//Priest Devin
+600	0	0	125	125	3	//Bolo
+479	0	0	122	123	3	//Titus
+end
+
+//=========================================================================================
+// Lorencia (Monsters)
+//=========================================================================================
+1
+62	0	30	180	90	226	244	-1	45 	// Spider
+2	0	30	180	90	226	244	-1	40 	// Budge Dragon
+2	0	30	135	20	240	88	-1	20 	// Budge Dragon
+0	0	30	135	20	240	88	-1	45 	// Bull Fighter
+6	0	30	95	168	175	244	-1	20 	// Lich
+14	0	30	95	168	175	244	-1	15 	// Skeleton
+1	0	30	8	11	94	244	-1	45 	// Hound
+4	0	30	8	11	94	244	-1	45 	// Elite Bull Fighter
+7	0	30	8	11	60	80	-1	15 	// Giant
+end
+
+//=========================================================================================
+// Kalimdor (Monsters)
+//=========================================================================================
+1
+304	65	8	147	129	151	133	-1	10	// Witch Queen
+305	65	8	146	128	150	132	-1	10	// Blue Golem
+307	65	8	171	110	176	120	-1	10	// Forest Orc
+end
+
+//=========================================================================================
+// Arkania (Monsters)
+//=========================================================================================
+1
+351	66	8	225	147	230	155	-1	10	// Splinter Wolf
+413	66	8	241	119	245	122	-1	10	// Lunar Rabbit
+418	66	30	208	77	226	90	-1	45 	// Strange Rabbit
+423	66	10	220	102	230	110	-1	15	// Totem Golem
+end
+
+//=========================================================================================						
+// Karutan (NPC's)						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Dir  	Name									
+0
+240	68	0	123	132	2	//Baz, Storage Guard										
+240	68	0	122	96	3	//Baz, Storage Guard										
+240	68	0	157	127	1	//Baz, Storage Guard
+375	68	0	130	133	2	//Chaos Card Master
+417	68	0	153	130	2	//Marseille
+end
+
+//=========================================================================================						
+//	Karutan Spot's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	X2	Y2	Dir 	Cant  	Name
+1
+302    	68  	5 	92  	117   	92  	117  	-1 	15	// Axe Hero
+end
+
+//=========================================================================================						
+//	Lorencia Spot's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	X2	Y2	Dir 	Cant  	Name
+1								
+459    	0  	5  	135  	80   	135   	80  	-1 	15	//Bull Fighter
+459    	0  	5  	179  	127   	179  	127  	-1 	15	//Spider
+459    	0  	5 	179  	127   	179  	127  	-1 	15	//Budge Dragon
+6    	0  	5    	141  	219    	9  	244  	-1 	15	//Lich
+14    	0  	5  	141 	219  	114  	188  	-1  	15	//Skeleton Warrior
+7    	0  	5  	91  	126  	135   	80  	-1 	15	//Giant
+1   	0  	5  	91  	126  	135   	80  	-1 	15	//Hell Hound
+0	0	5	127	173	137	174	-1	15
+0	0	5	139	72	139	81	-1	15
+end
+
+//=========================================================================================						
+//	Dungeon Spot's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0
+8	1	30	50	123	-1 // Poison Bull
+8	1	30	42	122	-1 // Poison Bull
+8	1	30	4	73	-1 // Poison Bull
+8	1	30	12	56	-1 // Poison Bull
+8	1	30	2	78	-1 // Poison Bull
+8	1	30	187	15	-1 // Poison Bull
+8	1	30	158	17	-1 // Poison Bull
+8	1	30	119	47	-1 // Poison Bull
+8	1	30	122	46	-1 // Poison Bull
+8	1	30	193	30	-1 // Poison Bull
+12	1	30	65	205	-1 // Larva
+12	1	30	87	177	-1 // Larva
+12	1	30	70	195	-1 // Larva
+12	1	30	61	213	-1 // Larva
+12	1	30	69	222	-1 // Larva
+12	1	30	57	247	-1 // Larva
+12	1	30	49	246	-1 // Larva
+12	1	30	86	196	-1 // Larva
+12	1	30	79	154	-1 // Larva
+12	1	30	78	189	-1 // Larva
+12	1	30	100	198	-1 // Larva
+12	1	30	95	192	-1 // Larva
+12	1	30	90	187	-1 // Larva
+12	1	30	73	241	-1 // Larva
+14	1	30	97	187	-1 // Skeleton Warrior
+14	1	30	120	243	-1 // Skeleton Warrior
+14	1	30	105	208	-1 // Skeleton Warrior
+14	1	30	85	208	-1 // Skeleton Warrior
+14	1	30	84	220	-1 // Skeleton Warrior
+14	1	30	85	229	-1 // Skeleton Warrior
+14	1	30	68	227	-1 // Skeleton Warrior
+14	1	30	61	238	-1 // Skeleton Warrior
+14	1	30	73	245	-1 // Skeleton Warrior
+14	1	30	3	232	-1 // Skeleton Warrior
+14	1	30	152	247	-1 // Skeleton Warrior
+14	1	30	156	247	-1 // Skeleton Warrior
+14	1	30	17	211	-1 // Skeleton Warrior
+11	1	30	45	188	-1 // Ghost
+11	1	30	53	188	-1 // Ghost
+11	1	30	52	166	-1 // Ghost
+11	1	30	62	154	-1 // Ghost
+11	1	30	70	154	-1 // Ghost
+11	1	30	77	152	-1 // Ghost
+11	1	30	110	145	-1 // Ghost
+11	1	30	119	146	-1 // Ghost
+11	1	30	240	247	-1 // Ghost
+11	1	30	242	247	-1 // Ghost
+11	1	30	241	226	-1 // Ghost
+11	1	30	246	220	-1 // Ghost
+11	1	30	243	201	-1 // Ghost
+11	1	30	244	192	-1 // Ghost
+11	1	30	213	186	-1 // Ghost
+11	1	30	209	175	-1 // Ghost
+17	1	30	52	222	-1 // Cyclops
+17	1	30	50	235	-1 // Cyclops
+17	1	30	38	234	-1 // Cyclops
+17	1	30	143	232	-1 // Cyclops
+17	1	30	173	200	-1 // Cyclops
+17	1	30	247	168	-1 // Cyclops
+17	1	30	25	220	-1 // Cyclops
+17	1	30	235	108	-1 // Cyclops
+17	1	30	228	105	-1 // Cyclops
+17	1	30	214	116	-1 // Cyclops
+15	1	30	175	127	-1 // Skeleton Archer
+15	1	30	175	118	-1 // Skeleton Archer
+15	1	30	183	123	-1 // Skeleton Archer
+15	1	30	247	176	-1 // Skeleton Archer
+15	1	30	61	169	-1 // Skeleton Archer
+15	1	30	217	229	-1 // Skeleton Archer
+15	1	30	68	125	-1 // Skeleton Archer
+15	1	30	80	97	-1 // Skeleton Archer
+5	1	30	70	76	-1 // Hell Hound
+5	1	30	87	114	-1 // Hell Hound
+5	1	30	65	127	-1 // Hell Hound
+5	1	30	170	126	-1 // Hell Hound
+5	1	30	98	111	-1 // Hell Hound
+5	1	30	138	86	-1 // Hell Hound
+13	1	30	168	96	-1 // Hell Spider
+13	1	30	112	93	-1 // Hell Spider
+13	1	30	104	65	-1 // Hell Spider
+13	1	30	183	27	-1 // Hell Spider
+13	1	30	114	20	-1 // Hell Spider
+13	1	30	247	87	-1 // Hell Spider
+13	1	30	149	94	-1 // Hell Spider
+13	1	30	126	94	-1 // Hell Spider
+13	1	30	196	100	-1 // Hell Spider
+16	1	30	240	77	-1 // Elite Skeleton
+16	1	30	247	77	-1 // Elite Skeleton
+16	1	30	248	20	-1 // Elite Skeleton
+16	1	30	229	11	-1 // Elite Skeleton
+16	1	30	155	32	-1 // Elite Skeleton
+16	1	30	137	33	-1 // Elite Skeleton
+16	1	30	122	29	-1 // Elite Skeleton
+16	1	30	48	11	-1 // Elite Skeleton
+8	1	30	39	112	-1 // Poison Bull
+8	1	30	26	111	-1 // Poison Bull
+8	1	30	15	113	-1 // Poison Bull
+8	1	30	12	97	-1 // Poison Bull
+8	1	30	205	24	-1 // Poison Bull
+8	1	30	44	56	-1 // Poison Bull
+10	1	30	41	88	-1 // Dark Knight
+10	1	30	19	120	-1 // Dark Knight
+10	1	30	14	107	-1 // Dark Knight
+10	1	30	22	65	-1 // Dark Knight
+10	1	30	39	77	-1 // Dark Knight
+10	1	30	29	66	-1 // Dark Knight
+10	1	30	37	98	-1 // Dark Knight
+9	1	30	30	105	-1 // Thunder Lich
+9	1	30	27	53	-1 // Thunder Lich
+9	1	30	10	68	-1 // Thunder Lich
+9	1	30	33	90	-1 // Thunder Lich
+9	1	30	42	117	-1 // Thunder Lich
+9	1	30	118	11	-1 // Thunder Lich
+9	1	30	221	14	-1 // Thunder Lich
+9	1	30	243	16	-1 // Thunder Lich
+9	1	30	233	66	-1 // Thunder Lich
+18	1	30	43	111	-1 // Gorgon
+18	1	30	8	123	-1 // Gorgon
+18	1	30	7	56	-1 // Gorgon
+18	1	30	26	67	-1 // Gorgon
+end
+
+//=========================================================================================
+// Dungeon (Traps)			                                //
+//=========================================================================================
+0
+101	1	0	10	26	1 // IronStick
+101	1	0	11	26	1 // IronStick
+101	1	0	27	12	1 // IronStick
+101	1	0	24	5	1 // IronStick
+101	1	0	24	4	1 // IronStick
+101	1	0	27	11	1 // IronStick
+101	1	0	23	24	1 // IronStick
+101	1	0	27	21	1 // IronStick
+101	1	0	19	19	1 // IronStick
+101	1	0	22	24	1 // IronStick
+101	1	0	23	29	1 // IronStick
+101	1	0	23	28	1 // IronStick
+101	1	0	33	9	1 // IronStick
+101	1	0	35	9	1 // IronStick
+101	1	0	39	18	1 // IronStick
+101	1	0	39	17	1 // IronStick
+101	1	0	39	16	1 // IronStick
+101	1	0	48	193	1 // IronStick
+101	1	0	49	193	1 // IronStick
+101	1	0	90	164	1 // IronStick
+101	1	0	92	164	1 // IronStick
+101	1	0	91	164	1 // IronStick
+101	1	0	128	212	1 // IronStick
+101	1	0	130	213	1 // IronStick
+101	1	0	143	214	1 // IronStick
+101	1	0	155	230	5 // IronStick
+100	1	0	172	12	1 // Lance
+100	1	0	166	12	1 // Lance
+100	1	0	178	12	1 // Lance
+100	1	0	177	103	1 // Lance
+100	1	0	180	103	1 // Lance
+100	1	0	183	103	1 // Lance
+100	1	0	186	103	1 // Lance
+100	1	0	126	99	1 // Lance
+100	1	0	123	99	1 // Lance
+100	1	0	120	99	1 // Lance
+100	1	0	117	99	1 // Lance
+100	1	0	136	95	1 // Lance
+100	1	0	139	95	1 // Lance
+100	1	0	189	103	1 // Lance
+100	1	0	186	151	3 // Lance
+100	1	0	196	33	1 // Lance
+100	1	0	193	33	1 // Lance
+100	1	0	202	93	1 // Lance
+100	1	0	205	93	1 // Lance
+100	1	0	198	130	1 // Lance
+100	1	0	202	150	1 // Lance
+100	1	0	232	46	3 // Lance
+100	1	0	232	40	3 // Lance
+100	1	0	232	37	3 // Lance
+100	1	0	227	61	1 // Lance
+100	1	0	229	93	1 // Lance
+100	1	0	232	93	1 // Lance
+102	1	0	66	71	3 // Fire
+102	1	0	80	61	1 // Fire
+102	1	0	169	12	1 // Fire
+102	1	0	45	224	3 // Fire
+102	1	0	175	12	1 // Fire
+end
+
+//=========================================================================================						
+//	Devias NPC's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0
+231	2	0	8	77	3	//Thompson the Merchant
+379	2	0	13	28	2	//Fireworks Girl
+235	2	0	183	32	3	//Priest Sevina
+236	2	0	226	66	1	//Golden Archer
+240	2	0	218	63	2	//Baz The Storage Guard
+233	2	0	209	30	1	//Spirit of Archangel
+233	2	0	219	9	3	//Spirit of Archangel
+241	2	0	215	45	1	//Lawrence, Commander
+244	2	0	226	25	3	//Lumen the Barmaid
+245	2	0	225	41	3	//Isabel the Wizard
+256	2	0	191	17	3	//Lahap
+246	2	0	186	47	3	//Zienna the Merchant
+249	2	60	169	39	7	//Crossbow Guard
+247	2	60	169	45	7	//Berdysh Guard Guard
+249	2	60	219	79	5	//Crossbow Guard
+247	2	60	224	79	5	//Berdysh Guard
+257	2	0	172	44	1	//Elf Soldier
+257	2	0	219	76	3	//Elf Soldier
+478	2	0	220	67	3	//Delgado
+end
+
+//=========================================================================================						
+//	Devias Spot's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	X2	Y2	Dir 	Cant  	Name
+1										
+19	2	5	50	6	166	244	-1	10	//Yeti
+20	2	5	50	6	166	244	-1	10	//Elite Yeti
+20	2	5	5	50	50	155	-1	10	//Elite Yeti
+20	2	5	6	184	80	244	-1	10	//Elite Yeti
+21	2	5	50	6	166	244	-1	10	//Assassin
+22	2	5	50	6	166	244	-1	10	//Ice Monster
+23	2	5	170	80	245	200	-1	10	//Hommerd
+23	2	5	50	6	166	244	-1	10	//Hommerd
+24	2	5	170	80	245	200	-1	10	//Worm
+25	2	5	6	184	80	244	-1	10	//Ice Queen
+20	2	5	31	17	39	30	-1	30
+20	2	5	221	234	231	225	-1	30
+20	2	5	214	215	236	215	-1	30
+20	2	5	212	198	235	198	-1	30
+end
+
+//=========================================================================================						
+//	Devias Monster's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+2										
+20	2	3	203	244	-1	//Elite Yeti
+20	2	3	194	241	-1	//Elite Yeti
+20	2	3	203	232	-1	//Elite Yeti
+20	2	3	209	224	-1	//Elite Yeti
+20	2	3	186	224	-1	//Elite Yeti
+20	2	3	200	171	-1	//Elite Yeti
+20	2	3	207	158	-1	//Elite Yeti
+20	2	3	221	177	-1	//Elite Yeti
+20	2	3	213	193	-1	//Elite Yeti
+20	2	3	196	218	-1	//Elite Yeti
+20	2	3	230	200	-1	//Elite Yeti
+20	2	3	221	160	-1	//Elite Yeti
+20	2	3	205	149	-1	//Elite Yeti
+20	2	3	184	166	-1	//Elite Yeti
+20	2	3	212	170	-1	//Elite Yeti
+20	2	3	203	201	-1	//Elite Yeti
+20	2	3	190	146	-1	//Elite Yeti
+20	2	3	189	160	-1	//Elite Yeti
+20	2	3	207	183	-1	//Elite Yeti
+20	2	3	218	201	-1	//Elite Yeti
+20	2	3	240	207	-1	//Elite Yeti
+20	2	3	238	184	-1	//Elite Yeti
+20	2	3	227	167	-1	//Elite Yeti
+20	2	3	202	209	-1	//Elite Yeti
+20	2	3	113	105	-1	//Elite Yeti
+20	2	3	96	103	-1	//Elite Yeti
+20	2	3	102	117	-1	//Elite Yeti
+20	2	3	241	198	-1	//Elite Yeti
+20	2	3	228	184	-1	//Elite Yeti
+20	2	3	193	231	-1	//Elite Yeti
+20	2	3	214	152	-1	//Elite Yeti
+20	2	3	197	183	-1	//Elite Yeti
+24	2	3	162	11	-1	//Worm
+24	2	3	244	80	-1	//Worm
+24	2	3	238	88	-1	//Worm
+24	2	3	229	83	-1	//Worm
+24	2	3	170	6	-1	//Worm
+24	2	3	161	58	-1	//Worm
+24	2	3	180	78	-1	//Worm
+25	2	3	74	239	-1	//Ice Queen			
+25	2	3	70	212	-1	//Ice Queen			
+25	2	3	45	189	-1	//Ice Queen			
+25	2	3	113	230	-1	//Ice Queen			
+25	2	3	94	203	-1	//Ice Queen
+25	2	3	63	160	-1	//Ice Queen
+25	2	3	51	227	-1	//Ice Queen
+25	2	3	116	210	-1	//Ice Queen
+end
+
+//=========================================================================================						
+//	Noria NPC's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0
+237	3	0	171	104	3	//Charon
+238	3	0	180	103	1	//Chaos Goblin
+240	3	0	172	96	3	//Baz The Storage Guard
+242	3	0	173	125	1	//Elf Lala
+243	3	0	195	124	2	//Eo The Craftsman 
+257	3	0	167	118	1	//Elf Soldier
+257	3	0	166	85	2	//Elf Soldier
+450	3	0	180	127	1	//Cherry Blossom Spirit
+236	3	0	188	128	1	//Golden Archer
+451	3	0	180	129	3	//Cherry Blossom Tree
+end
+
+//=========================================================================================						
+//	Noria Spot's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	X2	Y2	Dir 	Cant  	Name
+1										
+26	3	5	152	117	152	117	-1	30	//Goblin
+27	3	5	128	0	251	128	-1	10	//Chain Scorpion
+28	3	5	0	0	128	128	-1	10	//Beetle Monster
+29	3	5	0	0	128	128	-1	10	//Hunter
+30	3	5	0	128	251	245	-1	10	//Forest Monster
+31	3	5	0	128	251	245	-1	10	//Agon
+32	3	5	128	128	251	245	-1	10	//Stone Golem
+33	3	5	0	128	128	245	-1	10	//Elite Goblin
+26	3	30	128	0	251	128	-1	45 	// Goblin
+27	3	30	128	0	251	128	-1	55 	// Chain Scorpion
+28	3	30	0	0	128	128	-1	85 	// Beetle Monster
+29	3	30	0	0	128	128	-1	55 	// Hunter
+30	3	30	0	128	251	245	-1	55 	// Forest Monster
+31	3	30	0	128	251	245	-1	55 	// Agon
+32	3	30	128	128	251	245	-1	55 	// Stone Golem
+33	3	30	0	128	128	245	-1	55 	// Elite Goblin
+end
+
+
+//=========================================================================================						
+//	Losttower 1 - 7 Spot's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	X2	Y2	Dir 	Cant  	Name
+2
+249	4	0	207	75	3	// NPC PKClear
+249	4	0	9	87	3	// NPC PKClear
+36	4	30	199	96	-1	// Shadow
+36	4	30	198	98	-1	// Shadow
+36	4	30	197	95	-1	// Shadow
+36	4	30	201	95	-1	// Shadow
+36	4	30	202	98	-1	// Shadow
+36	4	30	198	100	-1	// Shadow
+36	4	30	195	98	-1	// Shadow
+36	4	30	199	94	-1	// Shadow
+36	4	30	198	112	-1	// Shadow
+36	4	30	197	113	-1	// Shadow
+36	4	30	200	115	-1	// Shadow
+36	4	30	201	111	-1	// Shadow
+36	4	30	198	111	-1	// Shadow
+36	4	30	197	111	-1	// Shadow
+36	4	30	197	115	-1	// Shadow
+36	4	30	199	116	-1	// Shadow
+36	4	30	195	128	-1	// Shadow
+36	4	30	192	128	-1	// Shadow
+36	4	30	194	131	-1	// Shadow
+36	4	30	193	133	-1	// Shadow
+36	4	30	194	132	-1	// Shadow
+36	4	30	198	133	-1	// Shadow
+36	4	30	195	128	-1	// Shadow
+36	4	30	217	128	-1	// Shadow
+36	4	30	213	126	-1	// Shadow
+36	4	30	214	129	-1	// Shadow
+36	4	30	216	129	-1	// Shadow
+36	4	30	216	127	-1	// Shadow
+36	4	30	217	127	-1	// Shadow
+36	4	30	243	128	-1	// Shadow
+36	4	30	240	127	-1	// Shadow
+36	4	30	243	129	-1	// Shadow
+36	4	30	243	127	-1	// Shadow
+36	4	30	241	125	-1	// Shadow
+36	4	30	241	128	-1	// Shadow
+36	4	30	244	128	-1	// Shadow
+36	4	30	227	135	-1	// Shadow
+36	4	30	231	137	-1	// Shadow
+36	4	30	231	136	-1	// Shadow
+36	4	30	225	136	-1	// Shadow
+36	4	30	230	137	-1	// Shadow
+36	4	30	232	135	-1	// Shadow
+36	4	30	227	135	-1	// Shadow
+36	4	30	166	128	-1	// Shadow
+36	4	30	167	128	-1	// Shadow
+36	4	30	170	129	-1	// Shadow
+36	4	30	168	126	-1	// Shadow
+36	4	30	167	132	-1	// Shadow
+36	4	30	170	132	-1	// Shadow
+36	4	30	166	129	-1	// Shadow
+36	4	30	166	93	-1	// Shadow
+36	4	30	164	98	-1	// Shadow
+36	4	30	166	98	-1	// Shadow
+36	4	30	165	93	-1	// Shadow
+36	4	30	163	94	-1	// Shadow
+36	4	30	168	97	-1	// Shadow
+36	4	30	164	95	-1	// Shadow
+36	4	30	165	96	-1	// Shadow
+36	4	30	166	68	-1	// Shadow
+36	4	30	165	72	-1	// Shadow
+36	4	30	165	73	-1	// Shadow
+36	4	30	167	69	-1	// Shadow
+36	4	30	165	69	-1	// Shadow
+36	4	30	165	71	-1	// Shadow
+36	4	30	166	74	-1	// Shadow
+36	4	30	167	48	-1	// Shadow
+36	4	30	166	50	-1	// Shadow
+36	4	30	168	56	-1	// Shadow
+36	4	30	167	52	-1	// Shadow
+36	4	30	166	52	-1	// Shadow
+36	4	30	169	51	-1	// Shadow
+36	4	30	168	20	-1	// Shadow
+36	4	30	165	23	-1	// Shadow
+36	4	30	167	25	-1	// Shadow
+36	4	30	167	22	-1	// Shadow
+36	4	30	166	23	-1	// Shadow
+36	4	30	167	26	-1	// Shadow
+36	4	30	167	26	-1	// Shadow
+36	4	30	212	106	-1	// Shadow
+36	4	30	212	104	-1	// Shadow
+36	4	30	212	108	-1	// Shadow
+36	4	30	209	108	-1	// Shadow
+36	4	30	213	106	-1	// Shadow
+36	4	30	211	105	-1	// Shadow
+36	4	30	211	107	-1	// Shadow
+36	4	30	233	118	-1	// Shadow
+36	4	30	229	117	-1	// Shadow
+36	4	30	234	120	-1	// Shadow
+36	4	30	232	120	-1	// Shadow
+36	4	30	231	119	-1	// Shadow
+36	4	30	233	118	-1	// Shadow
+36	4	30	232	120	-1	// Shadow
+36	4	30	237	90	-1	// Shadow
+36	4	30	235	88	-1	// Shadow
+36	4	30	235	91	-1	// Shadow
+36	4	30	238	91	-1	// Shadow
+36	4	30	236	89	-1	// Shadow
+36	4	30	237	89	-1	// Shadow
+36	4	30	236	58	-1	// Shadow
+36	4	30	238	59	-1	// Shadow
+36	4	30	237	62	-1	// Shadow
+36	4	30	236	62	-1	// Shadow
+36	4	30	236	58	-1	// Shadow
+36	4	30	237	61	-1	// Shadow
+36	4	30	236	39	-1	// Shadow
+36	4	30	237	15	-1	// Shadow
+36	4	30	239	22	-1	// Shadow
+36	4	30	237	23	-1	// Shadow
+36	4	30	238	21	-1	// Shadow
+36	4	30	238	17	-1	// Shadow
+36	4	30	238	19	-1	// Shadow
+36	4	30	229	100	-1	// Shadow
+36	4	30	228	101	-1	// Shadow
+36	4	30	228	94	-1	// Shadow
+36	4	30	228	98	-1	// Shadow
+36	4	30	226	99	-1	// Shadow
+36	4	30	228	97	-1	// Shadow
+36	4	30	230	71	-1	// Shadow
+36	4	30	230	74	-1	// Shadow
+36	4	30	228	74	-1	// Shadow
+36	4	30	228	72	-1	// Shadow
+36	4	30	228	75	-1	// Shadow
+36	4	30	227	74	-1	// Shadow
+36	4	30	228	73	-1	// Shadow
+36	4	30	230	40	-1	// Shadow
+36	4	30	229	43	-1	// Shadow
+36	4	30	230	44	-1	// Shadow
+36	4	30	230	44	-1	// Shadow
+36	4	30	230	43	-1	// Shadow
+36	4	30	230	49	-1	// Shadow
+36	4	30	230	39	-1	// Shadow
+36	4	30	195	16	-1	// Shadow
+36	4	30	194	17	-1	// Shadow
+36	4	30	196	17	-1	// Shadow
+36	4	30	194	14	-1	// Shadow
+36	4	30	197	16	-1	// Shadow
+36	4	30	196	17	-1	// Shadow
+36	4	30	196	17	-1	// Shadow
+36	4	30	219	13	-1	// Shadow
+36	4	30	220	16	-1	// Shadow
+36	4	30	213	15	-1	// Shadow
+36	4	30	220	11	-1	// Shadow
+36	4	30	220	16	-1	// Shadow
+36	4	30	216	15	-1	// Shadow
+36	4	30	216	14	-1	// Shadow
+36	4	30	218	15	-1	// Shadow
+36	4	30	209	8	-1	// Shadow
+36	4	30	218	7	-1	// Shadow
+36	4	30	214	7	-1	// Shadow
+36	4	30	214	7	-1	// Shadow
+36	4	30	212	8	-1	// Shadow
+36	4	30	217	8	-1	// Shadow
+36	4	30	212	35	-1	// Shadow
+36	4	30	211	36	-1	// Shadow
+36	4	30	214	37	-1	// Shadow
+36	4	30	213	34	-1	// Shadow
+36	4	30	210	34	-1	// Shadow
+36	4	30	215	36	-1	// Shadow
+36	4	30	215	36	-1	// Shadow
+36	4	30	197	35	-1	// Shadow
+36	4	30	195	35	-1	// Shadow
+36	4	30	197	33	-1	// Shadow
+36	4	30	197	37	-1	// Shadow
+36	4	30	196	38	-1	// Shadow
+36	4	30	196	39	-1	// Shadow
+36	4	30	199	53	-1	// Shadow
+39	4	30	219	55	-1	// PoisonShadow
+39	4	30	219	55	-1	// PoisonShadow
+39	4	30	217	53	-1	// PoisonShadow
+39	4	30	219	55	-1	// PoisonShadow
+39	4	30	220	56	-1	// PoisonShadow
+39	4	30	218	53	-1	// PoisonShadow
+39	4	30	221	55	-1	// PoisonShadow
+39	4	30	219	50	-1	// PoisonShadow
+39	4	30	209	47	-1	// PoisonShadow
+39	4	30	211	43	-1	// PoisonShadow
+39	4	30	210	45	-1	// PoisonShadow
+39	4	30	214	46	-1	// PoisonShadow
+39	4	30	208	45	-1	// PoisonShadow
+39	4	30	210	46	-1	// PoisonShadow
+39	4	30	211	46	-1	// PoisonShadow
+39	4	30	209	44	-1	// PoisonShadow
+39	4	30	195	63	-1	// PoisonShadow
+39	4	30	199	62	-1	// PoisonShadow
+39	4	30	199	65	-1	// PoisonShadow
+39	4	30	194	64	-1	// PoisonShadow
+39	4	30	201	61	-1	// PoisonShadow
+39	4	30	200	62	-1	// PoisonShadow
+39	4	30	197	63	-1	// PoisonShadow
+39	4	30	200	63	-1	// PoisonShadow
+39	4	30	191	71	-1	// PoisonShadow
+39	4	30	196	70	-1	// PoisonShadow
+39	4	30	190	68	-1	// PoisonShadow
+39	4	30	190	74	-1	// PoisonShadow
+39	4	30	193	74	-1	// PoisonShadow
+39	4	30	192	70	-1	// PoisonShadow
+39	4	30	189	71	-1	// PoisonShadow
+39	4	30	218	63	-1	// PoisonShadow
+39	4	30	217	64	-1	// PoisonShadow
+39	4	30	220	65	-1	// PoisonShadow
+39	4	30	217	66	-1	// PoisonShadow
+39	4	30	219	68	-1	// PoisonShadow
+39	4	30	218	64	-1	// PoisonShadow
+39	4	30	218	65	-1	// PoisonShadow
+39	4	30	240	248	-1	// PoisonShadow
+39	4	30	239	245	-1	// PoisonShadow
+39	4	30	239	245	-1	// PoisonShadow
+39	4	30	239	248	-1	// PoisonShadow
+39	4	30	239	248	-1	// PoisonShadow
+39	4	30	237	247	-1	// PoisonShadow
+39	4	30	237	247	-1	// PoisonShadow
+39	4	30	224	245	-1	// PoisonShadow
+39	4	30	221	246	-1	// PoisonShadow
+39	4	30	223	248	-1	// PoisonShadow
+39	4	30	219	247	-1	// PoisonShadow
+39	4	30	224	247	-1	// PoisonShadow
+39	4	30	209	239	-1	// PoisonShadow
+39	4	30	206	239	-1	// PoisonShadow
+39	4	30	208	240	-1	// PoisonShadow
+39	4	30	206	238	-1	// PoisonShadow
+39	4	30	207	236	-1	// PoisonShadow
+39	4	30	210	235	-1	// PoisonShadow
+39	4	30	208	240	-1	// PoisonShadow
+39	4	30	214	240	-1	// PoisonShadow
+39	4	30	224	236	-1	// PoisonShadow
+39	4	30	226	236	-1	// PoisonShadow
+39	4	30	223	236	-1	// PoisonShadow
+39	4	30	225	237	-1	// PoisonShadow
+39	4	30	226	238	-1	// PoisonShadow
+39	4	30	221	235	-1	// PoisonShadow
+39	4	30	237	229	-1	// PoisonShadow
+39	4	30	241	230	-1	// PoisonShadow
+39	4	30	237	231	-1	// PoisonShadow
+39	4	30	237	229	-1	// PoisonShadow
+39	4	30	239	230	-1	// PoisonShadow
+39	4	30	239	231	-1	// PoisonShadow
+39	4	30	235	228	-1	// PoisonShadow
+39	4	30	207	221	-1	// PoisonShadow
+39	4	30	203	221	-1	// PoisonShadow
+39	4	30	202	222	-1	// PoisonShadow
+39	4	30	200	222	-1	// PoisonShadow
+39	4	30	208	223	-1	// PoisonShadow
+39	4	30	202	220	-1	// PoisonShadow
+39	4	30	205	201	-1	// PoisonShadow
+39	4	30	205	204	-1	// PoisonShadow
+39	4	30	198	205	-1	// PoisonShadow
+39	4	30	204	203	-1	// PoisonShadow
+39	4	30	200	205	-1	// PoisonShadow
+39	4	30	202	205	-1	// PoisonShadow
+34	4	30	177	201	-1	// CursedWizard
+34	4	30	180	202	-1	// CursedWizard
+34	4	30	183	202	-1	// CursedWizard
+34	4	30	181	199	-1	// CursedWizard
+34	4	30	180	199	-1	// CursedWizard
+34	4	30	179	203	-1	// CursedWizard
+34	4	30	178	204	-1	// CursedWizard
+34	4	30	240	194	-1	// CursedWizard
+34	4	30	240	195	-1	// CursedWizard
+34	4	30	240	197	-1	// CursedWizard
+34	4	30	241	194	-1	// CursedWizard
+34	4	30	241	199	-1	// CursedWizard
+34	4	30	240	195	-1	// CursedWizard
+34	4	30	218	187	-1	// CursedWizard
+34	4	30	216	189	-1	// CursedWizard
+34	4	30	215	186	-1	// CursedWizard
+34	4	30	218	185	-1	// CursedWizard
+34	4	30	218	188	-1	// CursedWizard
+34	4	30	217	188	-1	// CursedWizard
+34	4	30	219	188	-1	// CursedWizard
+34	4	30	174	243	-1	// CursedWizard
+34	4	30	171	247	-1	// CursedWizard
+34	4	30	168	243	-1	// CursedWizard
+34	4	30	170	246	-1	// CursedWizard
+34	4	30	174	247	-1	// CursedWizard
+34	4	30	172	247	-1	// CursedWizard
+34	4	30	172	247	-1	// CursedWizard
+34	4	30	93	179	-1	// CursedWizard
+34	4	30	90	178	-1	// CursedWizard
+34	4	30	92	178	-1	// CursedWizard
+34	4	30	92	179	-1	// CursedWizard
+34	4	30	92	180	-1	// CursedWizard
+34	4	30	90	182	-1	// CursedWizard
+34	4	30	89	180	-1	// CursedWizard
+34	4	30	89	180	-1	// CursedWizard
+41	4	30	98	189	-1	// DeathCow
+41	4	30	97	192	-1	// DeathCow
+41	4	30	95	189	-1	// DeathCow
+41	4	30	102	186	-1	// DeathCow
+41	4	30	100	189	-1	// DeathCow
+41	4	30	96	189	-1	// DeathCow
+41	4	30	94	186	-1	// DeathCow
+41	4	30	114	201	-1	// DeathCow
+41	4	30	110	204	-1	// DeathCow
+41	4	30	117	201	-1	// DeathCow
+41	4	30	112	200	-1	// DeathCow
+41	4	30	115	202	-1	// DeathCow
+41	4	30	110	173	-1	// DeathCow
+41	4	30	110	169	-1	// DeathCow
+41	4	30	109	172	-1	// DeathCow
+41	4	30	110	172	-1	// DeathCow
+41	4	30	106	170	-1	// DeathCow
+41	4	30	108	170	-1	// DeathCow
+41	4	30	112	173	-1	// DeathCow
+41	4	30	89	212	-1	// DeathCow
+41	4	30	89	214	-1	// DeathCow
+41	4	30	90	215	-1	// DeathCow
+41	4	30	90	211	-1	// DeathCow
+41	4	30	92	212	-1	// DeathCow
+41	4	30	137	238	-1	// DeathCow
+41	4	30	134	238	-1	// DeathCow
+41	4	30	133	237	-1	// DeathCow
+41	4	30	134	234	-1	// DeathCow
+41	4	30	136	238	-1	// DeathCow
+41	4	30	134	238	-1	// DeathCow
+41	4	30	126	169	-1	// DeathCow
+41	4	30	124	169	-1	// DeathCow
+41	4	30	126	171	-1	// DeathCow
+41	4	30	127	170	-1	// DeathCow
+41	4	30	126	169	-1	// DeathCow
+41	4	30	127	199	-1	// DeathCow
+41	4	30	126	193	-1	// DeathCow
+41	4	30	126	195	-1	// DeathCow
+41	4	30	128	195	-1	// DeathCow
+41	4	30	128	195	-1	// DeathCow
+41	4	30	85	94	-1	// DeathCow
+41	4	30	87	98	-1	// DeathCow
+41	4	30	86	97	-1	// DeathCow
+41	4	30	85	95	-1	// DeathCow
+41	4	30	88	97	-1	// DeathCow
+41	4	30	88	95	-1	// DeathCow
+41	4	30	88	95	-1	// DeathCow
+41	4	30	88	99	-1	// DeathCow
+41	4	30	102	104	-1	// DeathCow
+41	4	30	107	103	-1	// DeathCow
+41	4	30	107	105	-1	// DeathCow
+41	4	30	104	99	-1	// DeathCow
+41	4	30	104	103	-1	// DeathCow
+41	4	30	105	104	-1	// DeathCow
+41	4	30	114	105	-1	// DeathCow
+41	4	30	133	91	-1	// DeathCow
+41	4	30	131	91	-1	// DeathCow
+41	4	30	131	95	-1	// DeathCow
+41	4	30	133	95	-1	// DeathCow
+41	4	30	130	93	-1	// DeathCow
+41	4	30	130	93	-1	// DeathCow
+41	4	30	134	113	-1	// DeathCow
+41	4	30	131	117	-1	// DeathCow
+41	4	30	134	116	-1	// DeathCow
+41	4	30	132	115	-1	// DeathCow
+41	4	30	133	113	-1	// DeathCow
+41	4	30	138	118	-1	// DeathCow
+41	4	30	133	116	-1	// DeathCow
+41	4	30	132	136	-1	// DeathCow
+41	4	30	131	136	-1	// DeathCow
+41	4	30	130	138	-1	// DeathCow
+41	4	30	131	132	-1	// DeathCow
+41	4	30	130	132	-1	// DeathCow
+41	4	30	133	135	-1	// DeathCow
+41	4	30	129	133	-1	// DeathCow
+41	4	30	101	135	-1	// DeathCow
+41	4	30	107	135	-1	// DeathCow
+41	4	30	104	135	-1	// DeathCow
+41	4	30	107	137	-1	// DeathCow
+41	4	30	106	134	-1	// DeathCow
+41	4	30	105	135	-1	// DeathCow
+41	4	30	108	136	-1	// DeathCow
+41	4	30	91	128	-1	// DeathCow
+41	4	30	88	128	-1	// DeathCow
+41	4	30	88	129	-1	// DeathCow
+41	4	30	86	125	-1	// DeathCow
+41	4	30	84	128	-1	// DeathCow
+41	4	30	89	129	-1	// DeathCow
+41	4	30	86	128	-1	// DeathCow
+37	4	30	106	116	-1	// Devil
+37	4	30	103	116	-1	// Devil
+37	4	30	106	116	-1	// Devil
+37	4	30	106	117	-1	// Devil
+37	4	30	108	117	-1	// Devil
+37	4	30	127	59	-1	// Devil
+37	4	30	127	59	-1	// Devil
+37	4	30	130	59	-1	// Devil
+37	4	30	126	58	-1	// Devil
+37	4	30	126	58	-1	// Devil
+37	4	30	130	61	-1	// Devil
+37	4	30	131	56	-1	// Devil
+37	4	30	129	58	-1	// Devil
+37	4	30	129	58	-1	// Devil
+37	4	30	107	61	-1	// Devil
+37	4	30	101	61	-1	// Devil
+37	4	30	102	59	-1	// Devil
+37	4	30	103	60	-1	// Devil
+37	4	30	103	60	-1	// Devil
+37	4	30	107	62	-1	// Devil
+37	4	30	104	58	-1	// Devil
+37	4	30	90	48	-1	// Devil
+37	4	30	90	51	-1	// Devil
+37	4	30	94	48	-1	// Devil
+37	4	30	90	48	-1	// Devil
+37	4	30	90	49	-1	// Devil
+37	4	30	92	49	-1	// Devil
+37	4	30	118	15	-1	// Devil
+37	4	30	113	15	-1	// Devil
+37	4	30	118	15	-1	// Devil
+37	4	30	118	19	-1	// Devil
+37	4	30	113	17	-1	// Devil
+37	4	30	114	16	-1	// Devil
+37	4	30	118	18	-1	// Devil
+37	4	30	116	20	-1	// Devil
+37	4	30	124	38	-1	// Devil
+37	4	30	119	35	-1	// Devil
+37	4	30	121	38	-1	// Devil
+37	4	30	118	36	-1	// Devil
+37	4	30	118	36	-1	// Devil
+37	4	30	122	38	-1	// Devil
+37	4	30	84	23	-1	// Devil
+37	4	30	88	29	-1	// Devil
+37	4	30	87	26	-1	// Devil
+37	4	30	85	25	-1	// Devil
+37	4	30	90	27	-1	// Devil
+37	4	30	89	23	-1	// Devil
+37	4	30	88	23	-1	// Devil
+37	4	30	86	27	-1	// Devil
+40	4	30	104	29	-1	// DeathKnight
+40	4	30	109	31	-1	// DeathKnight
+40	4	30	105	30	-1	// DeathKnight
+40	4	30	103	27	-1	// DeathKnight
+40	4	30	107	32	-1	// DeathKnight
+40	4	30	107	32	-1	// DeathKnight
+40	4	30	106	28	-1	// DeathKnight
+40	4	30	93	11	-1	// DeathKnight
+40	4	30	89	11	-1	// DeathKnight
+40	4	30	96	13	-1	// DeathKnight
+40	4	30	97	14	-1	// DeathKnight
+40	4	30	94	13	-1	// DeathKnight
+40	4	30	92	13	-1	// DeathKnight
+40	4	30	6	21	-1	// DeathKnight
+40	4	30	7	22	-1	// DeathKnight
+40	4	30	4	23	-1	// DeathKnight
+40	4	30	5	23	-1	// DeathKnight
+40	4	30	6	27	-1	// DeathKnight
+40	4	30	7	25	-1	// DeathKnight
+40	4	30	31	20	-1	// DeathKnight
+40	4	30	28	21	-1	// DeathKnight
+40	4	30	30	22	-1	// DeathKnight
+40	4	30	29	21	-1	// DeathKnight
+40	4	30	29	22	-1	// DeathKnight
+40	4	30	33	24	-1	// DeathKnight
+40	4	30	31	22	-1	// DeathKnight
+40	4	30	24	39	-1	// DeathKnight
+40	4	30	20	40	-1	// DeathKnight
+40	4	30	25	40	-1	// DeathKnight
+40	4	30	25	37	-1	// DeathKnight
+40	4	30	25	40	-1	// DeathKnight
+40	4	30	20	37	-1	// DeathKnight
+40	4	30	6	51	-1	// DeathKnight
+40	4	30	11	50	-1	// DeathKnight
+40	4	30	11	54	-1	// DeathKnight
+40	4	30	11	54	-1	// DeathKnight
+40	4	30	11	53	-1	// DeathKnight
+40	4	30	11	55	-1	// DeathKnight
+40	4	30	7	55	-1	// DeathKnight
+40	4	30	8	54	-1	// DeathKnight
+40	4	30	37	52	-1	// DeathKnight
+40	4	30	39	52	-1	// DeathKnight
+40	4	30	35	52	-1	// DeathKnight
+40	4	30	30	55	-1	// DeathKnight
+40	4	30	35	55	-1	// DeathKnight
+40	4	30	35	54	-1	// DeathKnight
+40	4	30	48	27	-1	// DeathKnight
+40	4	30	46	28	-1	// DeathKnight
+40	4	30	50	24	-1	// DeathKnight
+40	4	30	48	25	-1	// DeathKnight
+40	4	30	47	31	-1	// DeathKnight
+40	4	30	48	28	-1	// DeathKnight
+40	4	30	38	16	-1	// DeathKnight
+40	4	30	40	15	-1	// DeathKnight
+40	4	30	35	11	-1	// DeathKnight
+40	4	30	41	16	-1	// DeathKnight
+40	4	30	41	15	-1	// DeathKnight
+40	4	30	40	11	-1	// DeathKnight
+40	4	30	54	57	-1	// DeathKnight
+40	4	30	53	55	-1	// DeathKnight
+40	4	30	52	53	-1	// DeathKnight
+40	4	30	58	58	-1	// DeathKnight
+40	4	30	51	54	-1	// DeathKnight
+40	4	30	51	54	-1	// DeathKnight
+40	4	30	57	55	-1	// DeathKnight
+40	4	30	57	54	-1	// DeathKnight
+40	4	30	13	92	-1	// DeathKnight
+40	4	30	13	93	-1	// DeathKnight
+40	4	30	14	92	-1	// DeathKnight
+40	4	30	14	90	-1	// DeathKnight
+40	4	30	13	92	-1	// DeathKnight
+40	4	30	34	93	-1	// DeathKnight
+40	4	30	30	94	-1	// DeathKnight
+40	4	30	32	91	-1	// DeathKnight
+40	4	30	34	91	-1	// DeathKnight
+40	4	30	31	91	-1	// DeathKnight
+40	4	30	32	91	-1	// DeathKnight
+40	4	30	31	93	-1	// DeathKnight
+40	4	30	31	94	-1	// DeathKnight
+40	4	30	55	95	-1	// DeathKnight
+40	4	30	53	93	-1	// DeathKnight
+40	4	30	55	94	-1	// DeathKnight
+40	4	30	57	90	-1	// DeathKnight
+40	4	30	54	92	-1	// DeathKnight
+40	4	30	55	94	-1	// DeathKnight
+40	4	30	56	94	-1	// DeathKnight
+40	4	30	41	105	-1	// DeathKnight
+40	4	30	43	107	-1	// DeathKnight
+40	4	30	41	108	-1	// DeathKnight
+40	4	30	45	107	-1	// DeathKnight
+40	4	30	43	107	-1	// DeathKnight
+40	4	30	42	108	-1	// DeathKnight
+40	4	30	43	109	-1	// DeathKnight
+40	4	30	12	104	-1	// DeathKnight
+40	4	30	9	101	-1	// DeathKnight
+40	4	30	9	106	-1	// DeathKnight
+40	4	30	12	102	-1	// DeathKnight
+40	4	30	11	102	-1	// DeathKnight
+40	4	30	11	104	-1	// DeathKnight
+40	4	30	9	106	-1	// DeathKnight
+40	4	30	9	105	-1	// DeathKnight
+35	4	30	28	108	-1	// DeathGorgon
+35	4	30	26	108	-1	// DeathGorgon
+35	4	30	26	104	-1	// DeathGorgon
+35	4	30	26	108	-1	// DeathGorgon
+35	4	30	26	109	-1	// DeathGorgon
+35	4	30	22	108	-1	// DeathGorgon
+35	4	30	26	106	-1	// DeathGorgon
+35	4	30	35	132	-1	// DeathGorgon
+35	4	30	36	137	-1	// DeathGorgon
+35	4	30	37	134	-1	// DeathGorgon
+35	4	30	35	135	-1	// DeathGorgon
+35	4	30	38	135	-1	// DeathGorgon
+35	4	30	36	135	-1	// DeathGorgon
+35	4	30	-3	122	-1	// DeathGorgon
+35	4	30	11	119	-1	// DeathGorgon
+35	4	30	8	122	-1	// DeathGorgon
+35	4	30	13	122	-1	// DeathGorgon
+35	4	30	7	123	-1	// DeathGorgon
+35	4	30	7	124	-1	// DeathGorgon
+35	4	30	13	123	-1	// DeathGorgon
+35	4	30	11	122	-1	// DeathGorgon
+35	4	30	11	139	-1	// DeathGorgon
+35	4	30	15	139	-1	// DeathGorgon
+35	4	30	11	140	-1	// DeathGorgon
+35	4	30	16	139	-1	// DeathGorgon
+35	4	30	13	138	-1	// DeathGorgon
+35	4	30	13	140	-1	// DeathGorgon
+35	4	30	15	140	-1	// DeathGorgon
+35	4	30	17	139	-1	// DeathGorgon
+35	4	30	27	124	-1	// DeathGorgon
+35	4	30	28	127	-1	// DeathGorgon
+35	4	30	30	127	-1	// DeathGorgon
+35	4	30	28	123	-1	// DeathGorgon
+35	4	30	29	127	-1	// DeathGorgon
+35	4	30	30	127	-1	// DeathGorgon
+35	4	30	25	125	-1	// DeathGorgon
+35	4	30	54	137	-1	// DeathGorgon
+35	4	30	50	138	-1	// DeathGorgon
+35	4	30	54	142	-1	// DeathGorgon
+35	4	30	54	138	-1	// DeathGorgon
+35	4	30	53	139	-1	// DeathGorgon
+35	4	30	54	139	-1	// DeathGorgon
+35	4	30	55	139	-1	// DeathGorgon
+35	4	30	44	178	-1	// DeathGorgon
+35	4	30	42	177	-1	// DeathGorgon
+35	4	30	44	180	-1	// DeathGorgon
+35	4	30	46	175	-1	// DeathGorgon
+35	4	30	47	177	-1	// DeathGorgon
+35	4	30	46	176	-1	// DeathGorgon
+35	4	30	46	176	-1	// DeathGorgon
+35	4	30	23	174	-1	// DeathGorgon
+35	4	30	23	175	-1	// DeathGorgon
+35	4	30	28	175	-1	// DeathGorgon
+35	4	30	26	174	-1	// DeathGorgon
+35	4	30	26	179	-1	// DeathGorgon
+35	4	30	26	175	-1	// DeathGorgon
+35	4	30	25	176	-1	// DeathGorgon
+35	4	30	25	176	-1	// DeathGorgon
+35	4	30	25	193	-1	// DeathGorgon
+35	4	30	25	194	-1	// DeathGorgon
+35	4	30	26	193	-1	// DeathGorgon
+35	4	30	23	198	-1	// DeathGorgon
+35	4	30	25	195	-1	// DeathGorgon
+35	4	30	22	192	-1	// DeathGorgon
+35	4	30	42	203	-1	// DeathGorgon
+35	4	30	38	200	-1	// DeathGorgon
+35	4	30	37	202	-1	// DeathGorgon
+35	4	30	40	200	-1	// DeathGorgon
+35	4	30	36	201	-1	// DeathGorgon
+35	4	30	36	203	-1	// DeathGorgon
+35	4	30	36	203	-1	// DeathGorgon
+35	4	30	26	211	-1	// DeathGorgon
+35	4	30	22	218	-1	// DeathGorgon
+35	4	30	26	215	-1	// DeathGorgon
+35	4	30	24	218	-1	// DeathGorgon
+35	4	30	24	213	-1	// DeathGorgon
+35	4	30	24	211	-1	// DeathGorgon
+35	4	30	41	225	-1	// DeathGorgon
+35	4	30	36	226	-1	// DeathGorgon
+35	4	30	40	229	-1	// DeathGorgon
+35	4	30	40	225	-1	// DeathGorgon
+35	4	30	40	226	-1	// DeathGorgon
+35	4	30	41	227	-1	// DeathGorgon
+35	4	30	40	227	-1	// DeathGorgon
+35	4	30	24	241	-1	// DeathGorgon
+35	4	30	20	236	-1	// DeathGorgon
+35	4	30	26	233	-1	// DeathGorgon
+35	4	30	25	239	-1	// DeathGorgon
+35	4	30	26	238	-1	// DeathGorgon
+35	4	30	24	237	-1	// DeathGorgon
+35	4	30	65	245	-1	// DeathGorgon
+35	4	30	54	243	-1	// DeathGorgon
+35	4	30	54	244	-1	// DeathGorgon
+35	4	30	46	247	-1	// DeathGorgon
+35	4	30	51	243	-1	// DeathGorgon
+35	4	30	50	244	-1	// DeathGorgon
+35	4	30	51	244	-1	// DeathGorgon
+35	4	30	61	216	-1	// DeathGorgon
+35	4	30	54	222	-1	// DeathGorgon
+35	4	30	54	230	-1	// DeathGorgon
+35	4	30	57	221	-1	// DeathGorgon
+35	4	30	56	228	-1	// DeathGorgon
+35	4	30	56	228	-1	// DeathGorgon
+35	4	30	56	225	-1	// DeathGorgon
+end
+
+//=========================================================================================
+// Lost Tower (Traps)		                                        //
+//=========================================================================================
+0
+103	4	0	5	175	3 // Meteorite
+103	4	0	6	175	3 // Meteorite
+103	4	0	4	175	3 // Meteorite
+103	4	0	15	172	3 // Meteorite
+103	4	0	15	173	3 // Meteorite
+103	4	0	15	174	3 // Meteorite
+103	4	0	14	207	3 // Meteorite
+103	4	0	4	194	3 // Meteorite
+103	4	0	5	194	3 // Meteorite
+103	4	0	6	194	3 // Meteorite
+103	4	0	14	208	3 // Meteorite
+103	4	0	5	237	3 // Meteorite
+103	4	0	6	237	3 // Meteorite
+103	4	0	7	237	3 // Meteorite
+103	4	0	26	104	3 // Meteorite
+103	4	0	26	103	3 // Meteorite
+103	4	0	26	102	3 // Meteorite
+103	4	0	26	101	3 // Meteorite
+103	4	0	30	101	3 // Meteorite
+103	4	0	30	100	3 // Meteorite
+103	4	0	30	99	3 // Meteorite
+103	4	0	29	125	1 // Meteorite
+103	4	0	28	125	1 // Meteorite
+103	4	0	27	125	1 // Meteorite
+103	4	0	26	125	1 // Meteorite
+103	4	0	27	128	1 // Meteorite
+103	4	0	27	129	1 // Meteorite
+103	4	0	27	130	1 // Meteorite
+103	4	0	21	243	3 // Meteorite
+103	4	0	22	243	3 // Meteorite
+103	4	0	23	243	3 // Meteorite
+103	4	0	45	110	1 // Meteorite
+103	4	0	45	110	1 // Meteorite
+103	4	0	45	110	5 // Meteorite
+103	4	0	45	109	5 // Meteorite
+103	4	0	45	108	5 // Meteorite
+103	4	0	38	110	5 // Meteorite
+103	4	0	38	109	5 // Meteorite
+103	4	0	38	108	5 // Meteorite
+103	4	0	35	125	1 // Meteorite
+103	4	0	34	125	1 // Meteorite
+103	4	0	33	125	1 // Meteorite
+103	4	0	36	125	1 // Meteorite
+103	4	0	37	119	3 // Meteorite
+103	4	0	37	120	3 // Meteorite
+103	4	0	34	128	1 // Meteorite
+103	4	0	34	129	1 // Meteorite
+103	4	0	34	130	1 // Meteorite
+103	4	0	47	131	1 // Meteorite
+103	4	0	47	132	1 // Meteorite
+103	4	0	41	132	1 // Meteorite
+103	4	0	41	133	1 // Meteorite
+103	4	0	36	133	1 // Meteorite
+103	4	0	36	134	1 // Meteorite
+103	4	0	46	169	3 // Meteorite
+103	4	0	46	170	3 // Meteorite
+103	4	0	46	171	3 // Meteorite
+103	4	0	46	172	3 // Meteorite
+103	4	0	42	245	3 // Meteorite
+103	4	0	42	246	3 // Meteorite
+103	4	0	52	114	3 // Meteorite
+103	4	0	53	114	3 // Meteorite
+103	4	0	54	114	3 // Meteorite
+103	4	0	53	178	3 // Meteorite
+103	4	0	54	178	3 // Meteorite
+103	4	0	52	178	3 // Meteorite
+103	4	0	51	198	3 // Meteorite
+103	4	0	51	199	3 // Meteorite
+103	4	0	51	200	3 // Meteorite
+103	4	0	51	201	3 // Meteorite
+103	4	0	85	120	3 // Meteorite
+103	4	0	86	120	3 // Meteorite
+103	4	0	84	120	3 // Meteorite
+103	4	0	93	131	3 // Meteorite
+103	4	0	93	130	3 // Meteorite
+103	4	0	93	132	3 // Meteorite
+103	4	0	82	175	3 // Meteorite
+103	4	0	83	175	3 // Meteorite
+103	4	0	84	175	3 // Meteorite
+103	4	0	85	175	3 // Meteorite
+103	4	0	82	184	3 // Meteorite
+103	4	0	83	184	3 // Meteorite
+103	4	0	84	184	3 // Meteorite
+103	4	0	82	201	3 // Meteorite
+103	4	0	83	201	3 // Meteorite
+103	4	0	84	201	3 // Meteorite
+103	4	0	93	243	3 // Meteorite
+103	4	0	93	244	3 // Meteorite
+103	4	0	93	245	3 // Meteorite
+103	4	0	93	246	3 // Meteorite
+103	4	0	100	185	3 // Meteorite
+103	4	0	101	185	3 // Meteorite
+103	4	0	102	185	3 // Meteorite
+103	4	0	103	185	3 // Meteorite
+103	4	0	98	225	3 // Meteorite
+103	4	0	99	225	3 // Meteorite
+103	4	0	100	225	3 // Meteorite
+103	4	0	101	225	3 // Meteorite
+103	4	0	111	227	3 // Meteorite
+103	4	0	110	227	3 // Meteorite
+103	4	0	107	242	3 // Meteorite
+103	4	0	107	243	3 // Meteorite
+103	4	0	107	244	3 // Meteorite
+103	4	0	126	104	3 // Meteorite
+103	4	0	126	105	3 // Meteorite
+103	4	0	126	106	3 // Meteorite
+103	4	0	126	107	3 // Meteorite
+103	4	0	126	115	3 // Meteorite
+103	4	0	127	115	3 // Meteorite
+103	4	0	125	115	3 // Meteorite
+103	4	0	123	135	3 // Meteorite
+103	4	0	123	134	3 // Meteorite
+103	4	0	123	133	3 // Meteorite
+103	4	0	123	132	3 // Meteorite
+103	4	0	121	208	3 // Meteorite
+103	4	0	122	208	3 // Meteorite
+103	4	0	120	208	3 // Meteorite
+103	4	0	112	227	3 // Meteorite
+103	4	0	113	227	3 // Meteorite
+103	4	0	132	126	3 // Meteorite
+103	4	0	133	126	3 // Meteorite
+103	4	0	134	126	3 // Meteorite
+103	4	0	132	178	3 // Meteorite
+103	4	0	133	178	3 // Meteorite
+103	4	0	128	221	3 // Meteorite
+103	4	0	129	221	3 // Meteorite
+103	4	0	130	221	3 // Meteorite
+103	4	0	202	45	3 // Meteorite
+103	4	0	202	46	3 // Meteorite
+103	4	0	202	47	3 // Meteorite
+103	4	0	196	62	3 // Meteorite
+103	4	0	198	62	3 // Meteorite
+103	4	0	197	62	3 // Meteorite
+103	4	0	199	62	3 // Meteorite
+103	4	0	196	58	3 // Meteorite
+103	4	0	196	57	3 // Meteorite
+103	4	0	196	56	3 // Meteorite
+103	4	0	202	48	3 // Meteorite
+103	4	0	219	234	1 // Meteorite
+103	4	0	219	235	1 // Meteorite
+103	4	0	219	236	1 // Meteorite
+103	4	0	219	237	1 // Meteorite
+103	4	0	226	115	3 // Meteorite
+103	4	0	226	116	3 // Meteorite
+103	4	0	226	117	3 // Meteorite
+103	4	0	226	233	1 // Meteorite
+103	4	0	227	233	1 // Meteorite
+103	4	0	228	233	1 // Meteorite
+end
+
+//=========================================================================================						
+//	Stadium NPC's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0						
+200	6	6	63	160	1	//Soccer Ball
+239	6	6	72	164	1	//Stadium Guard
+240	6	0	63	49	1	//Storage Guard
+247	6	0	60	117	1	//Berdysh Guard
+249	6	0	66	117	1	//Crossbow Guard
+247	6	0	102	114	7	//Berdysh Guard
+249	6	0	102	116	7	//Crossbow Guard
+247	6	0	102	118	7	//Berdysh Guard
+259	6	0	61	41	3	//Elf Soldier
+end
+
+//=========================================================================================						
+//	Stadium Spot's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	X2	Y2	Dir 	Cant  	Name
+1
+308	6	2	48	38	48	38	-1	25	//Death Three
+305	6	2	48	56	48	56	-1	25	//Blue Golem
+306	6	2	48	70	48	95	-1	25	//Death Rider
+307	6	2	66	64	66	85	-1	25	//Forest Orc
+69	6	2	29	38	29	38	-1	25	//Alquamos
+70	6	2	30	56	30	56	-1	25	//Queen Rainer
+72	6	2	30	74	30	74	-1	25	//Phantom Knight
+75	6	2	30	92	30	92	-1	25	//Drakan
+354	6	2	12	92	12	92	-1	25	//Blade Hunter
+355	6	2	11	74	11	74	-1	25	//Kentauros
+356	6	2	11	56	11	56	-1	25	//Gigantis
+357	6	2	11	38	11	38	-1	25	//Genocider
+end
+
+//=========================================================================================						
+//	Atlans NPC's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0
+253	7	0	26	19	1	//Potion Girl
+257	7	0	23	25	1	//Elf Soldier
+end
+
+//=========================================================================================						
+//	Atlans Spot's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+1
+51	7	5	222	58	233	58	-1	20
+51	7	5	66	163	66	163	-1	20
+end
+
+//=========================================================================================
+// Atlans (Monsters)			                                //
+//=========================================================================================
+2
+45	7	30	21	41	-1 // Bahamut
+45	7	30	23	33	-1 // Bahamut
+45	7	30	31	31	-1 // Bahamut
+45	7	30	39	23	-1 // Bahamut
+45	7	30	41	11	-1 // Bahamut
+45	7	30	21	48	-1 // Bahamut
+45	7	30	47	41	-1 // Bahamut
+45	7	30	39	63	-1 // Bahamut
+45	7	30	72	42	-1 // Bahamut
+45	7	30	23	56	-1 // Bahamut
+45	7	30	23	64	-1 // Bahamut
+45	7	30	35	70	-1 // Bahamut
+45	7	30	29	75	-1 // Bahamut
+45	7	30	62	21	-1 // Bahamut
+45	7	30	78	19	-1 // Bahamut
+45	7	30	67	36	-1 // Bahamut
+45	7	30	24	86	-1 // Bahamut
+45	7	30	48	57	-1 // Bahamut
+45	7	30	45	70	-1 // Bahamut
+45	7	30	19	125	-1 // Bahamut
+45	7	30	49	8	-1 // Bahamut
+45	7	30	46	20	-1 // Bahamut
+45	7	30	39	35	-1 // Bahamut
+45	7	30	37	50	-1 // Bahamut
+45	7	30	20	75	-1 // Bahamut
+45	7	30	63	44	-1 // Bahamut
+45	7	30	68	52	-1 // Bahamut
+45	7	30	49	64	-1 // Bahamut
+45	7	30	29	52	-1 // Bahamut
+46	7	30	46	21	-1 // Vepar
+46	7	30	48	9	-1 // Vepar
+46	7	30	50	65	-1 // Vepar
+46	7	30	51	70	-1 // Vepar
+46	7	30	80	33	-1 // Vepar
+46	7	30	62	17	-1 // Vepar
+46	7	30	61	11	-1 // Vepar
+46	7	30	69	19	-1 // Vepar
+46	7	30	75	15	-1 // Vepar
+46	7	30	83	15	-1 // Vepar
+46	7	30	84	21	-1 // Vepar
+46	7	30	67	27	-1 // Vepar
+46	7	30	59	34	-1 // Vepar
+46	7	30	86	37	-1 // Vepar
+46	7	30	78	44	-1 // Vepar
+46	7	30	71	52	-1 // Vepar
+46	7	30	65	59	-1 // Vepar
+46	7	30	65	51	-1 // Vepar
+46	7	30	55	44	-1 // Vepar
+46	7	30	40	48	-1 // Vepar
+46	7	30	31	53	-1 // Vepar
+46	7	30	24	90	-1 // Vepar
+46	7	30	21	100	-1 // Vepar
+46	7	30	25	105	-1 // Vepar
+46	7	30	30	110	-1 // Vepar
+46	7	30	21	118	-1 // Vepar
+46	7	30	38	117	-1 // Vepar
+46	7	30	141	11	-1 // Vepar
+46	7	30	127	17	-1 // Vepar
+46	7	30	114	26	-1 // Vepar
+46	7	30	107	18	-1 // Vepar
+46	7	30	104	13	-1 // Vepar
+46	7	30	115	12	-1 // Vepar
+46	7	30	89	62	-1 // Vepar
+46	7	30	75	76	-1 // Vepar
+46	7	30	69	87	-1 // Vepar
+46	7	30	50	93	-1 // Vepar
+46	7	30	23	72	-1 // Vepar
+46	7	30	78	23	-1 // Vepar
+46	7	30	70	38	-1 // Vepar
+46	7	30	55	25	-1 // Vepar
+46	7	30	30	122	-1 // Vepar
+46	7	30	17	126	-1 // Vepar
+46	7	30	122	29	-1 // Vepar
+46	7	30	108	40	-1 // Vepar
+47	7	30	41	109	-1 // Valkyrie
+47	7	30	49	100	-1 // Valkyrie
+47	7	30	54	89	-1 // Valkyrie
+47	7	30	62	87	-1 // Valkyrie
+47	7	30	71	82	-1 // Valkyrie
+47	7	30	79	70	-1 // Valkyrie
+47	7	30	85	64	-1 // Valkyrie
+47	7	30	94	60	-1 // Valkyrie
+47	7	30	101	50	-1 // Valkyrie
+47	7	30	106	48	-1 // Valkyrie
+47	7	30	112	45	-1 // Valkyrie
+47	7	30	109	38	-1 // Valkyrie
+47	7	30	118	37	-1 // Valkyrie
+47	7	30	122	29	-1 // Valkyrie
+47	7	30	119	20	-1 // Valkyrie
+47	7	30	124	14	-1 // Valkyrie
+47	7	30	133	14	-1 // Valkyrie
+47	7	30	150	14	-1 // Valkyrie
+47	7	30	161	11	-1 // Valkyrie
+47	7	30	166	16	-1 // Valkyrie
+47	7	30	171	18	-1 // Valkyrie
+47	7	30	182	14	-1 // Valkyrie
+47	7	30	190	24	-1 // Valkyrie
+47	7	30	196	27	-1 // Valkyrie
+47	7	30	200	17	-1 // Valkyrie
+47	7	30	208	9	-1 // Valkyrie
+47	7	30	218	47	-1 // Valkyrie
+47	7	30	222	14	-1 // Valkyrie
+47	7	30	117	74	-1 // Valkyrie
+47	7	30	139	61	-1 // Valkyrie
+47	7	30	152	61	-1 // Valkyrie
+47	7	30	172	55	-1 // Valkyrie
+47	7	30	189	56	-1 // Valkyrie
+47	7	30	226	46	-1 // Valkyrie
+47	7	30	240	11	-1 // Valkyrie
+47	7	30	227	16	-1 // Valkyrie
+47	7	30	152	22	-1 // Valkyrie
+47	7	30	142	15	-1 // Valkyrie
+47	7	30	128	22	-1 // Valkyrie
+47	7	30	116	9	-1 // Valkyrie
+47	7	30	113	27	-1 // Valkyrie
+47	7	30	33	108	-1 // Valkyrie
+47	7	30	35	118	-1 // Valkyrie
+51	7	30	228	16	-1 // Great Bahamut
+51	7	30	237	17	-1 // Great Bahamut
+51	7	30	237	26	-1 // Great Bahamut
+51	7	30	238	40	-1 // Great Bahamut
+51	7	30	235	48	-1 // Great Bahamut
+51	7	30	251	51	-1 // Great Bahamut
+51	7	30	206	55	-1 // Great Bahamut
+51	7	30	200	49	-1 // Great Bahamut
+51	7	30	193	52	-1 // Great Bahamut
+51	7	30	184	52	-1 // Great Bahamut
+51	7	30	178	58	-1 // Great Bahamut
+51	7	30	170	61	-1 // Great Bahamut
+51	7	30	156	59	-1 // Great Bahamut
+51	7	30	144	63	-1 // Great Bahamut
+51	7	30	133	61	-1 // Great Bahamut
+51	7	30	133	70	-1 // Great Bahamut
+51	7	30	125	78	-1 // Great Bahamut
+51	7	30	118	85	-1 // Great Bahamut
+51	7	30	124	90	-1 // Great Bahamut
+51	7	30	116	98	-1 // Great Bahamut
+51	7	30	106	101	-1 // Great Bahamut
+51	7	30	99	108	-1 // Great Bahamut
+51	7	30	91	115	-1 // Great Bahamut
+51	7	30	81	123	-1 // Great Bahamut
+51	7	30	126	167	-1 // Great Bahamut
+51	7	30	111	174	-1 // Great Bahamut
+51	7	30	90	177	-1 // Great Bahamut
+51	7	30	76	180	-1 // Great Bahamut
+51	7	30	62	178	-1 // Great Bahamut
+51	7	30	42	178	-1 // Great Bahamut
+51	7	30	27	161	-1 // Great Bahamut
+51	7	30	42	152	-1 // Great Bahamut
+51	7	30	19	159	-1 // Great Bahamut
+51	7	30	62	140	-1 // Great Bahamut
+51	7	30	70	133	-1 // Great Bahamut
+51	7	30	168	54	-1 // Great Bahamut
+51	7	30	7	52	-1 // Great Bahamut
+51	7	30	225	45	-1 // Great Bahamut
+51	7	30	207	9	-1 // Great Bahamut
+51	7	30	154	69	-1 // Great Bahamut
+51	7	30	111	82	-1 // Great Bahamut
+51	7	30	81	116	-1 // Great Bahamut
+51	7	30	72	125	-1 // Great Bahamut
+51	7	30	122	66	-1 // Great Bahamut
+51	7	30	219	56	-1 // Great Bahamut
+51	7	30	215	65	-1 // Great Bahamut
+51	7	30	232	55	-1 // Great Bahamut
+51	7	30	231	64	-1 // Great Bahamut
+51	7	30	238	71	-1 // Great Bahamut
+51	7	30	229	74	-1 // Great Bahamut
+51	7	30	217	75	-1 // Great Bahamut
+51	7	30	225	81	-1 // Great Bahamut
+51	7	30	215	86	-1 // Great Bahamut
+51	7	30	65	187	-1 // Great Bahamut
+51	7	30	64	159	-1 // Great Bahamut
+51	7	30	186	99	-1 // Great Bahamut
+51	7	30	83	155	-1 // Great Bahamut
+51	7	30	136	129	-1 // Great Bahamut
+51	7	30	185	90	-1 // Great Bahamut
+51	7	30	147	114	-1 // Great Bahamut
+51	7	30	84	170	-1 // Great Bahamut
+51	7	30	223	89	-1 // Great Bahamut
+51	7	30	212	96	-1 // Great Bahamut
+51	7	30	218	101	-1 // Great Bahamut
+51	7	30	232	95	-1 // Great Bahamut
+51	7	30	225	117	-1 // Great Bahamut
+52	7	30	200	103	-1 // Silver Valyrie
+52	7	30	192	101	-1 // Silver Valyrie
+52	7	30	179	92	-1 // Silver Valyrie
+52	7	30	187	94	-1 // Silver Valyrie
+52	7	30	177	101	-1 // Silver Valyrie
+52	7	30	166	117	-1 // Silver Valyrie
+52	7	30	159	112	-1 // Silver Valyrie
+52	7	30	156	122	-1 // Silver Valyrie
+52	7	30	173	109	-1 // Silver Valyrie
+52	7	30	167	107	-1 // Silver Valyrie
+52	7	30	150	120	-1 // Silver Valyrie
+52	7	30	142	125	-1 // Silver Valyrie
+52	7	30	129	130	-1 // Silver Valyrie
+52	7	30	117	130	-1 // Silver Valyrie
+52	7	30	121	135	-1 // Silver Valyrie
+52	7	30	144	109	-1 // Silver Valyrie
+52	7	30	122	144	-1 // Silver Valyrie
+52	7	30	112	137	-1 // Silver Valyrie
+52	7	30	101	147	-1 // Silver Valyrie
+52	7	30	97	142	-1 // Silver Valyrie
+52	7	30	144	132	-1 // Silver Valyrie
+52	7	30	93	136	-1 // Silver Valyrie
+52	7	30	90	148	-1 // Silver Valyrie
+52	7	30	124	125	-1 // Silver Valyrie
+52	7	30	87	132	-1 // Silver Valyrie
+52	7	30	86	140	-1 // Silver Valyrie
+52	7	30	78	145	-1 // Silver Valyrie
+52	7	30	79	136	-1 // Silver Valyrie
+52	7	30	67	147	-1 // Silver Valyrie
+52	7	30	71	140	-1 // Silver Valyrie
+52	7	30	105	137	-1 // Silver Valyrie
+52	7	30	81	164	-1 // Silver Valyrie
+52	7	30	70	168	-1 // Silver Valyrie
+52	7	30	223	70	-1 // Silver Valyrie
+52	7	30	211	59	-1 // Silver Valyrie
+52	7	30	232	86	-1 // Silver Valyrie
+52	7	30	208	104	-1 // Silver Valyrie
+52	7	30	235	106	-1 // Silver Valyrie
+52	7	30	224	142	-1 // Silver Valyrie
+52	7	30	224	108	-1 // Silver Valyrie
+52	7	30	208	183	-1 // Silver Valyrie
+52	7	30	215	174	-1 // Silver Valyrie
+52	7	30	230	181	-1 // Silver Valyrie
+52	7	30	226	161	-1 // Silver Valyrie
+52	7	30	208	198	-1 // Silver Valyrie
+52	7	30	76	174	-1 // Silver Valyrie
+52	7	30	85	185	-1 // Silver Valyrie
+52	7	30	156	156	-1 // Silver Valyrie
+52	7	30	162	149	-1 // Silver Valyrie
+52	7	30	152	169	-1 // Silver Valyrie
+52	7	30	72	128	-1 // Silver Valyrie
+52	7	30	70	138	-1 // Silver Valyrie
+52	7	30	61	147	-1 // Silver Valyrie
+52	7	30	49	158	-1 // Silver Valyrie
+52	7	30	33	169	-1 // Silver Valyrie
+52	7	30	22	173	-1 // Silver Valyrie
+52	7	30	55	181	-1 // Silver Valyrie
+52	7	30	67	186	-1 // Silver Valyrie
+52	7	30	73	180	-1 // Silver Valyrie
+52	7	30	89	184	-1 // Silver Valyrie
+52	7	30	101	183	-1 // Silver Valyrie
+52	7	30	111	183	-1 // Silver Valyrie
+52	7	30	122	178	-1 // Silver Valyrie
+52	7	30	129	171	-1 // Silver Valyrie
+52	7	30	138	167	-1 // Silver Valyrie
+52	7	30	147	164	-1 // Silver Valyrie
+52	7	30	170	145	-1 // Silver Valyrie
+52	7	30	163	138	-1 // Silver Valyrie
+52	7	30	53	220	-1 // Silver Valyrie
+52	7	30	41	222	-1 // Silver Valyrie
+52	7	30	29	231	-1 // Silver Valyrie
+52	7	30	22	232	-1 // Silver Valyrie
+52	7	30	27	209	-1 // Silver Valyrie
+52	7	30	36	205	-1 // Silver Valyrie
+52	7	30	109	211	-1 // Silver Valyrie
+52	7	30	131	207	-1 // Silver Valyrie
+52	7	30	155	196	-1 // Silver Valyrie
+52	7	30	167	154	-1 // Silver Valyrie
+52	7	30	177	19	-1 // Silver Valyrie
+52	7	30	118	167	-1 // Silver Valyrie
+52	7	30	111	175	-1 // Silver Valyrie
+52	7	30	63	178	-1 // Silver Valyrie
+52	7	30	162	141	-1 // Silver Valyrie
+52	7	30	138	176	-1 // Silver Valyrie
+52	7	30	87	175	-1 // Silver Valyrie
+48	7	30	219	124	-1 // Lizard King
+48	7	30	227	123	-1 // Lizard King
+48	7	30	66	222	-1 // Lizard King
+48	7	30	63	218	-1 // Lizard King
+48	7	30	57	225	-1 // Lizard King
+48	7	30	171	162	-1 // Lizard King
+48	7	30	175	169	-1 // Lizard King
+48	7	30	178	174	-1 // Lizard King
+48	7	30	236	177	-1 // Lizard King
+48	7	30	173	179	-1 // Lizard King
+48	7	30	171	187	-1 // Lizard King
+48	7	30	165	193	-1 // Lizard King
+48	7	30	159	198	-1 // Lizard King
+48	7	30	152	201	-1 // Lizard King
+48	7	30	144	201	-1 // Lizard King
+48	7	30	137	205	-1 // Lizard King
+48	7	30	124	206	-1 // Lizard King
+48	7	30	115	210	-1 // Lizard King
+48	7	30	104	211	-1 // Lizard King
+48	7	30	94	210	-1 // Lizard King
+48	7	30	87	214	-1 // Lizard King
+48	7	30	76	215	-1 // Lizard King
+48	7	30	47	224	-1 // Lizard King
+48	7	30	46	217	-1 // Lizard King
+48	7	30	29	226	-1 // Lizard King
+48	7	30	22	213	-1 // Lizard King
+48	7	30	24	204	-1 // Lizard King
+48	7	30	34	200	-1 // Lizard King
+48	7	30	35	209	-1 // Lizard King
+48	7	30	40	210	-1 // Lizard King
+48	7	30	45	205	-1 // Lizard King
+48	7	30	47	211	-1 // Lizard King
+48	7	30	37	232	-1 // Lizard King
+48	7	30	226	52	-1 // Lizard King
+48	7	30	22	230	-1 // Lizard King
+48	7	30	41	224	-1 // Lizard King
+48	7	30	82	215	-1 // Lizard King
+48	7	30	167	156	-1 // Lizard King
+48	7	30	177	146	-1 // Lizard King
+48	7	30	219	133	-1 // Lizard King
+48	7	30	226	134	-1 // Lizard King
+48	7	30	226	154	-1 // Lizard King
+48	7	30	221	150	-1 // Lizard King
+48	7	30	220	168	-1 // Lizard King
+48	7	30	232	166	-1 // Lizard King
+48	7	30	231	176	-1 // Lizard King
+48	7	30	217	197	-1 // Lizard King
+48	7	30	215	182	-1 // Lizard King
+48	7	30	222	190	-1 // Lizard King
+48	7	30	229	190	-1 // Lizard King
+48	7	30	232	206	-1 // Lizard King
+48	7	30	231	196	-1 // Lizard King
+48	7	30	223	202	-1 // Lizard King
+48	7	30	224	184	-1 // Lizard King
+48	7	30	230	171	-1 // Lizard King
+48	7	30	221	158	-1 // Lizard King
+48	7	30	233	124	-1 // Lizard King
+48	7	30	232	102	-1 // Lizard King
+48	7	30	15	234	-1 // Lizard King
+48	7	30	20	237	-1 // Lizard King
+48	7	30	34	237	-1 // Lizard King
+48	7	30	47	231	-1 // Lizard King
+48	7	30	54	232	-1 // Lizard King
+48	7	30	20	218	-1 // Lizard King
+48	7	30	34	176	-1 // Lizard King
+49	7	30	211	192	-1 // Hydra
+49	7	30	229	203	-1 // Hydra
+49	7	30	19	230	-1 // Hydra
+49	7	30	24	227	-1 // Hydra
+end
+
+//=========================================================================================						
+//	Tarkan NPC's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0
+257	8	0	156	58	1	//Elf Soldier
+257	8	0	205	94	3	//Elf Soldier
+253	8	0	191	74	1	//Potion Girl
+240	8	0	197	59	3	//Storage Guard
+end
+
+//=========================================================================================						
+//	Tarkan Spots's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+1
+58	8	5	105	147	93	150	-1	20	//Tantallos	
+end
+
+//=========================================================================================						
+//	Tarkan Monster's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+2
+57	8	30	81	63	-1 // Iron Wheel
+57	8	30	70	57	-1 // Iron Wheel
+57	8	30	65	64	-1 // Iron Wheel
+57	8	30	64	71	-1 // Iron Wheel
+57	8	30	56	75	-1 // Iron Wheel
+57	8	30	46	71	-1 // Iron Wheel
+57	8	30	38	71	-1 // Iron Wheel
+57	8	30	123	73	-1 // Iron Wheel
+57	8	30	35	62	-1 // Iron Wheel
+57	8	30	27	75	-1 // Iron Wheel
+57	8	30	34	78	-1 // Iron Wheel
+57	8	30	25	83	-1 // Iron Wheel
+57	8	30	21	92	-1 // Iron Wheel
+57	8	30	38	98	-1 // Iron Wheel
+57	8	30	48	99	-1 // Iron Wheel
+57	8	30	55	100	-1 // Iron Wheel
+57	8	30	62	91	-1 // Iron Wheel
+57	8	30	70	92	-1 // Iron Wheel
+57	8	30	114	78	-1 // Iron Wheel
+57	8	30	79	89	-1 // Iron Wheel
+57	8	30	85	91	-1 // Iron Wheel
+57	8	30	89	71	-1 // Iron Wheel
+57	8	30	90	50	-1 // Iron Wheel
+58	8	30	69	120	-1 // Tantallos
+58	8	30	61	121	-1 // Tantallos
+58	8	30	38	87	-1 // Tantallos
+58	8	30	54	120	-1 // Tantallos
+58	8	30	43	121	-1 // Tantallos
+58	8	30	35	121	-1 // Tantallos
+58	8	30	24	120	-1 // Tantallos
+58	8	30	18	127	-1 // Tantallos
+58	8	30	25	127	-1 // Tantallos
+58	8	30	32	132	-1 // Tantallos
+58	8	30	29	98	-1 // Tantallos
+58	8	30	42	134	-1 // Tantallos
+58	8	30	35	141	-1 // Tantallos
+58	8	30	26	149	-1 // Tantallos
+58	8	30	26	160	-1 // Tantallos
+58	8	30	33	157	-1 // Tantallos
+58	8	30	40	150	-1 // Tantallos
+58	8	30	52	138	-1 // Tantallos
+58	8	30	8	219	-1 // Tantallos
+58	8	30	18	238	-1 // Tantallos
+58	8	30	61	134	-1 // Tantallos
+58	8	30	75	133	-1 // Tantallos
+58	8	30	81	126	-1 // Tantallos
+58	8	30	87	120	-1 // Tantallos
+58	8	30	77	118	-1 // Tantallos
+58	8	30	96	123	-1 // Tantallos
+58	8	30	107	119	-1 // Tantallos
+58	8	30	112	124	-1 // Tantallos
+58	8	30	119	139	-1 // Tantallos
+58	8	30	107	139	-1 // Tantallos
+58	8	30	22	244	-1 // Tantallos
+58	8	30	52	204	-1 // Tantallos
+58	8	30	165	219	-1 // Tantallos
+58	8	30	105	130	-1 // Tantallos
+58	8	30	107	149	-1 // Tantallos
+58	8	30	86	131	-1 // Tantallos
+58	8	30	76	145	-1 // Tantallos
+58	8	30	69	139	-1 // Tantallos
+58	8	30	60	143	-1 // Tantallos
+58	8	30	52	157	-1 // Tantallos
+58	8	30	52	165	-1 // Tantallos
+58	8	30	45	175	-1 // Tantallos
+58	8	30	24	212	-1 // Tantallos
+58	8	30	27	229	-1 // Tantallos
+58	8	30	36	225	-1 // Tantallos
+58	8	30	42	244	-1 // Tantallos
+58	8	30	33	168	-1 // Tantallos
+58	8	30	35	175	-1 // Tantallos
+58	8	30	42	164	-1 // Tantallos
+58	8	30	64	164	-1 // Tantallos
+58	8	30	79	156	-1 // Tantallos
+58	8	30	93	137	-1 // Tantallos
+58	8	30	115	154	-1 // Tantallos
+58	8	30	124	152	-1 // Tantallos
+58	8	30	129	141	-1 // Tantallos
+58	8	30	125	129	-1 // Tantallos
+58	8	30	124	161	-1 // Tantallos
+58	8	30	115	168	-1 // Tantallos
+58	8	30	120	177	-1 // Tantallos
+58	8	30	98	193	-1 // Tantallos
+58	8	30	71	184	-1 // Tantallos
+58	8	30	176	214	-1 // Tantallos
+58	8	30	160	203	-1 // Tantallos
+59	8	30	11	241	-1 // Zaikan
+60	8	30	134	72	-1 // Bloody Wolf
+60	8	30	128	74	-1 // Bloody Wolf
+60	8	30	148	66	-1 // Bloody Wolf
+60	8	30	181	123	-1 // Bloody Wolf
+60	8	30	115	86	-1 // Bloody Wolf
+60	8	30	121	87	-1 // Bloody Wolf
+60	8	30	128	98	-1 // Bloody Wolf
+60	8	30	121	99	-1 // Bloody Wolf
+60	8	30	108	95	-1 // Bloody Wolf
+60	8	30	104	87	-1 // Bloody Wolf
+60	8	30	107	80	-1 // Bloody Wolf
+60	8	30	109	64	-1 // Bloody Wolf
+60	8	30	108	55	-1 // Bloody Wolf
+60	8	30	118	42	-1 // Bloody Wolf
+60	8	30	126	42	-1 // Bloody Wolf
+60	8	30	133	44	-1 // Bloody Wolf
+60	8	30	125	26	-1 // Bloody Wolf
+60	8	30	113	34	-1 // Bloody Wolf
+60	8	30	105	33	-1 // Bloody Wolf
+60	8	30	108	43	-1 // Bloody Wolf
+60	8	30	103	49	-1 // Bloody Wolf
+60	8	30	97	46	-1 // Bloody Wolf
+60	8	30	88	41	-1 // Bloody Wolf
+60	8	30	95	26	-1 // Bloody Wolf
+60	8	30	96	36	-1 // Bloody Wolf
+60	8	30	96	56	-1 // Bloody Wolf
+60	8	30	102	61	-1 // Bloody Wolf
+60	8	30	104	70	-1 // Bloody Wolf
+60	8	30	96	78	-1 // Bloody Wolf
+60	8	30	97	66	-1 // Bloody Wolf
+60	8	30	74	81	-1 // Bloody Wolf
+60	8	30	91	86	-1 // Bloody Wolf
+61	8	30	7	205	-1 // Vim Knight
+61	8	30	5	214	-1 // Vim Knight
+61	8	30	72	167	-1 // Vim Knight
+61	8	30	83	176	-1 // Vim Knight
+61	8	30	63	173	-1 // Vim Knight
+61	8	30	11	234	-1 // Vim Knight
+61	8	30	6	228	-1 // Vim Knight
+61	8	30	127	171	-1 // Vim Knight
+61	8	30	127	188	-1 // Vim Knight
+61	8	30	131	178	-1 // Vim Knight
+61	8	30	73	125	-1 // Vim Knight
+61	8	30	121	196	-1 // Vim Knight
+61	8	30	123	208	-1 // Vim Knight
+61	8	30	121	217	-1 // Vim Knight
+61	8	30	106	225	-1 // Vim Knight
+61	8	30	109	217	-1 // Vim Knight
+61	8	30	102	212	-1 // Vim Knight
+61	8	30	98	207	-1 // Vim Knight
+61	8	30	88	208	-1 // Vim Knight
+61	8	30	80	207	-1 // Vim Knight
+61	8	30	78	198	-1 // Vim Knight
+61	8	30	88	189	-1 // Vim Knight
+61	8	30	83	185	-1 // Vim Knight
+61	8	30	73	179	-1 // Vim Knight
+61	8	30	161	188	-1 // Vim Knight
+61	8	30	114	209	-1 // Vim Knight
+61	8	30	153	187	-1 // Vim Knight
+61	8	30	166	190	-1 // Vim Knight
+61	8	30	159	195	-1 // Vim Knight
+61	8	30	172	195	-1 // Vim Knight
+61	8	30	179	194	-1 // Vim Knight
+61	8	30	183	201	-1 // Vim Knight
+61	8	30	177	207	-1 // Vim Knight
+61	8	30	173	221	-1 // Vim Knight
+61	8	30	161	218	-1 // Vim Knight
+61	8	30	157	214	-1 // Vim Knight
+61	8	30	153	209	-1 // Vim Knight
+61	8	30	150	203	-1 // Vim Knight
+61	8	30	167	225	-1 // Vim Knight
+61	8	30	93	150	-1 // Vim Knight
+61	8	30	169	204	-1 // Vim Knight
+61	8	30	44	213	-1 // Vim Knight
+61	8	30	39	210	-1 // Vim Knight
+61	8	30	31	207	-1 // Vim Knight
+61	8	30	31	236	-1 // Vim Knight
+61	8	30	29	245	-1 // Vim Knight
+61	8	30	50	241	-1 // Vim Knight
+61	8	30	50	230	-1 // Vim Knight
+61	8	30	43	222	-1 // Vim Knight
+61	8	30	29	220	-1 // Vim Knight
+61	8	30	15	218	-1 // Vim Knight
+61	8	30	19	205	-1 // Vim Knight
+61	8	30	11	246	-1 // Vim Knight
+61	8	30	6	240	-1 // Vim Knight
+61	8	30	157	224	-1 // Vim Knight
+61	8	30	85	141	-1 // Vim Knight
+62	8	30	146	53	-1 // Mutant
+62	8	30	148	43	-1 // Mutant
+62	8	30	155	40	-1 // Mutant
+62	8	30	134	57	-1 // Mutant
+62	8	30	151	34	-1 // Mutant
+62	8	30	149	28	-1 // Mutant
+62	8	30	141	74	-1 // Mutant
+62	8	30	142	68	-1 // Mutant
+62	8	30	141	24	-1 // Mutant
+62	8	30	137	20	-1 // Mutant
+62	8	30	132	15	-1 // Mutant
+62	8	30	134	82	-1 // Mutant
+62	8	30	135	89	-1 // Mutant
+62	8	30	136	96	-1 // Mutant
+62	8	30	148	91	-1 // Mutant
+62	8	30	157	89	-1 // Mutant
+62	8	30	158	80	-1 // Mutant
+62	8	30	154	73	-1 // Mutant
+62	8	30	162	101	-1 // Mutant
+62	8	30	161	110	-1 // Mutant
+62	8	30	171	116	-1 // Mutant
+62	8	30	180	112	-1 // Mutant
+62	8	30	190	112	-1 // Mutant
+62	8	30	197	108	-1 // Mutant
+62	8	30	205	105	-1 // Mutant
+62	8	30	186	120	-1 // Mutant
+62	8	30	173	129	-1 // Mutant
+62	8	30	169	136	-1 // Mutant
+62	8	30	162	141	-1 // Mutant
+62	8	30	159	148	-1 // Mutant
+62	8	30	151	155	-1 // Mutant
+62	8	30	152	147	-1 // Mutant
+62	8	30	152	133	-1 // Mutant
+62	8	30	162	129	-1 // Mutant
+62	8	30	152	125	-1 // Mutant
+62	8	30	152	116	-1 // Mutant
+62	8	30	171	106	-1 // Mutant
+62	8	30	151	101	-1 // Mutant
+62	8	30	142	100	-1 // Mutant
+62	8	30	140	37	-1 // Mutant
+62	8	30	133	65	-1 // Mutant
+63	8	30	161	225	-1 // Death Vim knight
+end
+
+//=========================================================================================						
+//	Icarus Monster's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+2
+69	10	30	21	39	-1	//Alquamos
+69	10	30	44	27	-1	//Alquamos
+69	10	30	12	27	-1	//Alquamos
+69	10	30	13	38	-1	//Alquamos
+69	10	30	48	40	-1	//Alquamos
+69	10	30	28	28	-1	//Alquamos
+69	10	30	66	37	-1	//Alquamos
+69	10	30	80	41	-1	//Alquamos
+69	10	30	40	34	-1	//Alquamos
+69	10	30	31	37	-1	//Alquamos
+69	10	30	18	31	-1	//Alquamos
+70	10	30	66	68	-1	//Queen Rainer
+70	10	30	85	88	-1	//Queen Rainer
+70	10	30	80	76	-1	//Queen Rainer
+70	10	30	60	84	-1	//Queen Rainer
+70	10	30	89	38	-1	//Queen Rainer
+70	10	30	91	59	-1	//Queen Rainer
+71	10	30	88	70	-1	//Mega Crust
+71	10	30	84	47	-1	//Mega Crust
+71	10	30	79	33	-1	//Mega Crust
+71	10	30	58	42	-1	//Mega Crust
+71	10	30	70	43	-1	//Mega Crust
+71	10	30	64	30	-1	//Mega Crust
+71	10	30	53	27	-1	//Mega Crust
+71	10	30	93	47	-1	//Mega Crust
+71	10	30	57	34	-1	//Mega Crust
+71	10	30	71	33	-1	//Mega Crust
+72	10	30	41	113	-1	//Phantom Knight
+72	10	30	42	135	-1	//Phantom Knight
+72	10	30	51	126	-1	//Phantom Knight
+72	10	30	53	138	-1	//Phantom Knight
+72	10	30	44	148	-1	//Phantom Knight
+72	10	30	33	119	-1	//Phantom Knight
+72	10	30	41	157	-1	//Phantom Knight
+72	10	30	42	122	-1	//Phantom Knight
+72	10	30	53	150	-1	//Phantom Knight
+72	10	30	38	216	-1	//Phantom Knight
+72	10	30	44	221	-1	//Phantom Knight
+72	10	30	36	226	-1	//Phantom Knight
+73	10	30	55	73	-1	//Drakan
+73	10	30	70	78	-1	//Drakan
+73	10	30	45	72	-1	//Drakan
+73	10	30	35	69	-1	//Drakan
+73	10	30	26	74	-1	//Drakan
+73	10	30	36	79	-1	//Drakan
+74	10	30	29	104	-1	//Alpha Crust
+74	10	30	38	103	-1	//Alpha Crust
+74	10	30	35	94	-1	//Alpha Crust
+74	10	30	32	87	-1	//Alpha Crust
+74	10	30	39	85	-1	//Alpha Crust
+74	10	30	33	111	-1	//Alpha Crust
+75	10	30	50	162	-1	//Alpha Crust
+75	10	30	52	174	-1	//Alpha Crust
+75	10	30	55	181	-1	//Alpha Crust
+75	10	30	44	212	-1	//Alpha Crust
+75	10	30	47	189	-1	//Alpha Crust
+75	10	30	59	190	-1	//Alpha Crust
+75	10	30	48	200	-1	//Alpha Crust
+75	10	30	57	200	-1	//Alpha Crust
+75	10	30	27	220	-1	//Alpha Crust
+75	10	30	43	238	-1	//Alpha Crust
+75	10	30	25	231	-1	//Alpha Crust
+76	10	30	48	228	-1	//Dark Phoenix Shield
+77	10	30	34	238	-1	//Dark Phoenix
+76	10	30	48	228	-1	//Dark Phoenix Shield
+77	10	30	34	238	-1	//Dark Phoenix
+end
+
+//=========================================================================================						
+//      Aida NPC's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0						
+369	33	0	80	14	3	//Osborne
+370	33	0	86	13	2	//Jeridon
+257	33	0	92	11	1	//Elf Soldier
+end
+
+//=========================================================================================						
+//      Aida Spot's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	X2	Y2	Dir 	Cant  	Name
+1
+308  	33 	5 	187 	34 	188 	35 	-1 	10	//Death Tree
+end
+
+
+//=========================================================================================						
+//      Aida Monster's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+2
+304   	33   	5   	145    	14 	-1 	//Witch Queen
+304   	33   	5   	145    	14 	-1 	//Witch Queen
+304   	33   	5   	145    	14 	-1 	//Witch Queen
+304   	33   	5   	163    	13 	-1 	//Witch Queen
+304   	33   	5   	163    	13 	-1 	//Witch Queen
+304   	33   	5   	163    	13 	-1 	//Witch Queen
+304   	33   	5   	163    	13 	-1 	//Witch Queen
+304   	33   	5   	163    	13 	-1 	//Witch Queen
+304   	33   	5   	173    	16 	-1 	//Witch Queen
+304   	33   	5   	225    	13 	-1 	//Witch Queen
+304   	33   	5   	193    	15 	-1 	//Witch Queen
+304   	33   	5   	222   	139 	-1 	//Witch Queen
+304   	33   	5   	233  	157 	-1 	//Witch Queen
+304   	33   	5   	213   	137 	-1 	//Witch Queen
+304   	33   	5   	158   	166 	-1 	//Witch Queen
+304   	33   	5   	152   	120 	-1 	//Witch Queen
+304   	33   	5   	138   	144 	-1 	//Witch Queen
+305   	33   	5   	185    	14 	-1 	//Blue Golem
+305   	33   	5   	188    	15 	-1 	//Blue Golem
+305   	33   	5   	185    	15 	-1 	//Blue Golem
+305   	33   	5   	112   	142 	-1 	//Blue Golem
+305   	33   	5    	98   	174 	-1 	//Blue Golem
+305   	33   	5    	96   	149 	-1 	//Blue Golem
+305   	33   	5   	116    	45 	-1 	//Blue Golem
+305   	33   	5    	79    	75 	-1 	//Blue Golem
+305   	33   	5   	199   	152 	-1 	//Blue Golem
+305   	33   	5   	173   	123 	-1 	//Blue Golem
+305   	33   	5   	109   	158 	-1 	//Blue Golem
+305   	33   	5   	112   	142 	-1 	//Blue Golem
+305   	33   	5    	98   	174 	-1 	//Blue Golem
+305   	33   	5    	96   	149 	-1 	//Blue Golem
+305   	33   	5   	116    	45 	-1 	//Blue Golem
+305   	33   	5    	79    	75 	-1 	//Blue Golem
+306   	33   	5   	115    	25 	-1 	//Death Rider
+306   	33   	5   	130   	20 	-1 	//Death Rider
+306   	33   	5   	130    	20 	-1 	//Death Rider
+306   	33   	5   	130    	20 	-1 	//Death Rider
+306   	33   	5   	130    	20 	-1 	//Death Rider
+306   	33   	5   	130    	20 	-1 	//Death Rider
+306   	33   	5   	145    	14 	-1 	//Death Rider
+306   	33   	5   	145    	14 	-1 	//Death Rider
+306   	33   	5   	233    	39 	-1 	//Death Rider
+306   	33   	5   	192    	78 	-1 	//Death Rider
+306   	33   	5   	200   	108 	-1 	//Death Rider
+306   	33   	5   	216    	82 	-1 	//Death Rider
+306   	33   	5   	221   	145 	-1 	//Death Rider
+306   	33   	5   	237   	136 	-1 	//Death Rider
+306   	33   	5   	183    	94 	-1 	//Death Rider
+306   	33   	5   	218    	91 	-1 	//Death Rider
+307   	33   	5   	173    	16 	-1 	//Forest Orc
+307   	33   	5	173    	15 	-1 	//Forest Orc
+307   	33   	5   	173    	15 	-1 	//Forest Orc
+307   	33   	5   	173    	17 	-1 	//Forest Orc
+307   	33   	5   	185    	14 	-1 	//Forest Orc
+307   	33   	5   	185    	14 	-1 	//Forest Orc
+307   	33   	5   	227    	94 	-1 	//Forest Orc
+307   	33   	5   	232    	75 	-1 	//Forest Orc
+307   	33   	5   	234    	82 	-1 	//Forest Orc
+307   	33   	5   	233   	119 	-1 	//Forest Orc
+307   	33   	5   	238   	152 	-1 	//Forest Orc
+307   	33   	5   	170   	137 	-1 	//Forest Orc
+308   	33   	5   	101    	11 	-1 	//Death Tree
+308   	33   	5   	102    	11 	-1  	//Death Tree
+308   	33   	5   	103    	11 	-1 	//Death Tree
+308   	33   	5   	104    	11 	-1 	//Death Tree
+308   	33   	5   	105    	11 	-1 	//Death Tree
+308   	33   	5   	115    	15 	-1 	//Death Tree
+308   	33   	5   	115    	15 	-1 	//Death Tree
+308   	33   	5   	115    	15 	-1 	//Death Tree
+308   	33   	5   	115    	15 	-1 	//Death Tree
+308   	33   	5   	139    	9 	-1 	//Death Tree
+308   	33   	5   	126    	26 	-1 	//Death Tree
+308   	33   	5   	192    	16 	-1 	//Death Tree
+308   	33   	5   	182    	27 	-1 	//Death Tree
+308   	33   	5   	167    	57 	-1 	//Death Tree
+308   	33   	5   	161    	24 	-1 	//Death Tree
+308   	33   	5   	151    	39 	-1 	//Death Tree
+308   	33   	5   	210    	33 	-1 	//Death Tree
+308   	33   	5   	169    	84 	-1 	//Death Tree
+309   	33   	5   	119   	101 	-1 	//Hell Maine
+309   	33   	5   	138    	72 	-1 	//Hell Maine
+309   	33   	5   	119   	101 	-1 	//Hell Maine
+309   	33   	5   	138    	72 	-1 	//Hell Maine
+309   	33   	5   	119   	101 	-1 	//Hell Maine
+309   	33   	5   	138    	72 	-1 	//Hell Maine
+309   	33   	5   	119   	101 	-1 	//Hell Maine
+309   	33   	5   	138    	72 	-1 	//Hell Maine
+309   	33   	5   	138    	72 	-1 	//Hell Maine
+end
+
+//=========================================================================================						
+//      Kantru NPC's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0						
+367	38	0	141	191	2	//Gateway Machine
+368   	39      0       77      177 	2       //Elpis
+end
+
+
+//=========================================================================================						
+//      Kantru Monster's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+2
+350	37	30	188	11	-1	//Berserk
+350	37	30	151	11	-1	//Berserk
+350	37	30	154	41	-1	//Berserk
+350	37	30	150	56	-1	//Berserk
+350	37	30	158	57	-1	//Berserk
+350	37	30	165	50	-1	//Berserk
+350	37	30	92	34	-1	//Berserk
+350	37	30	137	47	-1	//Berserk
+350	37	30	85	61	-1	//Berserk
+350	37	30	85	21	-1	//Berserk
+350	37	30	61	31	-1	//Berserk
+350	37	30	71	20	-1	//Berserk
+350	37	30	46	34	-1	//Berserk
+350	37	30	64	97	-1	//Berserk
+350	37	30	66	99	-1	//Berserk
+350	37	30	48	103	-1	//Berserk
+350	37	30	31	87	-1	//Berserk
+350	37	30	50	49	-1	//Berserk
+350	37	30	55	104	-1	//Berserk
+350	37	30	38	51	-1	//Berserk
+350	37	30	56	44	-1	//Berserk
+350	37	30	65	35	-1	//Berserk
+350	37	30	101	68	-1	//Berserk
+350	37	30	122	22	-1	//Berserk
+350	37	30	129	19	-1	//Berserk
+350	37	30	137	26	-1	//Berserk
+350	37	30	117	40	-1	//Berserk
+350	37	30	145	47	-1	//Berserk
+350	37	30	225	141	-1	//Berserk
+350	37	30	157	204	-1	//Berserk
+350	37	30	170	224	-1	//Berserk
+350	37	30	189	211	-1	//Berserk
+351	37	30	188	218	-1	//Sprinter Wolf
+351	37	30	159	232	-1	//Sprinter Wolf
+351	37	30	36	234	-1	//Sprinter Wolf
+351	37	30	42	235	-1	//Sprinter Wolf
+351	37	30	118	232	-1	//Sprinter Wolf
+351	37	30	55	228	-1	//Sprinter Wolf
+351	37	30	75	231	-1	//Sprinter Wolf
+351	37	30	69	238	-1	//Sprinter Wolf
+351	37	30	174	196	-1	//Sprinter Wolf
+351	37	30	94	234	-1	//Sprinter Wolf
+351	37	30	100	240	-1	//Sprinter Wolf
+351	37	30	114	239	-1	//Sprinter Wolf
+351	37	30	135	223	-1	//Sprinter Wolf
+351	37	30	143	239	-1	//Sprinter Wolf
+351	37	30	151	206	-1	//Sprinter Wolf
+351	37	30	155	196	-1	//Sprinter Wolf
+351	37	30	180	225	-1	//Sprinter Wolf
+351	37	30	172	215	-1	//Sprinter Wolf
+351	37	30	42	227	-1	//Sprinter Wolf
+352	37	30	207	187	-1	//Iron Rider
+352	37	30	187	205	-1	//Iron Rider
+352	37	30	172	205	-1	//Iron Rider
+352	37	30	207	195	-1	//Iron Rider
+352	37	30	198	179	-1	//Iron Rider
+352	37	30	180	164	-1	//Iron Rider
+352	37	30	174	170	-1	//Iron Rider
+352	37	30	185	148	-1	//Iron Rider
+352	37	30	165	157	-1	//Iron Rider
+352	37	30	165	165	-1	//Iron Rider
+352	37	30	175	150	-1	//Iron Rider
+352	37	30	214	143	-1	//Iron Rider
+352	37	30	217	145	-1	//Iron Rider
+352	37	30	204	137	-1	//Iron Rider
+352	37	30	195	156	-1	//Iron Rider
+352	37	30	195	148	-1	//Iron Rider
+352	37	30	236	135	-1	//Iron Rider
+352	37	30	223	132	-1	//Iron Rider
+352	37	30	212	125	-1	//Iron Rider
+352	37	30	222	113	-1	//Iron Rider
+353	37	30	217	141	-1	//Satyros
+353	37	30	226	154	-1	//Satyros
+353	37	30	218	164	-1	//Satyros
+353	37	30	213	165	-1	//Satyros
+353	37	30	195	152	-1	//Satyros
+353	37	30	193	181	-1	//Satyros
+353	37	30	166	162	-1	//Satyros
+353	37	30	182	150	-1	//Satyros
+353	37	30	233	123	-1	//Satyros
+353	37	30	234	132	-1	//Satyros
+353	37	30	236	91	-1	//Satyros
+353	37	30	231	96	-1	//Satyros
+353	37	30	234	101	-1	//Satyros
+353	37	30	220	155	-1	//Satyros
+353	37	30	178	168	-1	//Satyros
+353	37	30	225	86	-1	//Satyros
+353	37	30	224	82	-1	//Satyros
+353	37	30	230	82	-1	//Satyros
+353	37	30	229	58	-1	//Satyros
+353	37	30	226	68	-1	//Satyros
+353	37	30	206	38	-1	//Satyros
+353	37	30	213	44	-1	//Satyros
+353	37	30	214	35	-1	//Satyros
+353	37	30	215	37	-1	//Satyros
+353	37	30	224	43	-1	//Satyros
+354	37	30	204	35	-1	//Blade Hunter
+354	37	30	221	47	-1	//Blade Hunter
+354	37	30	207	40	-1	//Blade Hunter
+354	37	30	189	14	-1	//Blade Hunter
+354	37	30	187	7	-1	//Blade Hunter
+354	37	30	175	10	-1	//Blade Hunter
+354	37	30	148	19	-1	//Blade Hunter
+354	37	30	155	18	-1	//Blade Hunter
+354	37	30	164	22	-1	//Blade Hunter
+354	37	30	165	40	-1	//Blade Hunter
+354	37	30	167	43	-1	//Blade Hunter
+354	37	30	152	59	-1	//Blade Hunter
+354	37	30	156	59	-1	//Blade Hunter
+354	37	30	148	51	-1	//Blade Hunter
+354	37	30	134	39	-1	//Blade Hunter
+354	37	30	138	39	-1	//Blade Hunter
+354	37	30	142	41	-1	//Blade Hunter
+354	37	30	120	28	-1	//Blade Hunter
+354	37	30	126	18	-1	//Blade Hunter
+354	37	30	124	25	-1	//Blade Hunter
+354	37	30	116	43	-1	//Blade Hunter
+354	37	30	122	44	-1	//Blade Hunter
+355	37	30	176	41	-1	//Kentauros
+355	37	30	181	15	-1	//Kentauros
+355	37	30	153	15	-1	//Kentauros
+355	37	30	163	33	-1	//Kentauros
+355	37	30	181	27	-1	//Kentauros
+355	37	30	137	42	-1	//Kentauros
+355	37	30	136	51	-1	//Kentauros
+355	37	30	117	26	-1	//Kentauros
+355	37	30	119	55	-1	//Kentauros
+355	37	30	115	65	-1	//Kentauros
+355	37	30	76	53	-1	//Kentauros
+355	37	30	72	62	-1	//Kentauros
+355	37	30	87	71	-1	//Kentauros
+356	37	30	87	36	-1	//Gigantis
+356	37	30	77	28	-1	//Gigantis
+356	37	30	66	21	-1	//Gigantis
+356	37	30	59	40	-1	//Gigantis
+356	37	30	90	39	-1	//Gigantis
+356	37	30	41	37	-1	//Gigantis
+356	37	30	51	32	-1	//Gigantis
+356	37	30	77	19	-1	//Gigantis
+356	37	30	68	28	-1	//Gigantis
+357	37	30	37	59	-1	//Genocider
+357	37	30	45	70	-1	//Genocider
+357	37	30	35	69	-1	//Genocider
+357	37	30	63	101	-1	//Genocider
+357	37	30	35	55	-1	//Genocider
+357	37	30	32	76	-1	//Genocider
+357	37	30	58	104	-1	//Genocider
+357	37	30	58	92	-1	//Genocider
+357	37	30	46	102	-1	//Genocider
+357	37	30	47	54	-1	//Genocider
+357	37	30	44	44	-1	//Genocider
+105	38	30	97	96	8	//Canon Trap
+105	38	30	97	78	8	//Canon Trap
+105	38	30	122	74	8	//Canon Trap
+105	38	30	136	70	8	//Canon Trap
+105	38	30	152	78	8	//Canon Trap
+105	38	30	177	89	8	//Canon Trap
+105	38	30	186	105	8	//Canon Trap
+105	38	30	201	134	8	//Canon Trap
+105	38	30	150	152	8	//Canon Trap
+105	38	30	138	152	8	//Canon Trap
+105	38	30	107	153	8	//Canon Trap
+105	38	30	111	153	8	//Canon Trap
+105	38	30	123	79	8	//Canon Trap
+105	38	30	137	104	8	//Canon Trap
+106	38	30	141	155	8	//Laser Trap
+106	38	30	138	166	8	//Laser Trap
+106	38	30	141	166	8	//Laser Trap
+106	38	30	144	166	8	//Laser Trap
+106	38	30	138	171	8	//Laser Trap
+106	38	30	141	171	8	//Laser Trap
+106	38	30	144	171	8	//Laser Trap
+106	38	30	138	177	8	//Laser Trap
+106	38	30	141	177	8	//Laser Trap
+106	38	30	144	177	8	//Laser Trap
+106	38	30	138	183	8	//Laser Trap
+106	38	30	141	183	8	//Laser Trap
+106	38	30	144	183	8	//Laser Trap
+358	38	30	140	76	-1	//Persona
+358	38	30	97	78	-1	//Persona
+358	38	30	124	69	-1	//Persona
+358	38	30	138	67	-1	//Persona
+358	38	30	183	86	-1	//Persona
+358	38	30	175	104	-1	//Persona
+358	38	30	106	159	-1	//Persona
+358	38	30	111	159	-1	//Persona
+358	38	30	105	133	-1	//Persona
+358	38	30	119	126	-1	//Persona
+358	38	30	135	150	-1	//Persona
+358	38	30	177	129	-1	//Persona
+358	38	30	193	146	-1	//Persona
+358	38	30	195	105	-1	//Persona
+358	38	30	163	82	-1	//Persona
+358	38	30	132	97	-1	//Persona
+358	38	30	158	137	-1	//Persona
+358	38	30	171	141	-1	//Persona
+358	38	30	147	148	-1	//Persona
+358	38	30	152	120	-1	//Persona
+358	38	30	102	78	-1	//Persona
+358	38	30	128	69	-1	//Persona
+358	38	30	156	120	-1	//Persona
+358	38	30	127	135	-1	//Persona
+358	38	30	106	154	-1	//Persona
+358	38	30	111	154	-1	//Persona
+358	38	30	108	148	-1	//Persona
+359	38	30	159	98	-1	//Twin Tail
+359	38	30	100	97	-1	//Twin Tail
+359	38	30	99	85	-1	//Twin Tail
+359	38	30	125	74	-1	//Twin Tail
+359	38	30	113	96	-1	//Twin Tail
+359	38	30	111	79	-1	//Twin Tail
+359	38	30	123	88	-1	//Twin Tail
+359	38	30	139	99	-1	//Twin Tail
+359	38	30	178	92	-1	//Twin Tail
+359	38	30	198	121	-1	//Twin Tail
+359	38	30	197	136	-1	//Twin Tail
+359	38	30	126	98	-1	//Twin Tail
+359	38	30	135	88	-1	//Twin Tail
+359	38	30	117	135	-1	//Twin Tail
+359	38	30	101	139	-1	//Twin Tail
+359	38	30	149	85	-1	//Twin Tail
+359	38	30	153	78	-1	//Twin Tail
+359	38	30	151	160	-1	//Twin Tail
+359	38	30	179	139	-1	//Twin Tail
+359	38	30	187	145	-1	//Twin Tail
+359	38	30	168	94	-1	//Twin Tail
+359	38	30	199	131	-1	//Twin Tail
+359	38	30	195	115	-1	//Twin Tail
+359	38	30	185	97	-1	//Twin Tail
+360	38	30	122	127	-1	//Dreadfear
+360	38	30	110	140	-1	//Dreadfear
+360	38	30	140	162	-1	//Dreadfear
+360	38	30	176	117	-1	//Dreadfear
+360	38	30	162	129	-1	//Dreadfear
+360	38	30	167	129	-1	//Dreadfear
+360	38	30	137	142	-1	//Dreadfear
+360	38	30	150	151	-1	//Dreadfear
+360	38	30	163	148	-1	//Dreadfear
+360	38	30	177	150	-1	//Dreadfear
+360	38	30	152	110	-1	//Dreadfear
+360	38	30	164	112	-1	//Dreadfear
+end
+
+
+//=========================================================================================						
+//      Illusion Temple 1-6 NPC's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0
+380	45	0	169	85	2       //Statue
+381     45      0       140     61 	2       //Sword Guard
+382	45	0	195	116	2	//Illusion Guard
+383	45	0	139	59	2       //Pedestal Spiral
+383     45      0       192     116 	2       //Pedestal
+380	46	0	169	85	2       //Statue
+381     46      0       140     61 	2       //Sword Guard
+382	46	0	195	116	2	//Illusion Guard
+383	46	0	139	59	2       //Pedestal Spiral
+383     46      0       192     116 	2       //Pedestal
+380	47	0	169	85	2       //Statue
+381     47      0       140     61 	2       //Sword Guard
+382	47	0	195	116	2	//Illusion Guard
+383	47	0	139	59	2       //Pedestal Spiral
+383     47      0       192     116 	2       //Pedestal
+380	48	0	169	85	2       //Statue
+381     48      0       140     61 	2       //Sword Guard
+382	48	0	195	116	2	//Illusion Guard
+383	48	0	139	59	2       //Pedestal Spiral
+383     48      0       192     116 	2       //Pedestal
+380	49	0	169	85	2       //Statue
+381     49      0       140     61 	2       //Sword Guard
+382	49	0	195	116	2	//Illusion Guard
+383	49	0	139	59	2       //Pedestal Spiral
+383     49      0       192     116 	2       //Pedestal
+380	50	0	169	85	2       //Statue
+381     50      0       140     61 	2       //Sword Guard
+382	50	0	195	116	2	//Illusion Guard
+383	50	0	139	59	2       //Pedestal Spiral
+383     50      0       192     116 	2       //Pedestal
+end
+
+
+//=========================================================================================						
+//       Elbeland NPC's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0
+415	51	0	44	230	1	//Sivia
+240	51	0	51	229	1	//Baz The Storage Guard
+417	51	0	37	219	1	//Marseille
+253	51	0	34	240	1	//Potion Girl
+416	51	0	37	242	1	//Leah
+240	51	0	42	244	1	//Baz The Storage Guard
+246	51	0	28	237	2	//Zienna The Merchant
+257	51	0	100	218	1	//Elf Soldier
+257	51	0	45	164	1	//Elf Soldier
+385	51	0	19	214	3	//Alchemist
+452	51	0	20	220	3	//Hour Mastering
+453	51	0	49	244	1	//Hour Research
+end
+
+//=========================================================================================						
+//       Elbeland Monster's						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+2
+418	51 	3  	78   	165 	-1	//Bizarre Rabbit
+418     51 	3  	75   	162 	-1	//Bizarre Rabbit
+418     51 	3  	73   	171 	-1 	//Bizarre Rabbit
+418     51 	3  	73   	171 	-1 	//Bizarre Rabbit
+418     51 	3  	111  	216 	-1 	//Bizarre Rabbit
+418     51 	3  	113  	215 	-1 	//Bizarre Rabbit
+418     51 	3  	50   	152 	-1 	//Bizarre Rabbit
+418     51 	3  	51   	151 	-1 	//Bizarre Rabbit
+418     51 	3  	49   	151 	-1 	//Bizarre Rabbit
+418     51 	3  	49   	151 	-1 	//Bizarre Rabbit
+418     51 	3  	112  	214 	-1 	//Bizarre Rabbit
+418     51 	3  	112  	214 	-1 	//Bizarre Rabbit
+419     51 	3  	80   	169 	-1 	//Killer Rabbit
+419     51 	3  	80   	169 	-1 	//Killer Rabbit
+419     51 	3  	80   	169 	-1 	//Killer Rabbit
+419     51 	3  	80   	169 	-1 	//Killer Rabbit
+419     51 	3  	52   	152 	-1 	//Killer Rabbit
+419     51 	3  	48   	150 	-1 	//Killer Rabbit
+419     51 	3  	47   	149 	-1 	//Killer Rabbit
+419     51 	3  	47   	149 	-1 	//Killer Rabbit
+419     51 	3  	112  	213 	-1 	//Killer Rabbit
+419     51 	3  	113  	214 	-1 	//Killer Rabbit
+419     51 	3  	114  	215 	-1 	//Killer Rabbit
+419     51 	3  	113  	214 	-1 	//Killer Rabbit
+420     51 	3  	104  	60 	-1 	//Wolf Man
+420     51 	3  	105  	61 	-1 	//Wolf Man
+420     51 	3  	105  	61 	-1 	//Wolf Man
+420     51 	3  	104  	62 	-1 	//Wolf Man
+421     51 	3  	103  	59 	-1 	//Dirty Butterfly
+421     51 	3  	104  	58 	-1 	//Dirty Butterfly
+421     51 	3  	104  	58 	-1 	//Dirty Butterfly
+421     51 	3  	103  	60 	-1 	//Dirty Butterfly
+422     51 	3  	87  	42 	-1 	//Cursed Lich
+422     51 	3  	86  	41 	-1 	//Cursed Lich
+422     51 	3  	86  	41 	-1 	//Cursed Lich
+422     51 	3  	88  	40 	-1 	//Cursed Lich
+422     51 	3  	86  	43 	-1 	//Cursed Lich
+422     51 	3  	87  	42 	-1 	//Cursed Lich
+422     51 	3  	88  	41 	-1 	//Cursed Lich
+423     51 	3  	193 	144 	-1 	//Totem Golem
+423     51 	3  	192 	145 	-1 	//Totem Golem
+423     51 	3  	193 	146 	-1 	//Totem Golem
+423     51 	3  	193 	143 	-1 	//Totem Golem
+424     51 	3  	194 	144 	-1 	//Savage Beast
+424     51 	3  	195 	145 	-1 	//Savage Beast
+424     51 	3  	177 	174 	-1 	//Savage Beast
+424     51 	3  	177 	173 	-1 	//Savage Beast
+425     51 	3  	178 	172	-1 	//Elite Savage Beast
+425     51 	3  	178 	175 	-1 	//Elite Savage Beast
+425     51 	3  	176 	176	-1 	//Elite Savage Beast
+425     51 	3  	196 	175 	-1 	//Elite Savage Beast
+290	51	3	229	149	-1	//Lizard Warrior
+290	51	3	227	151	-1	//Lizard Warrior
+290	51	3	225	152	-1	//Lizard Warrior
+290	51	3	230	153	-1	//Lizard Warrior
+end
+
+//=========================================================================================						
+//       Blood Castle					
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+4
+131	11	0	14	75	0	//Blood Castle Gate 1
+131	12	0	14	75	0	//Blood Castle Gate 2
+131	13	0	14	75	0	//Blood Castle Gate 3
+131	14	0	14	75	0	//Blood Castle Gate 4
+131	15	0	14	75	0	//Blood Castle Gate 5
+131	16	0	14	75	0	//Blood Castle Gate 6
+131	17	0	15	75	0	//Blood Caslte Gate 7
+131	52	0	14	75	0	//Blood Castle Gate 8
+132	11	0	14	95	0	//Blood Castle Statue of Saint 1
+132	12	0	14	95	0	//Blood Castle Statue of Saint 2
+132	13	0	14	95	0	//Blood Castle Statue of Saint 3
+132	14	0	14	95	0	//Blood Castle Statue of Saint 4
+132	15	0	14	95	0	//Blood Castle Statue of Saint 5
+132	16	0	14	95	0	//Blood Castle Statue of Saint 6
+132	17	0	15	95	0	//Blood Castle Statue of Saint 7
+132	52	0	14	95	0	//Blood Caslte Statue of Saint 8
+232	11	0	10	9	1	//Archangel Blood Castle 1
+232	12	0	10	9	1	//Archangel Blood Castle 2
+232	13	0	10	9	1	//Archangel Blood Castle 3
+232	14	0	10	9	1	//Archangel Blood Castle 4
+232	15	0	10	9	1	//Archangel Blood Castle 5
+232	16	0	10	9	1	//Archangel Blood Castle 6
+232	17	0	10	9	1	//Archangel Blood Caslte 7
+232	52	0	10	9	1	//Archangel Blood Caslte 8
+end
+
+//Blood Castle 1
+//Ident	Map	Radius	X	Y	Strong	Name
+4
+84	11	3	14	34	0	//Orc Warrior
+84	11	3	14	38	0	//Orc Warrior
+84	11	3	13	35	0	//Orc Warrior
+84	11	3	13	28	0	//Orc Warrior
+84	11	3	15	35	0	//Orc Warrior
+84	11	3	14	33	0	//Orc Warrior
+84	11	3	15	41	0	//Orc Warrior
+84	11	3	14	42	0	//Orc Warrior
+84	11	3	15	25	0	//Orc Warrior
+84	11	3	15	23	0	//Orc Warrior
+84	11	3	13	26	0	//Orc Warrior
+84	11	3	13	37	0	//Orc Warrior
+84	11	3	14	40	0	//Orc Warrior
+84	11	3	13	39	0	//Orc Warrior
+84	11	3	14	27	0	//Orc Warrior
+84	11	3	14	24	0	//Orc Warrior
+84	11	3	14	32	0	//Orc Warrior
+84	11	3	15	45	0	//Orc Warrior
+84	11	3	15	31	0	//Orc Warrior
+85	11	3	13	23	0	//Orc Archer
+85	11	3	15	43	0	//Orc Archer
+85	11	3	13	45	0	//Orc Archer
+85	11	3	15	39	0	//Orc Archer
+85	11	3	15	37	0	//Orc Archer
+85	11	3	13	29	0	//Orc Archer
+85	11	3	15	28	0	//Orc Archer
+85	11	3	13	25	0	//Orc Archer
+85	11	3	13	21	0	//Orc Archer
+85	11	3	14	22	0	//Orc Archer
+85	11	3	15	21	0	//Orc Archer
+85	11	3	13	31	0	//Orc Archer
+85	11	3	15	30	0	//Orc Archer
+85	11	3	15	33	0	//Orc Archer
+85	11	3	14	21	0	//Orc Archer
+85	11	3	13	43	0	//Orc Archer
+85	11	3	15	26	0	//Orc Archer
+86	11	3	15	46	0	//Elite Orc
+86	11	3	15	63	0	//Elite Orc
+86	11	3	15	53	0	//Elite Orc
+86	11	3	13	65	0	//Elite Orc
+86	11	3	13	67	0	//Elite Orc
+86	11	3	15	59	0	//Elite Orc
+86	11	3	13	59	0	//Elite Orc
+86	11	3	15	55	0	//Elite Orc
+86	11	3	13	62	0	//Elite Orc
+86	11	3	13	41	0	//Elite Orc
+86	11	3	15	69	0	//Elite Orc
+86	11	3	13	50	0	//Elite Orc
+86	11	3	15	48	0	//Elite Orc
+86	11	3	13	46	0	//Elite Orc
+86	11	3	14	44	0	//Elite Orc
+86	11	3	15	51	0	//Elite Orc
+86	11	3	14	49	0	//Elite Orc
+86	11	3	15	57	0	//Elite Orc
+86	11	3	14	64	0	//Elite Orc
+86	11	3	14	67	0	//Elite Orc
+86	11	3	13	53	0	//Elite Orc
+86	11	3	15	65	0	//Elite Orc
+86	11	3	15	60	0	//Elite Orc
+86	11	3	13	57	0	//Elite Orc
+87	11	3	13	69	0	//Spirit Beast
+87	11	3	14	61	0	//Spirit Beast
+87	11	3	13	55	0	//Spirit Beast
+87	11	3	14	58	0	//Spirit Beast
+87	11	3	14	52	0	//Spirit Beast
+87	11	3	15	50	0	//Spirit Beast
+87	11	3	15	66	0	//Spirit Beast
+87	11	3	14	56	0	//Spirit Beast
+87	11	3	14	70	0	//Spirit Beast
+87	11	3	13	48	0	//Spirit Beast
+87	11	3	13	63	0	//Spirit Beast
+88	11	3	13	78	0	//Spirit Knight
+88	11	3	14	83	0	//Spirit Knight
+88	11	3	14	78	0	//Spirit Knight
+88	11	3	15	78	0	//Spirit Knight
+88	11	3	16	80	0	//Spirit Knight
+88	11	3	15	62	0	//Spirit Knight
+88	11	3	17	83	0	//Spirit Knight
+88	11	3	14	90	0	//Spirit Knight
+88	11	3	11	83	0	//Spirit Knight
+88	11	3	15	94	0	//Spirit Knight
+88	11	3	20	82	0	//Spirit Knight
+88	11	3	20	88	0	//Spirit Knight
+88	11	3	14	54	0	//Spirit Knight
+88	11	3	14	36	0	//Spirit Knight
+88	11	3	15	68	0	//Spirit Knight
+88	11	3	14	47	0	//Spirit Knight
+89	11	3	16	87	0	//Spirit Sorcerer
+89	11	3	12	81	0	//Spirit Sorcerer
+89	11	3	13	88	0	//Spirit Sorcerer
+89	11	3	13	85	0	//Spirit Sorcerer
+89	11	3	19	85	0	//Spirit Sorcerer
+89	11	3	13	93	0	//Spirit Sorcerer
+89	11	3	14	80	0	//Spirit Sorcerer
+89	11	3	18	81	0	//Spirit Sorcerer
+end
+
+//Blood Castle 2
+//Ident	Map	Radius	X	Y	Strong	Name
+4
+90	12	3	14	34	0	//Orc Warrior
+90	12	3	14	38	0	//Orc Warrior
+90	12	3	13	35	0	//Orc Warrior
+90	12	3	13	28	0	//Orc Warrior
+90	12	3	15	35	0	//Orc Warrior
+90	12	3	14	33	0	//Orc Warrior
+90	12	3	15	41	0	//Orc Warrior
+90	12	3	14	42	0	//Orc Warrior
+90	12	3	15	25	0	//Orc Warrior
+90	12	3	15	23	0	//Orc Warrior
+90	12	3	13	26	0	//Orc Warrior
+90	12	3	13	37	0	//Orc Warrior
+90	12	3	14	40	0	//Orc Warrior
+90	12	3	13	39	0	//Orc Warrior
+90	12	3	14	27	0	//Orc Warrior
+90	12	3	14	24	0	//Orc Warrior
+90	12	3	14	32	0	//Orc Warrior
+90	12	3	15	45	0	//Orc Warrior
+90	12	3	15	31	0	//Orc Warrior
+91	12	3	13	23	0	//Orc Archer
+91	12	3	15	43	0	//Orc Archer
+91	12	3	13	45	0	//Orc Archer
+91	12	3	15	39	0	//Orc Archer
+91	12	3	15	37	0	//Orc Archer
+91	12	3	13	29	0	//Orc Archer
+92	12	3	15	28	0	//Orc Archer
+92	12	3	13	25	0	//Orc Archer
+92	12	3	13	21	0	//Orc Archer
+92	12	3	14	22	0	//Orc Archer
+92	12	3	15	21	0	//Orc Archer
+92	12	3	13	31	0	//Orc Archer
+92	12	3	15	30	0	//Orc Archer
+92	12	3	15	33	0	//Orc Archer
+92	12	3	14	21	0	//Orc Archer
+92	12	3	13	43	0	//Orc Archer
+92	12	3	15	26	0	//Orc Archer
+93	12	3	15	46	0	//Elite Orc
+93	12	3	15	63	0	//Elite Orc
+93	12	3	15	53	0	//Elite Orc
+93	12	3	13	65	0	//Elite Orc
+93	12	3	13	67	0	//Elite Orc
+93	12	3	15	59	0	//Elite Orc
+93	12	3	13	59	0	//Elite Orc
+93	12	3	15	55	0	//Elite Orc
+93	12	3	13	62	0	//Elite Orc
+93	12	3	13	41	0	//Elite Orc
+93	12	3	15	69	0	//Elite Orc
+93	12	3	13	50	0	//Elite Orc
+93	12	3	15	48	0	//Elite Orc
+93	12	3	13	46	0	//Elite Orc
+93	12	3	14	44	0	//Elite Orc
+93	12	3	15	51	0	//Elite Orc
+93	12	3	14	49	0	//Elite Orc
+93	12	3	15	57	0	//Elite Orc
+93	12	3	14	64	0	//Elite Orc
+93	12	3	14	67	0	//Elite Orc
+93	12	3	13	53	0	//Elite Orc
+93	12	3	15	65	0	//Elite Orc
+93	12	3	15	60	0	//Elite Orc
+93	12	3	13	57	0	//Elite Orc
+94	12	3	13	69	0	//Spirit Beast
+94	12	3	14	61	0	//Spirit Beast
+94	12	3	13	55	0	//Spirit Beast
+94	12	3	14	58	0	//Spirit Beast
+94	12	3	14	52	0	//Spirit Beast
+94	12	3	15	50	0	//Spirit Beast
+94	12	3	15	66	0	//Spirit Beast
+94	12	3	14	56	0	//Spirit Beast
+94	12	3	14	70	0	//Spirit Beast
+94	12	3	13	48	0	//Spirit Beast
+94	12	3	13	63	0	//Spirit Beast
+95	12	3	13	78	0	//Spirit Knight
+95	12	3	14	83	0	//Spirit Knight
+95	12	3	14	78	0	//Spirit Knight
+95	12	3	15	78	0	//Spirit Knight
+95	12	3	16	80	0	//Spirit Knight
+95	12	3	15	62	0	//Spirit Knight
+95	12	3	17	83	0	//Spirit Knight
+95	12	3	14	90	0	//Spirit Knight
+95	12	3	11	83	0	//Spirit Knight
+95	12	3	15	94	0	//Spirit Knight
+95	12	3	20	82	0	//Spirit Knight
+95	12	3	20	88	0	//Spirit Knight
+95	12	3	14	54	0	//Spirit Knight
+95	12	3	14	36	0	//Spirit Knight
+95	12	3	15	68	0	//Spirit Knight
+95	12	3	14	47	0	//Spirit Knight
+96	12	3	16	87	0	//Spirit Sorcerer
+96	12	3	12	81	0	//Spirit Sorcerer
+96	12	3	13	88	0	//Spirit Sorcerer
+96	12	3	13	85	0	//Spirit Sorcerer
+96	12	3	19	85	0	//Spirit Sorcerer
+96	12	3	13	93	0	//Spirit Sorcerer
+96	12	3	14	80	0	//Spirit Sorcerer
+96	12	3	18	81	0	//Spirit Sorcerer
+end
+
+//Blood Castle 3
+//Ident	Map	Radius	X	Y	Strong	Name
+4
+96	13	3	14	34	2	//Orc Warrior
+96	13	3	14	38	2	//Orc Warrior
+96	13	3	13	35	2	//Orc Warrior
+96	13	3	13	28	2	//Orc Warrior
+96	13	3	15	35	2	//Orc Warrior
+96	13	3	14	33	2	//Orc Warrior
+96	13	3	15	41	2	//Orc Warrior
+96	13	3	14	42	2	//Orc Warrior
+96	13	3	15	25	2	//Orc Warrior
+96	13	3	15	23	2	//Orc Warrior
+96	13	3	13	26	2	//Orc Warrior
+96	13	3	13	37	2	//Orc Warrior
+96	13	3	14	40	2	//Orc Warrior
+96	13	3	13	39	2	//Orc Warrior
+96	13	3	14	27	2	//Orc Warrior
+96	13	3	14	24	2	//Orc Warrior
+96	13	3	14	32	2	//Orc Warrior
+96	13	3	15	45	2	//Orc Warrior
+96	13	3	15	31	2	//Orc Warrior
+97	13	3	13	45	2	//Orc Archer
+97	13	3	13	23	2	//Orc Archer
+97	13	3	15	43	2	//Orc Archer
+97	13	3	15	39	2	//Orc Archer
+97	13	3	15	37	2	//Orc Archer
+97	13	3	13	29	2	//Orc Archer
+97	13	3	15	28	2	//Orc Archer
+97	13	3	13	25	2	//Orc Archer
+97	13	3	13	21	2	//Orc Archer
+97	13	3	14	22	2	//Orc Archer
+97	13	3	15	21	2	//Orc Archer
+97	13	3	13	31	2	//Orc Archer
+97	13	3	15	30	2	//Orc Archer
+97	13	3	15	33	2	//Orc Archer
+97	13	3	14	21	2	//Orc Archer
+97	13	3	13	43	2	//Orc Archer
+97	13	3	15	26	2	//Orc Archer
+98	13	3	15	46	2	//Elite Orc
+98	13	3	15	63	2	//Elite Orc
+98	13	3	15	53	2	//Elite Orc
+98	13	3	13	65	2	//Elite Orc
+98	13	3	13	67	2	//Elite Orc
+98	13	3	15	59	2	//Elite Orc
+98	13	3	13	59	2	//Elite Orc
+98	13	3	15	55	2	//Elite Orc
+98	13	3	13	62	2	//Elite Orc
+98	13	3	13	41	2	//Elite Orc
+98	13	3	15	69	2	//Elite Orc
+98	13	3	13	50	2	//Elite Orc
+98	13	3	15	48	2	//Elite Orc
+98	13	3	13	46	2	//Elite Orc
+98	13	3	14	44	2	//Elite Orc
+98	13	3	15	51	2	//Elite Orc
+98	13	3	14	49	2	//Elite Orc
+98	13	3	15	57	2	//Elite Orc
+98	13	3	14	64	2	//Elite Orc
+98	13	3	14	67	2	//Elite Orc
+98	13	3	13	53	2	//Elite Orc
+98	13	3	15	65	2	//Elite Orc
+98	13	3	15	60	2	//Elite Orc
+98	13	3	13	57	2	//Elite Orc
+99	13	3	13	69	2	//Spirit Beast
+99	13	3	14	61	2	//Spirit Beast
+99	13	3	13	55	2	//Spirit Beast
+99	13	3	14	58	2	//Spirit Beast
+99	13	3	14	52	2	//Spirit Beast
+99	13	3	15	50	2	//Spirit Beast
+99	13	3	15	66	2	//Spirit Beast
+99	13	3	14	56	2	//Spirit Beast
+99	13	3	14	70	2	//Spirit Beast
+99	13	3	13	48	2	//Spirit Beast
+99	13	3	13	63	2	//Spirit Beast
+111	13	3	13	78	2	//Spirit Knight
+111	13	3	14	83	2	//Spirit Knight
+111	13	3	14	78	2	//Spirit Knight
+111	13	3	15	78	2	//Spirit Knight
+111	13	3	16	80	2	//Spirit Knight
+111	13	3	15	62	2	//Spirit Knight
+111	13	3	17	83	2	//Spirit Knight
+111	13	3	14	90	2	//Spirit Knight
+111	13	3	11	83	2	//Spirit Knight
+111	13	3	15	94	2	//Spirit Knight
+111	13	3	20	82	2	//Spirit Knight
+111	13	3	20	88	2	//Spirit Knight
+111	13	3	14	54	2	//Spirit Knight
+111	13	3	14	36	2	//Spirit Knight
+111	13	3	15	68	2	//Spirit Knight
+111	13	3	14	47	2	//Spirit Knight
+112	13	3	16	87	2	//Spirit Sorcerer
+112	13	3	12	81	2	//Spirit Sorcerer
+112	13	3	13	88	2	//Spirit Sorcerer
+112	13	3	13	85	2	//Spirit Sorcerer
+112	13	3	19	85	2	//Spirit Sorcerer
+112	13	3	13	93	2	//Spirit Sorcerer
+112	13	3	14	80	2	//Spirit Sorcerer
+112	13	3	18	81	2	//Spirit Sorcerer
+end
+
+//Blood Castle 4
+//Ident	Map	Radius	X	Y	Strong	Name
+4
+113	14	3	14	34	3	//Orc Warrior
+113	14	3	14	38	3	//Orc Warrior
+113	14	3	13	35	3	//Orc Warrior
+113	14	3	13	28	3	//Orc Warrior
+113	14	3	15	35	3	//Orc Warrior
+113	14	3	14	33	3	//Orc Warrior
+113	14	3	15	41	3	//Orc Warrior
+113	14	3	14	42	3	//Orc Warrior
+113	14	3	15	25	3	//Orc Warrior
+113	14	3	15	23	3	//Orc Warrior
+113	14	3	13	26	3	//Orc Warrior
+113	14	3	13	37	3	//Orc Warrior
+113	14	3	14	40	3	//Orc Warrior
+113	14	3	13	39	3	//Orc Warrior
+113	14	3	14	27	3	//Orc Warrior
+113	14	3	14	24	3	//Orc Warrior
+113	14	3	14	32	3	//Orc Warrior
+113	14	3	15	45	3	//Orc Warrior
+113	14	3	15	31	3	//Orc Warrior
+114	14	3	13	45	3	//Orc Archer
+114	14	3	13	23	3	//Orc Archer
+114	14	3	15	43	3	//Orc Archer
+114	14	3	15	39	3	//Orc Archer
+114	14	3	15	37	3	//Orc Archer
+114	14	3	13	29	3	//Orc Archer
+114	14	3	15	28	3	//Orc Archer
+114	14	3	13	25	3	//Orc Archer
+114	14	3	13	21	3	//Orc Archer
+114	14	3	14	22	3	//Orc Archer
+114	14	3	15	21	3	//Orc Archer
+114	14	3	13	31	3	//Orc Archer
+114	14	3	15	30	3	//Orc Archer
+114	14	3	15	33	3	//Orc Archer
+114	14	3	14	21	3	//Orc Archer
+114	14	3	13	43	3	//Orc Archer
+114	14	3	15	26	3	//Orc Archer
+115	14	3	15	46	3	//Elite Orc
+115	14	3	15	63	3	//Elite Orc
+115	14	3	15	53	3	//Elite Orc
+115	14	3	13	65	3	//Elite Orc
+115	14	3	13	67	3	//Elite Orc
+115	14	3	15	59	3	//Elite Orc
+115	14	3	13	59	3	//Elite Orc
+115	14	3	15	55	3	//Elite Orc
+115	14	3	13	62	3	//Elite Orc
+115	14	3	13	41	3	//Elite Orc
+115	14	3	15	69	3	//Elite Orc
+115	14	3	13	50	3	//Elite Orc
+115	14	3	15	48	3	//Elite Orc
+115	14	3	13	46	3	//Elite Orc
+115	14	3	14	44	3	//Elite Orc
+115	14	3	15	51	3	//Elite Orc
+115	14	3	14	49	3	//Elite Orc
+115	14	3	15	57	3	//Elite Orc
+115	14	3	14	64	3	//Elite Orc
+115	14	3	14	67	3	//Elite Orc
+115	14	3	13	53	3	//Elite Orc
+115	14	3	15	65	3	//Elite Orc
+115	14	3	15	60	3	//Elite Orc
+115	14	3	13	57	3	//Elite Orc
+116	14	3	13	69	3	//Spirit Beast
+116	14	3	14	61	3	//Spirit Beast
+116	14	3	13	55	3	//Spirit Beast
+116	14	3	14	58	3	//Spirit Beast
+116	14	3	14	52	3	//Spirit Beast
+116	14	3	15	50	3	//Spirit Beast
+116	14	3	15	66	3	//Spirit Beast
+116	14	3	14	56	3	//Spirit Beast
+116	14	3	14	70	3	//Spirit Beast
+116	14	3	13	48	3	//Spirit Beast
+116	14	3	13	63	3	//Spirit Beast
+117	14	3	13	78	3	//Spirit Knight
+117	14	3	14	83	3	//Spirit Knight
+117	14	3	14	78	3	//Spirit Knight
+117	14	3	15	78	3	//Spirit Knight
+117	14	3	16	80	3	//Spirit Knight
+117	14	3	15	62	3	//Spirit Knight
+117	14	3	17	83	3	//Spirit Knight
+117	14	3	14	90	3	//Spirit Knight
+117	14	3	11	83	3	//Spirit Knight
+117	14	3	15	94	3	//Spirit Knight
+117	14	3	20	82	3	//Spirit Knight
+117	14	3	20	88	3	//Spirit Knight
+117	14	3	14	54	3	//Spirit Knight
+117	14	3	14	36	3	//Spirit Knight
+117	14	3	15	68	3	//Spirit Knight
+117	14	3	14	47	3	//Spirit Knight
+118	14	3	16	87	3	//Spirit Sorcerer
+118	14	3	12	81	3	//Spirit Sorcerer
+118	14	3	13	88	3	//Spirit Sorcerer
+118	14	3	13	85	3	//Spirit Sorcerer
+118	14	3	19	85	3	//Spirit Sorcerer
+118	14	3	13	93	3	//Spirit Sorcerer
+118	14	3	14	80	3	//Spirit Sorcerer
+118	14	3	18	81	3	//Spirit Sorcerer
+end
+
+//Blood Castle 5
+//Ident	Map	Radius	X	Y	Strong	Name
+4
+119	15	3	14	34	4	//Orc Warrior
+119	15	3	14	38	4	//Orc Warrior
+119	15	3	13	35	4	//Orc Warrior
+119	15	3	13	28	4	//Orc Warrior
+119	15	3	15	35	4	//Orc Warrior
+119	15	3	14	33	4	//Orc Warrior
+119	15	3	15	41	4	//Orc Warrior
+119	15	3	14	42	4	//Orc Warrior
+119	15	3	15	25	4	//Orc Warrior
+119	15	3	15	23	4	//Orc Warrior
+119	15	3	13	26	4	//Orc Warrior
+119	15	3	13	37	4	//Orc Warrior
+119	15	3	14	40	4	//Orc Warrior
+119	15	3	13	39	4	//Orc Warrior
+119	15	3	14	27	4	//Orc Warrior
+119	15	3	14	24	4	//Orc Warrior
+119	15	3	14	32	4	//Orc Warrior
+119	15	3	15	45	4	//Orc Warrior
+119	15	3	15	31	4	//Orc Warrior
+120	15	3	13	45	4	//Orc Archer
+120	15	3	13	23	4	//Orc Archer
+120	15	3	15	43	4	//Orc Archer
+120	15	3	15	37	4	//Orc Archer
+120	15	3	13	29	4	//Orc Archer
+120	15	3	15	28	4	//Orc Archer
+120	15	3	13	25	4	//Orc Archer
+120	15	3	13	21	4	//Orc Archer
+120	15	3	14	22	4	//Orc Archer
+120	15	3	15	21	4	//Orc Archer
+120	15	3	13	31	4	//Orc Archer
+120	15	3	15	30	4	//Orc Archer
+120	15	3	15	33	4	//Orc Archer
+120	15	3	15	39	4	//Orc Archer
+120	15	3	14	21	4	//Orc Archer
+120	15	3	13	43	4	//Orc Archer
+120	15	3	15	26	4	//Orc Archer
+121	15	3	15	46	4	//Elite Orc
+121	15	3	15	63	4	//Elite Orc
+121	15	3	15	53	4	//Elite Orc
+121	15	3	13	65	4	//Elite Orc
+121	15	3	13	67	4	//Elite Orc
+121	15	3	15	59	4	//Elite Orc
+121	15	3	13	59	4	//Elite Orc
+121	15	3	15	55	4	//Elite Orc
+121	15	3	13	62	4	//Elite Orc
+121	15	3	13	41	4	//Elite Orc
+121	15	3	15	69	4	//Elite Orc
+121	15	3	13	50	4	//Elite Orc
+121	15	3	15	48	4	//Elite Orc
+121	15	3	13	46	4	//Elite Orc
+121	15	3	14	44	4	//Elite Orc
+121	15	3	15	51	4	//Elite Orc
+121	15	3	14	49	4	//Elite Orc
+121	15	3	15	57	4	//Elite Orc
+121	15	3	14	64	4	//Elite Orc
+121	15	3	14	67	4	//Elite Orc
+121	15	3	13	53	4	//Elite Orc
+121	15	3	15	65	4	//Elite Orc
+121	15	3	15	60	4	//Elite Orc
+121	15	3	13	57	4	//Elite Orc
+122	15	3	13	69	4	//Spirit Beast
+122	15	3	14	61	4	//Spirit Beast
+122	15	3	13	55	4	//Spirit Beast
+122	15	3	14	58	4	//Spirit Beast
+122	15	3	14	52	4	//Spirit Beast
+122	15	3	15	50	4	//Spirit Beast
+122	15	3	15	66	4	//Spirit Beast
+122	15	3	14	56	4	//Spirit Beast
+122	15	3	14	70	4	//Spirit Beast
+122	15	3	13	48	4	//Spirit Beast
+122	15	3	13	63	4	//Spirit Beast
+123	15	3	13	78	4	//Spirit Knight
+123	15	3	14	83	4	//Spirit Knight
+123	15	3	14	78	4	//Spirit Knight
+123	15	3	15	78	4	//Spirit Knight
+123	15	3	16	80	4	//Spirit Knight
+123	15	3	15	62	4	//Spirit Knight
+123	15	3	17	83	4	//Spirit Knight
+123	15	3	14	90	4	//Spirit Knight
+123	15	3	11	83	4	//Spirit Knight
+123	15	3	15	94	4	//Spirit Knight
+123	15	3	20	82	4	//Spirit Knight
+123	15	3	20	88	4	//Spirit Knight
+123	15	3	14	54	4	//Spirit Knight
+123	15	3	14	36	4	//Spirit Knight
+123	15	3	15	68	4	//Spirit Knight
+123	15	3	14	47	4	//Spirit Knight
+124	15	3	16	87	4	//Spirit Sorcerer
+124	15	3	12	81	4	//Spirit Sorcerer
+124	15	3	13	88	4	//Spirit Sorcerer
+124	15	3	13	85	4	//Spirit Sorcerer
+124	15	3	19	85	4	//Spirit Sorcerer
+124	15	3	13	93	4	//Spirit Sorcerer
+124	15	3	14	80	4	//Spirit Sorcerer
+124	15	3	18	81	4	//Spirit Sorcerer
+end
+
+//Blood Castle 6
+//Ident	Map	Radius	X	Y	Strong	Name
+4
+125	16	3	14	34	5	//Orc Warrior
+125	16	3	14	38	5	//Orc Warrior
+125	16	3	13	35	5	//Orc Warrior
+125	16	3	13	28	5	//Orc Warrior
+125	16	3	15	35	5	//Orc Warrior
+125	16	3	14	33	5	//Orc Warrior
+125	16	3	15	41	5	//Orc Warrior
+125	16	3	14	42	5	//Orc Warrior
+125	16	3	15	25	5	//Orc Warrior
+125	16	3	15	23	5	//Orc Warrior
+125	16	3	13	26	5	//Orc Warrior
+125	16	3	13	37	5	//Orc Warrior
+125	16	3	14	40	5	//Orc Warrior
+125	16	3	13	39	5	//Orc Warrior
+125	16	3	14	27	5	//Orc Warrior
+125	16	3	14	24	5	//Orc Warrior
+125	16	3	14	32	5	//Orc Warrior
+125	16	3	15	45	5	//Orc Warrior
+125	16	3	15	31	5	//Orc Warrior
+126	16	3	13	45	5	//Orc Archer
+126	16	3	13	23	5	//Orc Archer
+126	16	3	15	43	5	//Orc Archer
+126	16	3	15	39	5	//Orc Archer
+126	16	3	15	37	5	//Orc Archer
+126	16	3	13	29	5	//Orc Archer
+126	16	3	15	28	5	//Orc Archer
+126	16	3	13	25	5	//Orc Archer
+126	16	3	13	21	5	//Orc Archer
+126	16	3	14	22	5	//Orc Archer
+126	16	3	15	21	5	//Orc Archer
+126	16	3	13	31	5	//Orc Archer
+126	16	3	15	30	5	//Orc Archer
+126	16	3	15	33	5	//Orc Archer
+126	16	3	14	21	5	//Orc Archer
+126	16	3	13	43	5	//Orc Archer
+126	16	3	15	26	5	//Orc Archer
+127	16	3	15	46	5	//Elite Orc
+127	16	3	15	63	5	//Elite Orc
+127	16	3	15	53	5	//Elite Orc
+127	16	3	13	65	5	//Elite Orc
+127	16	3	13	67	5	//Elite Orc
+127	16	3	15	59	5	//Elite Orc
+127	16	3	13	59	5	//Elite Orc
+127	16	3	15	55	5	//Elite Orc
+127	16	3	13	62	5	//Elite Orc
+127	16	3	13	41	5	//Elite Orc
+127	16	3	15	69	5	//Elite Orc
+127	16	3	13	50	5	//Elite Orc
+127	16	3	15	48	5	//Elite Orc
+127	16	3	13	46	5	//Elite Orc
+127	16	3	14	44	5	//Elite Orc
+127	16	3	15	51	5	//Elite Orc
+127	16	3	14	49	5	//Elite Orc
+127	16	3	15	57	5	//Elite Orc
+127	16	3	14	64	5	//Elite Orc
+127	16	3	14	67	5	//Elite Orc
+127	16	3	13	53	5	//Elite Orc
+127	16	3	15	65	5	//Elite Orc
+127	16	3	15	60	5	//Elite Orc
+127	16	3	13	57	5	//Elite Orc
+128	16	3	13	69	5	//Spirit Beast
+128	16	3	14	61	5	//Spirit Beast
+128	16	3	13	55	5	//Spirit Beast
+128	16	3	14	58	5	//Spirit Beast
+128	16	3	14	52	5	//Spirit Beast
+128	16	3	15	50	5	//Spirit Beast
+128	16	3	15	66	5	//Spirit Beast
+128	16	3	14	56	5	//Spirit Beast
+128	16	3	14	70	5	//Spirit Beast
+128	16	3	13	48	5	//Spirit Beast
+128	16	3	13	63	5	//Spirit Beast
+129	16	3	13	78	5	//Spirit Knight
+129	16	3	14	83	5	//Spirit Knight
+129	16	3	14	78	5	//Spirit Knight
+129	16	3	15	78	5	//Spirit Knight
+129	16	3	16	80	5	//Spirit Knight
+129	16	3	15	62	5	//Spirit Knight
+129	16	3	17	83	5	//Spirit Knight
+129	16	3	14	90	5	//Spirit Knight
+129	16	3	11	83	5	//Spirit Knight
+129	16	3	15	94	5	//Spirit Knight
+129	16	3	20	82	5	//Spirit Knight
+129	16	3	20	88	5	//Spirit Knight
+129	16	3	14	54	5	//Spirit Knight
+129	16	3	14	36	5	//Spirit Knight
+129	16	3	15	68	5	//Spirit Knight
+129	16	3	14	47	5	//Spirit Knight
+130	16	3	16	87	5	//Spirit Sorcerer
+130	16	3	12	81	5	//Spirit Sorcerer
+130	16	3	13	88	5	//Spirit Sorcerer
+130	16	3	13	85	5	//Spirit Sorcerer
+130	16	3	19	85	5	//Spirit Sorcerer
+130	16	3	13	93	5	//Spirit Sorcerer
+130	16	3	14	80	5	//Spirit Sorcerer
+130	16	3	18	81	5	//Spirit Sorcerer
+end
+
+//Blood Castle 7
+//Ident	Map	Radius	X	Y	Strong	Name
+4
+138	17	3	14	34	6 	//Orc Warrior
+138	17	3	13	35	6 	//Orc Warrior
+138	17	3	14	38	6 	//Orc Warrior
+138	17	3	13	28	6 	//Orc Warrior
+138	17	3	15	35	6 	//Orc Warrior
+138	17	3	14	33	6 	//Orc Warrior
+138	17	3	15	41	6 	//Orc Warrior
+138	17	3	14	42	6 	//Orc Warrior
+138	17	3	15	25	6 	//Orc Warrior
+138	17	3	15	23	6 	//Orc Warrior
+138	17	3	13	26	6 	//Orc Warrior
+138	17	3	14	40	6 	//Orc Warrior
+138	17	3	13	39	6 	//Orc Warrior
+138	17	3	15	31	6 	//Orc Warrior
+138	17	3	15	45	6 	//Orc Warrior
+138	17	3	14	27	6 	//Orc Warrior
+138	17	3	14	24	6 	//Orc Warrior
+138	17	3	14	32	6 	//Orc Warrior
+138	17	3	13	37	6 	//Orc Warrior
+139	17	3	13	45	6 	//Orc Archer
+139	17	3	13	23	6 	//Orc Archer
+139	17	3	15	43	6 	//Orc Archer
+139	17	3	15	39	6 	//Orc Archer
+139	17	3	14	21	6 	//Orc Archer
+139	17	3	15	26	6 	//Orc Archer
+139	17	3	13	43	6 	//Orc Archer
+139	17	3	13	29	6 	//Orc Archer
+139	17	3	15	28	6 	//Orc Archer
+139	17	3	13	25	6 	//Orc Archer
+139	17	3	13	21	6 	//Orc Archer
+139	17	3	14	22	6 	//Orc Archer
+139	17	3	15	21	6 	//Orc Archer
+139	17	3	13	31	6 	//Orc Archer
+139	17	3	15	30	6 	//Orc Archer
+139	17	3	15	33	6 	//Orc Archer
+139	17	3	15	37	6 	//Orc Archer
+140	17	3	15	65	6 	//Elite Orc
+140	17	3	15	60	6 	//Elite Orc
+140	17	3	13	57	6 	//Elite Orc
+140	17	3	13	53	6 	//Elite Orc
+140	17	3	15	57	6 	//Elite Orc
+140	17	3	14	64	6 	//Elite Orc
+140	17	3	14	67	6	//Elite Orc
+140	17	3	14	44	6 	//Elite Orc
+140	17	3	15	51	6 	//Elite Orc
+140	17	3	14	49	6 	//Elite Orc
+140	17	3	13	50	6 	//Elite Orc
+140	17	3	15	48	6 	//Elite Orc
+140	17	3	13	46	6 	//Elite Orc
+140	17	3	13	41	6 	//Elite Orc
+140	17	3	15	69	6 	//Elite Orc
+140	17	3	15	63	6 	//Elite Orc
+140	17	3	15	46	6 	//Elite Orc
+140	17	3	15	53	6 	//Elite Orc
+140	17	3	13	65	6 	//Elite Orc
+140	17	3	13	65	6 	//Elite Orc
+140	17	3	13	67	6 	//Elite Orc
+140	17	3	15	59	6 	//Elite Orc
+140	17	3	13	59	6 	//Elite Orc
+140	17	3	15	55	6 	//Elite Orc
+140	17	3	13	62	6 	//Elite Orc
+141	17	3	13	55	6 	//Spirit Beast
+141	17	3	14	58	6 	//Spirit Beast
+141	17	3	13	48	6 	//Spirit Beast
+141	17	3	13	63	6 	//Spirit Beast
+141	17	3	14	70	6 	//Spirit Beast
+141	17	3	14	52	6 	//Spirit Beast
+141	17	3	15	50	6 	//Spirit Beast
+141	17	3	15	66	6 	//Spirit Beast
+141	17	3	14	56	6 	//Spirit Beast
+141	17	3	14	61	6 	//Spirit Beast
+141	17	3	13	69	6 	//Spirit Beast
+142	17	3	20	82	6 	//Spirit Knight
+142	17	3	20	88	6 	//Spirit Knight
+142	17	3	14	54	6 	//Spirit Knight
+142	17	3	14	36	6 	//Spirit Knight
+142	17	3	15	68	6 	//Spirit Knight
+142	17	3	14	47	6 	//Spirit Knight
+142	17	3	17	83	6 	//Spirit Knight
+142	17	3	14	90	6 	//Spirit Knight
+142	17	3	11	83	6 	//Spirit Knight
+142	17	3	15	94	6 	//Spirit Knight
+142	17	3	15	62	6 	//Spirit Knight
+142	17	3	13	78	6 	//Spirit Knight
+142	17	3	14	83	6 	//Spirit Knight
+142	17	3	14	78	6 	//Spirit Knight
+142	17	3	16	80	6 	//Spirit Knight
+142	17	3	15	78	6 	//Spirit Knight
+143	17	3	14	80	6 	//Spirit Sorcerer
+143	17	3	18	81	6 	//Spirit Sorcerer
+143	17	3	13	88	6 	//Spirit Sorcerer
+143	17	3	13	85	6 	//Spirit Sorcerer
+143	17	3	19	85	6 	//Spirit Sorcerer
+143	17	3	13	93	6 	//Spirit Sorcerer
+143	17	3	16	87	6 	//Spirit Sorcerer
+143	17	3	12	81	6 	//Spirit Sorcerer
+end
+
+//Blood Castle 8
+//Ident	Map	Radius	X	Y	Strong	Name	
+4
+428	52	3	14	34	7	//Orc Warrior
+428	52	3	14	38	7	//Orc Warrior
+428	52	3	13	35	7	//Orc Warrior
+428	52	3	13	28	7	//Orc Warrior
+428	52	3	15	35	7	//Orc Warrior
+428	52	3	14	33	7	//Orc Warrior
+428	52	3	15	41	7	//Orc Warrior
+428	52	3	14	42	7	//Orc Warrior
+428	52	3	15	25	7	//Orc Warrior
+428	52	3	15	23	7	//Orc Warrior
+428	52	3	13	26	7	//Orc Warrior
+428	52	3	13	37	7	//Orc Warrior
+428	52	3	14	40	7	//Orc Warrior
+428	52	3	13	39	7	//Orc Warrior
+428	52	3	14	27	7	//Orc Warrior
+428	52	3	14	24	7	//Orc Warrior
+428	52	3	14	32	7	//Orc Warrior
+428	52	3	15	45	7	//Orc Warrior
+428	52	3	15	31	7	//Orc Warrior
+429	52	3	15	26	7	//Orc Archer
+429	52	3	13	45	7	//Orc Archer
+429	52	3	13	23	7	//Orc Archer
+429	52	3	15	43	7	//Orc Archer
+429	52	3	15	39	7	//Orc Archer
+429	52	3	15	37	7	//Orc Archer
+429	52	3	13	29	7	//Orc Archer
+429	52	3	15	28	7	//Orc Archer
+429	52	3	13	25	7	//Orc Archer
+429	52	3	13	21	7	//Orc Archer
+429	52	3	14	22	7	//Orc Archer
+429	52	3	15	21	7	//Orc Archer
+429	52	3	13	31	7	//Orc Archer
+429	52	3	15	30	7	//Orc Archer
+429	52	3	15	33	7	//Orc Archer
+429	52	3	14	21	7	//Orc Archer
+429	52	3	13	43	7	//Orc Archer
+430	52	3	15	46	7	//Spirit Soldier
+430	52	3	15	63	7	//Spirit Soldier
+430	52	3	15	53	7	//Spirit Soldier
+430	52	3	13	65	7	//Spirit Soldier
+430	52	3	13	67	7	//Spirit Soldier
+430	52	3	15	59	7	//Spirit Soldier
+430	52	3	13	59	7	//Spirit Soldier
+430	52	3	15	55	7	//Spirit Soldier
+430	52	3	13	62	7	//Spirit Soldier
+430	52	3	13	41	7	//Spirit Soldier
+430	52	3	15	69	7	//Spirit Soldier
+430	52	3	13	50	7	//Spirit Soldier
+430	52	3	15	48	7	//Spirit Soldier
+430	52	3	13	46	7	//Spirit Soldier
+430	52	3	14	44	7	//Spirit Soldier
+430	52	3	15	51	7	//Spirit Soldier
+430	52	3	14	49	7	//Spirit Soldier
+430	52	3	15	57	7	//Spirit Soldier
+430	52	3	14	64	7	//Spirit Soldier
+430	52	3	14	67	7	//Spirit Soldier
+430	52	3	13	53	7	//Spirit Soldier
+430	52	3	15	65	7	//Spirit Soldier
+430	52	3	15	60	7	//Spirit Soldier
+430	52	3	13	57	7	//Spirit Soldier
+431	52	3	13	69	7	//Spirit Beast
+431	52	3	14	61	7	//Spirit Beast
+431	52	3	13	55	7	//Spirit Beast
+431	52	3	14	58	7	//Spirit Beast
+431	52	3	14	52	7	//Spirit Beast
+431	52	3	15	50	7	//Spirit Beast
+431	52	3	15	66	7	//Spirit Beast
+431	52	3	14	56	7	//Spirit Beast
+431	52	3	14	70	7	//Spirit Beast
+431	52	3	13	63	7	//Spirit Beast
+431	52	3	13	48	7	//Spirit Beast
+432	52	3	13	78	7	//Spirit Knight
+432	52	3	14	83	7	//Spirit Knight
+432	52	3	14	78	7	//Spirit Knight
+432	52	3	15	78	7	//Spirit Knight
+432	52	3	16	80	7	//Spirit Knight
+432	52	3	15	62	7	//Spirit Knight
+432	52	3	52	83	7	//Spirit Knight
+432	52	3	14	90	7	//Spirit Knight
+432	52	3	11	83	7	//Spirit Knight
+432	52	3	15	94	7	//Spirit Knight
+432	52	3	20	82	7	//Spirit Knight
+432	52	3	20	88	7	//Spirit Knight
+432	52	3	14	54	7	//Spirit Knight
+432	52	3	14	36	7	//Spirit Knight
+432	52	3	15	68	7	//Spirit Knight
+432	52	3	14	47	7	//Spirit Knight
+433	52	3	16	87	7	//Spirit Sorcerer
+433	52	3	12	81	7	//Spirit Sorcerer
+433	52	3	13	88	7	//Spirit Sorcerer
+433	52	3	13	85	7	//Spirit Sorcerer
+433	52	3	19	85	7	//Spirit Sorcerer
+433	52	3	13	93	7	//Spirit Sorcerer
+433	52	3	14	80	7	//Spirit Sorcerer
+433	52	3	18	81	7	//Spirit Sorcerer
+end
+
+//=========================================================================================						
+//       Chaos Caslte				
+//=========================================================================================						
+
+//Chaos Caslte 1
+//Ident	Map	Radius	X	Y	Strong	Name
+4
+162	18	30	26	105	0	//Chaos Castle
+163	18	30	26	98	0	//Chaos Castle
+162	18	30	28	90	0	//Chaos Castle
+163	18	30	27	86	0	//Chaos Castle
+162	18	30	28	82	0	//Chaos Castle
+163	18	30	26	79	0	//Chaos Castle
+162	18	30	34	78	0	//Chaos Castle
+163	18	30	33	81	0	//Chaos Castle
+162	18	30	39	78	0	//Chaos Castle
+163	18	30	26	77	0	//Chaos Castle
+162	18	30	38	80	0	//Chaos Castle
+163	18	30	43	77	0	//Chaos Castle
+162	18	30	38	86	0	//Chaos Castle
+163	18	30	43	84	0	//Chaos Castle
+162	18	30	41	82	0	//Chaos Castle
+163	18	30	27	94	0	//Chaos Castle
+162	18	30	32	91	0	//Chaos Castle
+163	18	30	29	84	0	//Chaos Castle
+162	18	30	42	90	0	//Chaos Castle
+163	18	30	44	87	0	//Chaos Castle
+162	18	30	30	78	0	//Chaos Castle
+163	18	30	38	92	0	//Chaos Castle
+162	18	30	40	98	0	//Chaos Castle
+163	18	30	29	101	0	//Chaos Castle
+162	18	30	33	103	0	//Chaos Castle
+163	18	30	38	89	0	//Chaos Castle
+162	18	30	42	105	0	//Chaos Castle
+163	18	30	42	99	0	//Chaos Castle
+162	18	30	35	105	0	//Chaos Castle
+163	18	30	29	93	0	//Chaos Castle
+162	18	30	28	97	0	//Chaos Castle
+163	18	30	26	84	0	//Chaos Castle
+162	18	30	28	79	0	//Chaos Castle
+162	18	30	25	82	0	//Chaos Castle
+163	18	30	29	76	0	//Chaos Castle
+162	18	30	33	76	0	//Chaos Castle
+163	18	30	35	79	0	//Chaos Castle
+162	18	30	31	80	0	//Chaos Castle
+163	18	30	41	79	0	//Chaos Castle
+162	18	30	38	76	0	//Chaos Castle
+163	18	30	36	81	0	//Chaos Castle
+162	18	30	39	82	0	//Chaos Castle
+163	18	30	41	86	0	//Chaos Castle
+162	18	30	42	94	0	//Chaos Castle
+163	18	30	35	92	0	//Chaos Castle
+162	18	30	34	90	0	//Chaos Castle
+163	18	30	38	101	0	//Chaos Castle
+162	18	30	30	105	0	//Chaos Castle
+163	18	30	26	102	0	//Chaos Castle
+162	18	30	28	100	0	//Chaos Castle
+163	18	30	38	106	0	//Chaos Castle
+162	18	30	35	102	0	//Chaos Castle
+163	18	30	42	102	0	//Chaos Castle
+162	18	30	43	96	0	//Chaos Castle
+163	18	30	30	88	0	//Chaos Castle
+162	18	30	25	91	0	//Chaos Castle
+163	18	30	29	91	0	//Chaos Castle
+162	18	30	30	98	0	//Chaos Castle
+163	18	30	41	93	0	//Chaos Castle
+162	18	30	41	89	0	//Chaos Castle
+163	18	30	43	91	0	//Chaos Castle
+162	18	30	39	95	0	//Chaos Castle
+163	18	30	32	101	0	//Chaos Castle
+162	18	30	29	103	0	//Chaos Castle
+163	18	30	33	105	0	//Chaos Castle
+162	18	30	25	97	0	//Chaos Castle
+163	18	30	24	94	0	//Chaos Castle
+162	18	30	27	88	0	//Chaos Castle
+163	18	30	32	94	0	//Chaos Castle
+162	18	30	32	89	0	//Chaos Castle
+163	18	30	36	92	0	//Chaos Castle
+162	18	30	37	89	0	//Chaos Castle
+163	18	30	40	91	0	//Chaos Castle
+162	18	30	38	99	0	//Chaos Castle
+163	18	30	40	101	0	//Chaos Castle
+162	18	30	43	81	0	//Chaos Castle
+163	18	30	36	76	0	//Chaos Castle
+162	18	30	42	75	0	//Chaos Castle
+163	18	30	26	75	0	//Chaos Castle
+162	18	30	24	80	0	//Chaos Castle
+163	18	30	30	82	0	//Chaos Castle
+162	18	30	24	89	0	//Chaos Castle
+163	18	30	24	86	0	//Chaos Castle
+162	18	30	24	101	0	//Chaos Castle
+163	18	30	37	104	0	//Chaos Castle
+162	18	30	41	96	0	//Chaos Castle
+163	18	30	39	87	0	//Chaos Castle
+162	18	30	41	76	0	//Chaos Castle
+163	18	30	38	84	0	//Chaos Castle
+162	18	30	38	96	0	//Chaos Castle
+163	18	30	30	95	0	//Chaos Castle
+162	18	30	32	78	0	//Chaos Castle
+163	18	30	29	86	0	//Chaos Castle
+162	18	30	27	104	0	//Chaos Castle
+163	18	30	40	104	0	//Chaos Castle
+162	18	30	44	102	0	//Chaos Castle
+163	18	30	43	98	0	//Chaos Castle
+162	18	30	39	93	0	//Chaos Castle
+163	18	30	41	84	0	//Chaos Castle
+end
+
+//Chaos Caslte 2
+//Ident	Map	Radius	X	Y	Strong	Name
+4
+164	19	30	26	105	1	//Chaos Castle
+165	19	30	26	98	1	//Chaos Castle
+164	19	30	28	90	1	//Chaos Castle
+165	19	30	27	86	1	//Chaos Castle
+164	19	30	28	82	1	//Chaos Castle
+165	19	30	26	79	1	//Chaos Castle
+164	19	30	34	78	1	//Chaos Castle
+165	19	30	33	81	1	//Chaos Castle
+164	19	30	39	78	1	//Chaos Castle
+165	19	30	26	77	1	//Chaos Castle
+164	19	30	38	80	1	//Chaos Castle
+165	19	30	43	77	1	//Chaos Castle
+164	19	30	38	86	1	//Chaos Castle
+165	19	30	43	84	1	//Chaos Castle
+164	19	30	41	82	1	//Chaos Castle
+165	19	30	27	94	1	//Chaos Castle
+164	19	30	32	91	1	//Chaos Castle
+165	19	30	29	84	1	//Chaos Castle
+164	19	30	42	90	1	//Chaos Castle
+165	19	30	44	87	1	//Chaos Castle
+164	19	30	30	78	1	//Chaos Castle
+165	19	30	38	92	1	//Chaos Castle
+164	19	30	40	98	1	//Chaos Castle
+165	19	30	29	101	1	//Chaos Castle
+164	19	30	33	103	1	//Chaos Castle
+165	19	30	38	89	1	//Chaos Castle
+164	19	30	42	105	1	//Chaos Castle
+165	19	30	42	99	1	//Chaos Castle
+164	19	30	35	105	1	//Chaos Castle
+165	19	30	29	93	1	//Chaos Castle
+164	19	30	28	97	1	//Chaos Castle
+165	19	30	26	84	1	//Chaos Castle
+164	19	30	28	79	1	//Chaos Castle
+164	19	30	25	82	1	//Chaos Castle
+165	19	30	29	76	1	//Chaos Castle
+164	19	30	33	76	1	//Chaos Castle
+165	19	30	35	79	1	//Chaos Castle
+164	19	30	31	80	1	//Chaos Castle
+165	19	30	41	79	1	//Chaos Castle
+164	19	30	38	76	1	//Chaos Castle
+165	19	30	36	81	1	//Chaos Castle
+164	19	30	39	82	1	//Chaos Castle
+165	19	30	41	86	1	//Chaos Castle
+164	19	30	42	94	1	//Chaos Castle
+165	19	30	35	92	1	//Chaos Castle
+164	19	30	34	90	1	//Chaos Castle
+165	19	30	38	101	1	//Chaos Castle
+164	19	30	30	105	1	//Chaos Castle
+165	19	30	26	102	1	//Chaos Castle
+164	19	30	28	100	1	//Chaos Castle
+165	19	30	38	106	1	//Chaos Castle
+164	19	30	35	102	1	//Chaos Castle
+165	19	30	42	102	1	//Chaos Castle
+164	19	30	43	96	1	//Chaos Castle
+165	19	30	30	88	1	//Chaos Castle
+164	19	30	25	91	1	//Chaos Castle
+165	19	30	29	91	1	//Chaos Castle
+164	19	30	30	98	1	//Chaos Castle
+165	19	30	41	93	1	//Chaos Castle
+164	19	30	41	89	1	//Chaos Castle
+165	19	30	43	91	1	//Chaos Castle
+164	19	30	39	95	1	//Chaos Castle
+165	19	30	32	101	1	//Chaos Castle
+164	19	30	29	103	1	//Chaos Castle
+165	19	30	33	105	1	//Chaos Castle
+164	19	30	25	97	1	//Chaos Castle
+165	19	30	24	94	1	//Chaos Castle
+164	19	30	27	88	1	//Chaos Castle
+165	19	30	32	94	1	//Chaos Castle
+164	19	30	32	89	1	//Chaos Castle
+165	19	30	36	92	1	//Chaos Castle
+164	19	30	37	89	1	//Chaos Castle
+165	19	30	40	91	1	//Chaos Castle
+164	19	30	38	99	1	//Chaos Castle
+165	19	30	40	101	1	//Chaos Castle
+164	19	30	43	81	1	//Chaos Castle
+165	19	30	36	76	1	//Chaos Castle
+164	19	30	42	75	1	//Chaos Castle
+165	19	30	26	75	1	//Chaos Castle
+164	19	30	24	80	1	//Chaos Castle
+165	19	30	30	82	1	//Chaos Castle
+164	19	30	24	89	1	//Chaos Castle
+165	19	30	24	86	1	//Chaos Castle
+164	19	30	24	101	1	//Chaos Castle
+165	19	30	37	104	1	//Chaos Castle
+164	19	30	41	96	1	//Chaos Castle
+165	19	30	39	87	1	//Chaos Castle
+164	19	30	41	76	1	//Chaos Castle
+165	19	30	38	84	1	//Chaos Castle
+164	19	30	38	96	1	//Chaos Castle
+165	19	30	30	95	1	//Chaos Castle
+164	19	30	32	78	1	//Chaos Castle
+165	19	30	29	86	1	//Chaos Castle
+164	19	30	27	104	1	//Chaos Castle
+165	19	30	40	104	1	//Chaos Castle
+164	19	30	44	102	1	//Chaos Castle
+165	19	30	43	98	1	//Chaos Castle
+164	19	30	39	93	1	//Chaos Castle
+165	19	30	41	84	1	//Chaos Castle
+end
+
+//Chaos Caslte 3
+//Ident	Map	Radius	X	Y	Strong	Name
+4
+166	20	30	26	105	2	//Chaos Castle
+167	20	30	26	98	2	//Chaos Castle
+166	20	30	28	90	2	//Chaos Castle
+167	20	30	27	86	2	//Chaos Castle
+166	20	30	28	82	2	//Chaos Castle
+167	20	30	26	79	2	//Chaos Castle
+166	20	30	34	78	2	//Chaos Castle
+167	20	30	33	81	2	//Chaos Castle
+166	20	30	39	78	2	//Chaos Castle
+167	20	30	26	77	2	//Chaos Castle
+166	20	30	38	80	2	//Chaos Castle
+167	20	30	43	77	2	//Chaos Castle
+166	20	30	38	86	2	//Chaos Castle
+167	20	30	43	84	2	//Chaos Castle
+166	20	30	41	82	2	//Chaos Castle
+167	20	30	27	94	2	//Chaos Castle
+166	20	30	32	91	2	//Chaos Castle
+167	20	30	29	84	2	//Chaos Castle
+166	20	30	42	90	2	//Chaos Castle
+167	20	30	44	87	2	//Chaos Castle
+166	20	30	30	78	2	//Chaos Castle
+167	20	30	38	92	2	//Chaos Castle
+166	20	30	40	98	2	//Chaos Castle
+167	20	30	29	101	2	//Chaos Castle
+166	20	30	33	103	2	//Chaos Castle
+167	20	30	38	89	2	//Chaos Castle
+166	20	30	42	105	2	//Chaos Castle
+167	20	30	42	99	2	//Chaos Castle
+166	20	30	35	105	2	//Chaos Castle
+167	20	30	29	93	2	//Chaos Castle
+166	20	30	28	97	2	//Chaos Castle
+167	20	30	26	84	2	//Chaos Castle
+166	20	30	28	79	2	//Chaos Castle
+166	20	30	25	82	2	//Chaos Castle
+167	20	30	29	76	2	//Chaos Castle
+166	20	30	33	76	2	//Chaos Castle
+167	20	30	35	79	2	//Chaos Castle
+166	20	30	31	80	2	//Chaos Castle
+167	20	30	41	79	2	//Chaos Castle
+166	20	30	38	76	2	//Chaos Castle
+167	20	30	36	81	2	//Chaos Castle
+166	20	30	39	82	2	//Chaos Castle
+167	20	30	41	86	2	//Chaos Castle
+166	20	30	42	94	2	//Chaos Castle
+167	20	30	35	92	2	//Chaos Castle
+166	20	30	34	90	2	//Chaos Castle
+167	20	30	38	101	2	//Chaos Castle
+166	20	30	30	105	2	//Chaos Castle
+167	20	30	26	102	2	//Chaos Castle
+166	20	30	28	100	2	//Chaos Castle
+167	20	30	38	106	2	//Chaos Castle
+166	20	30	35	102	2	//Chaos Castle
+167	20	30	42	102	2	//Chaos Castle
+166	20	30	43	96	2	//Chaos Castle
+167	20	30	30	88	2	//Chaos Castle
+166	20	30	25	91	2	//Chaos Castle
+167	20	30	29	91	2	//Chaos Castle
+166	20	30	30	98	2	//Chaos Castle
+167	20	30	41	93	2	//Chaos Castle
+166	20	30	41	89	2	//Chaos Castle
+167	20	30	43	91	2	//Chaos Castle
+166	20	30	39	95	2	//Chaos Castle
+167	20	30	32	101	2	//Chaos Castle
+166	20	30	29	103	2	//Chaos Castle
+167	20	30	33	105	2	//Chaos Castle
+166	20	30	25	97	2	//Chaos Castle
+167	20	30	24	94	2	//Chaos Castle
+166	20	30	27	88	2	//Chaos Castle
+167	20	30	32	94	2	//Chaos Castle
+166	20	30	32	89	2	//Chaos Castle
+167	20	30	36	92	2	//Chaos Castle
+166	20	30	37	89	2	//Chaos Castle
+167	20	30	40	91	2	//Chaos Castle
+166	20	30	38	99	2	//Chaos Castle
+167	20	30	40	101	2	//Chaos Castle
+166	20	30	43	81	2	//Chaos Castle
+167	20	30	36	76	2	//Chaos Castle
+166	20	30	42	75	2	//Chaos Castle
+167	20	30	26	75	2	//Chaos Castle
+166	20	30	24	80	2	//Chaos Castle
+167	20	30	30	82	2	//Chaos Castle
+166	20	30	24	89	2	//Chaos Castle
+167	20	30	24	86	2	//Chaos Castle
+166	20	30	24	101	2	//Chaos Castle
+167	20	30	37	104	2	//Chaos Castle
+166	20	30	41	96	2	//Chaos Castle
+167	20	30	39	87	2	//Chaos Castle
+166	20	30	41	76	2	//Chaos Castle
+167	20	30	38	84	2	//Chaos Castle
+166	20	30	38	96	2	//Chaos Castle
+167	20	30	30	95	2	//Chaos Castle
+166	20	30	32	78	2	//Chaos Castle
+167	20	30	29	86	2	//Chaos Castle
+166	20	30	27	104	2	//Chaos Castle
+167	20	30	40	104	2	//Chaos Castle
+166	20	30	44	102	2	//Chaos Castle
+167	20	30	43	98	2	//Chaos Castle
+166	20	30	39	93	2	//Chaos Castle
+167	20	30	41	84	2	//Chaos Castle
+end
+
+//Chaos Caslte 4
+//Ident	Map	Radius	X	Y	Strong	Name
+4
+168	21	30	26	105	3	//Chaos Castle
+169	21	30	26	98	3	//Chaos Castle
+168	21	30	28	90	3	//Chaos Castle
+169	21	30	27	86	3	//Chaos Castle
+168	21	30	28	82	3	//Chaos Castle
+169	21	30	26	79	3	//Chaos Castle
+168	21	30	34	78	3	//Chaos Castle
+169	21	30	33	81	3	//Chaos Castle
+168	21	30	39	78	3	//Chaos Castle
+169	21	30	26	77	3	//Chaos Castle
+168	21	30	38	80	3	//Chaos Castle
+169	21	30	43	77	3	//Chaos Castle
+168	21	30	38	86	3	//Chaos Castle
+169	21	30	43	84	3	//Chaos Castle
+168	21	30	41	82	3	//Chaos Castle
+169	21	30	27	94	3	//Chaos Castle
+168	21	30	32	91	3	//Chaos Castle
+169	21	30	29	84	3	//Chaos Castle
+168	21	30	42	90	3	//Chaos Castle
+169	21	30	44	87	3	//Chaos Castle
+168	21	30	30	78	3	//Chaos Castle
+169	21	30	38	92	3	//Chaos Castle
+168	21	30	40	98	3	//Chaos Castle
+169	21	30	29	101	3	//Chaos Castle
+168	21	30	33	103	3	//Chaos Castle
+169	21	30	38	89	3	//Chaos Castle
+168	21	30	42	105	3	//Chaos Castle
+169	21	30	42	99	3	//Chaos Castle
+168	21	30	35	105	3	//Chaos Castle
+169	21	30	29	93	3	//Chaos Castle
+168	21	30	28	97	3	//Chaos Castle
+169	21	30	26	84	3	//Chaos Castle
+168	21	30	28	79	3	//Chaos Castle
+168	21	30	25	82	3	//Chaos Castle
+169	21	30	29	76	3	//Chaos Castle
+168	21	30	33	76	3	//Chaos Castle
+169	21	30	35	79	3	//Chaos Castle
+168	21	30	31	80	3	//Chaos Castle
+169	21	30	41	79	3	//Chaos Castle
+168	21	30	38	76	3	//Chaos Castle
+169	21	30	36	81	3	//Chaos Castle
+168	21	30	39	82	3	//Chaos Castle
+169	21	30	41	86	3	//Chaos Castle
+168	21	30	42	94	3	//Chaos Castle
+169	21	30	35	92	3	//Chaos Castle
+168	21	30	34	90	3	//Chaos Castle
+169	21	30	38	101	3	//Chaos Castle
+168	21	30	30	105	3	//Chaos Castle
+169	21	30	26	102	3	//Chaos Castle
+168	21	30	28	100	3	//Chaos Castle
+169	21	30	38	106	3	//Chaos Castle
+168	21	30	35	102	3	//Chaos Castle
+169	21	30	42	102	3	//Chaos Castle
+168	21	30	43	96	3	//Chaos Castle
+169	21	30	30	88	3	//Chaos Castle
+168	21	30	25	91	3	//Chaos Castle
+169	21	30	29	91	3	//Chaos Castle
+168	21	30	30	98	3	//Chaos Castle
+169	21	30	41	93	3	//Chaos Castle
+168	21	30	41	89	3	//Chaos Castle
+169	21	30	43	91	3	//Chaos Castle
+168	21	30	39	95	3	//Chaos Castle
+169	21	30	32	101	3	//Chaos Castle
+168	21	30	29	103	3	//Chaos Castle
+169	21	30	33	105	3	//Chaos Castle
+168	21	30	25	97	3	//Chaos Castle
+169	21	30	24	94	3	//Chaos Castle
+168	21	30	27	88	3	//Chaos Castle
+169	21	30	32	94	3	//Chaos Castle
+168	21	30	32	89	3	//Chaos Castle
+169	21	30	36	92	3	//Chaos Castle
+168	21	30	37	89	3	//Chaos Castle
+169	21	30	40	91	3	//Chaos Castle
+168	21	30	38	99	3	//Chaos Castle
+169	21	30	40	101	3	//Chaos Castle
+168	21	30	43	81	3	//Chaos Castle
+169	21	30	36	76	3	//Chaos Castle
+168	21	30	42	75	3	//Chaos Castle
+169	21	30	26	75	3	//Chaos Castle
+168	21	30	24	80	3	//Chaos Castle
+169	21	30	30	82	3	//Chaos Castle
+168	21	30	24	89	3	//Chaos Castle
+169	21	30	24	86	3	//Chaos Castle
+168	21	30	24	101	3	//Chaos Castle
+169	21	30	37	104	3	//Chaos Castle
+168	21	30	41	96	3	//Chaos Castle
+169	21	30	39	87	3	//Chaos Castle
+168	21	30	41	76	3	//Chaos Castle
+169	21	30	38	84	3	//Chaos Castle
+168	21	30	38	96	3	//Chaos Castle
+169	21	30	30	95	3	//Chaos Castle
+168	21	30	32	78	3	//Chaos Castle
+169	21	30	29	86	3	//Chaos Castle
+168	21	30	27	104	3	//Chaos Castle
+169	21	30	40	104	3	//Chaos Castle
+168	21	30	44	102	3	//Chaos Castle
+169	21	30	43	98	3	//Chaos Castle
+168	21	30	39	93	3	//Chaos Castle
+169	21	30	41	84	3	//Chaos Castle
+end
+
+//Chaos Caslte 5
+//Ident	Map	Radius	X	Y	Strong	Name
+4
+170	22	30	26	105	4	//Chaos Castle
+171	22	30	26	98	4	//Chaos Castle
+170	22	30	28	90	4	//Chaos Castle
+171	22	30	27	86	4	//Chaos Castle
+170	22	30	28	82	4	//Chaos Castle
+171	22	30	26	79	4	//Chaos Castle
+170	22	30	34	78	4	//Chaos Castle
+171	22	30	33	81	4	//Chaos Castle
+170	22	30	39	78	4	//Chaos Castle
+171	22	30	26	77	4	//Chaos Castle
+170	22	30	38	80	4	//Chaos Castle
+171	22	30	43	77	4	//Chaos Castle
+170	22	30	38	86	4	//Chaos Castle
+171	22	30	43	84	4	//Chaos Castle
+170	22	30	41	82	4	//Chaos Castle
+171	22	30	27	94	4	//Chaos Castle
+170	22	30	32	91	4	//Chaos Castle
+171	22	30	29	84	4	//Chaos Castle
+170	22	30	42	90	4	//Chaos Castle
+171	22	30	44	87	4	//Chaos Castle
+170	22	30	30	78	4	//Chaos Castle
+171	22	30	38	92	4	//Chaos Castle
+170	22	30	40	98	4	//Chaos Castle
+171	22	30	29	101	4	//Chaos Castle
+170	22	30	33	103	4	//Chaos Castle
+171	22	30	38	89	4	//Chaos Castle
+170	22	30	42	105	4	//Chaos Castle
+171	22	30	42	99	4	//Chaos Castle
+170	22	30	35	105	4	//Chaos Castle
+171	22	30	29	93	4	//Chaos Castle
+170	22	30	28	97	4	//Chaos Castle
+171	22	30	26	84	4	//Chaos Castle
+170	22	30	28	79	4	//Chaos Castle
+170	22	30	25	82	4	//Chaos Castle
+171	22	30	29	76	4	//Chaos Castle
+170	22	30	33	76	4	//Chaos Castle
+171	22	30	35	79	4	//Chaos Castle
+170	22	30	31	80	4	//Chaos Castle
+171	22	30	41	79	4	//Chaos Castle
+170	22	30	38	76	4	//Chaos Castle
+171	22	30	36	81	4	//Chaos Castle
+170	22	30	39	82	4	//Chaos Castle
+171	22	30	41	86	4	//Chaos Castle
+170	22	30	42	94	4	//Chaos Castle
+171	22	30	35	92	4	//Chaos Castle
+170	22	30	34	90	4	//Chaos Castle
+171	22	30	38	101	4	//Chaos Castle
+170	22	30	30	105	4	//Chaos Castle
+171	22	30	26	102	4	//Chaos Castle
+170	22	30	28	100	4	//Chaos Castle
+171	22	30	38	106	4	//Chaos Castle
+170	22	30	35	102	4	//Chaos Castle
+171	22	30	42	102	4	//Chaos Castle
+170	22	30	43	96	4	//Chaos Castle
+171	22	30	30	88	4	//Chaos Castle
+170	22	30	25	91	4	//Chaos Castle
+171	22	30	29	91	4	//Chaos Castle
+170	22	30	30	98	4	//Chaos Castle
+171	22	30	41	93	4	//Chaos Castle
+170	22	30	41	89	4	//Chaos Castle
+171	22	30	43	91	4	//Chaos Castle
+170	22	30	39	95	4	//Chaos Castle
+171	22	30	32	101	4	//Chaos Castle
+170	22	30	29	103	4	//Chaos Castle
+171	22	30	33	105	4	//Chaos Castle
+170	22	30	25	97	4	//Chaos Castle
+171	22	30	24	94	4	//Chaos Castle
+170	22	30	27	88	4	//Chaos Castle
+171	22	30	32	94	4	//Chaos Castle
+170	22	30	32	89	4	//Chaos Castle
+171	22	30	36	92	4	//Chaos Castle
+170	22	30	37	89	4	//Chaos Castle
+171	22	30	40	91	4	//Chaos Castle
+170	22	30	38	99	4	//Chaos Castle
+171	22	30	40	101	4	//Chaos Castle
+170	22	30	43	81	4	//Chaos Castle
+171	22	30	36	76	4	//Chaos Castle
+170	22	30	42	75	4	//Chaos Castle
+171	22	30	26	75	4	//Chaos Castle
+170	22	30	24	80	4	//Chaos Castle
+171	22	30	30	82	4	//Chaos Castle
+170	22	30	24	89	4	//Chaos Castle
+171	22	30	24	86	4	//Chaos Castle
+170	22	30	24	101	4	//Chaos Castle
+171	22	30	37	104	4	//Chaos Castle
+170	22	30	41	96	4	//Chaos Castle
+171	22	30	39	87	4	//Chaos Castle
+170	22	30	41	76	4	//Chaos Castle
+171	22	30	38	84	4	//Chaos Castle
+170	22	30	38	96	4	//Chaos Castle
+171	22	30	30	95	4	//Chaos Castle
+170	22	30	32	78	4	//Chaos Castle
+171	22	30	29	86	4	//Chaos Castle
+170	22	30	27	104	4	//Chaos Castle
+171	22	30	40	104	4	//Chaos Castle
+170	22	30	44	102	4	//Chaos Castle
+171	22	30	43	98	4	//Chaos Castle
+170	22	30	39	93	4	//Chaos Castle
+171	22	30	41	84	4	//Chaos Castle
+end
+
+//Chaos Caslte 6
+//Ident	Map	Radius	X	Y	Strong	Name
+4
+172	23	30	26	105	5	//Chaos Castle
+173	23	30	26	98	5	//Chaos Castle
+172	23	30	28	90	5	//Chaos Castle
+173	23	30	27	86	5	//Chaos Castle
+172	23	30	28	82	5	//Chaos Castle
+173	23	30	26	79	5	//Chaos Castle
+172	23	30	34	78	5	//Chaos Castle
+173	23	30	33	81	5	//Chaos Castle
+172	23	30	39	78	5	//Chaos Castle
+173	23	30	26	77	5	//Chaos Castle
+172	23	30	38	80	5	//Chaos Castle
+173	23	30	43	77	5	//Chaos Castle
+172	23	30	38	86	5	//Chaos Castle
+173	23	30	43	84	5	//Chaos Castle
+172	23	30	41	82	5	//Chaos Castle
+173	23	30	27	94	5	//Chaos Castle
+172	23	30	32	91	5	//Chaos Castle
+173	23	30	29	84	5	//Chaos Castle
+172	23	30	42	90	5	//Chaos Castle
+173	23	30	44	87	5	//Chaos Castle
+172	23	30	30	78	5	//Chaos Castle
+173	23	30	38	92	5	//Chaos Castle
+172	23	30	40	98	5	//Chaos Castle
+173	23	30	29	101	5	//Chaos Castle
+172	23	30	33	103	5	//Chaos Castle
+173	23	30	38	89	5	//Chaos Castle
+172	23	30	42	105	5	//Chaos Castle
+173	23	30	42	99	5	//Chaos Castle
+172	23	30	35	105	5	//Chaos Castle
+173	23	30	29	93	5	//Chaos Castle
+172	23	30	28	97	5	//Chaos Castle
+173	23	30	26	84	5	//Chaos Castle
+172	23	30	28	79	5	//Chaos Castle
+172	23	30	25	82	5	//Chaos Castle
+173	23	30	29	76	5	//Chaos Castle
+172	23	30	33	76	5	//Chaos Castle
+173	23	30	35	79	5	//Chaos Castle
+172	23	30	31	80	5	//Chaos Castle
+173	23	30	41	79	5	//Chaos Castle
+172	23	30	38	76	5	//Chaos Castle
+173	23	30	36	81	5	//Chaos Castle
+172	23	30	39	82	5	//Chaos Castle
+173	23	30	41	86	5	//Chaos Castle
+172	23	30	42	94	5	//Chaos Castle
+173	23	30	35	92	5	//Chaos Castle
+172	23	30	34	90	5	//Chaos Castle
+173	23	30	38	101	5	//Chaos Castle
+172	23	30	30	105	5	//Chaos Castle
+173	23	30	26	102	5	//Chaos Castle
+172	23	30	28	100	5	//Chaos Castle
+173	23	30	38	106	5	//Chaos Castle
+172	23	30	35	102	5	//Chaos Castle
+173	23	30	42	102	5	//Chaos Castle
+172	23	30	43	96	5	//Chaos Castle
+173	23	30	30	88	5	//Chaos Castle
+172	23	30	25	91	5	//Chaos Castle
+173	23	30	29	91	5	//Chaos Castle
+172	23	30	30	98	5	//Chaos Castle
+173	23	30	41	93	5	//Chaos Castle
+172	23	30	41	89	5	//Chaos Castle
+173	23	30	43	91	5	//Chaos Castle
+172	23	30	39	95	5	//Chaos Castle
+173	23	30	32	101	5	//Chaos Castle
+172	23	30	29	103	5	//Chaos Castle
+173	23	30	33	105	5	//Chaos Castle
+172	23	30	25	97	5	//Chaos Castle
+173	23	30	24	94	5	//Chaos Castle
+172	23	30	27	88	5	//Chaos Castle
+173	23	30	32	94	5	//Chaos Castle
+172	23	30	32	89	5	//Chaos Castle
+173	23	30	36	92	5	//Chaos Castle
+172	23	30	37	89	5	//Chaos Castle
+173	23	30	40	91	5	//Chaos Castle
+172	23	30	38	99	5	//Chaos Castle
+173	23	30	40	101	5	//Chaos Castle
+172	23	30	43	81	5	//Chaos Castle
+173	23	30	36	76	5	//Chaos Castle
+172	23	30	42	75	5	//Chaos Castle
+173	23	30	26	75	5	//Chaos Castle
+172	23	30	24	80	5	//Chaos Castle
+173	23	30	30	82	5	//Chaos Castle
+172	23	30	24	89	5	//Chaos Castle
+173	23	30	24	86	5	//Chaos Castle
+172	23	30	24	101	5	//Chaos Castle
+173	23	30	37	104	5	//Chaos Castle
+172	23	30	41	96	5	//Chaos Castle
+173	23	30	39	87	5	//Chaos Castle
+172	23	30	41	76	5	//Chaos Castle
+173	23	30	38	84	5	//Chaos Castle
+172	23	30	38	96	5	//Chaos Castle
+173	23	30	30	95	5	//Chaos Castle
+172	23	30	32	78	5	//Chaos Castle
+173	23	30	29	86	5	//Chaos Castle
+172	23	30	27	104	5	//Chaos Castle
+173	23	30	40	104	5	//Chaos Castle
+172	23	30	44	102	5	//Chaos Castle
+173	23	30	43	98	5	//Chaos Castle
+172	23	30	39	93	5	//Chaos Castle
+173	23	30	41	84	5	//Chaos Castle
+end
+
+//Chaos Castle 7 Mobs
+//Ident	Map	Radius	X	Y	Strong	Name
+4
+426	53	30	26	105	5	//Chaos Castle
+427	53	30	26	98	5	//Chaos Castle
+426	53	30	28	90	5	//Chaos Castle
+427	53	30	27	86	5	//Chaos Castle
+426	53	30	28	82	5	//Chaos Castle
+427	53	30	26	79	5	//Chaos Castle
+426	53	30	34	78	5	//Chaos Castle
+427	53	30	33	81	5	//Chaos Castle
+426	53	30	39	78	5	//Chaos Castle
+427	53	30	26	77	5	//Chaos Castle
+426	53	30	38	80	5	//Chaos Castle
+427	53	30	43	77	5	//Chaos Castle
+426	53	30	38	86	5	//Chaos Castle
+427	53	30	43	84	5	//Chaos Castle
+426	53	30	41	82	5	//Chaos Castle
+427	53	30	27	94	5	//Chaos Castle
+426	53	30	32	91	5	//Chaos Castle
+427	53	30	29	84	5	//Chaos Castle
+426	53	30	42	90	5	//Chaos Castle
+427	53	30	44	87	5	//Chaos Castle
+426	53	30	30	78	5	//Chaos Castle
+427	53	30	38	92	5	//Chaos Castle
+426	53	30	40	98	5	//Chaos Castle
+427	53	30	29	101	5	//Chaos Castle
+426	53	30	33	103	5	//Chaos Castle
+427	53	30	38	89	5	//Chaos Castle
+426	53	30	42	105	5	//Chaos Castle
+427	53	30	42	99	5	//Chaos Castle
+426	53	30	35	105	5	//Chaos Castle
+427	53	30	29	93	5	//Chaos Castle
+426	53	30	28	97	5	//Chaos Castle
+427	53	30	26	84	5	//Chaos Castle
+426	53	30	28	79	5	//Chaos Castle
+426	53	30	25	82	5	//Chaos Castle
+427	53	30	29	76	5	//Chaos Castle
+426	53	30	33	76	5	//Chaos Castle
+427	53	30	35	79	5	//Chaos Castle
+426	53	30	31	80	5	//Chaos Castle
+427	53	30	41	79	5	//Chaos Castle
+426	53	30	38	76	5	//Chaos Castle
+427	53	30	36	81	5	//Chaos Castle
+426	53	30	39	82	5	//Chaos Castle
+427	53	30	41	86	5	//Chaos Castle
+426	53	30	42	94	5	//Chaos Castle
+427	53	30	35	92	5	//Chaos Castle
+426	53	30	34	90	5	//Chaos Castle
+427	53	30	38	101	5	//Chaos Castle
+426	53	30	30	105	5	//Chaos Castle
+427	53	30	26	102	5	//Chaos Castle
+426	53	30	28	100	5	//Chaos Castle
+427	53	30	38	106	5	//Chaos Castle
+426	53	30	35	102	5	//Chaos Castle
+427	53	30	42	102	5	//Chaos Castle
+426	53	30	43	96	5	//Chaos Castle
+427	53	30	30	88	5	//Chaos Castle
+426	53	30	25	91	5	//Chaos Castle
+427	53	30	29	91	5	//Chaos Castle
+426	53	30	30	98	5	//Chaos Castle
+427	53	30	41	93	5	//Chaos Castle
+426	53	30	41	89	5	//Chaos Castle
+427	53	30	43	91	5	//Chaos Castle
+426	53	30	39	95	5	//Chaos Castle
+427	53	30	32	101	5	//Chaos Castle
+426	53	30	29	103	5	//Chaos Castle
+427	53	30	33	105	5	//Chaos Castle
+426	53	30	25	97	5	//Chaos Castle
+427	53	30	24	94	5	//Chaos Castle
+426	53	30	27	88	5	//Chaos Castle
+427	53	30	32	94	5	//Chaos Castle
+426	53	30	32	89	5	//Chaos Castle
+427	53	30	36	92	5	//Chaos Castle
+426	53	30	37	89	5	//Chaos Castle
+427	53	30	40	91	5	//Chaos Castle
+426	53	30	38	99	5	//Chaos Castle
+427	53	30	40	101	5	//Chaos Castle
+426	53	30	43	81	5	//Chaos Castle
+427	53	30	36	76	5	//Chaos Castle
+426	53	30	42	75	5	//Chaos Castle
+427	53	30	26	75	5	//Chaos Castle
+426	53	30	24	80	5	//Chaos Castle
+427	53	30	30	82	5	//Chaos Castle
+426	53	30	24	89	5	//Chaos Castle
+427	53	30	24	86	5	//Chaos Castle
+426	53	30	24	101	5	//Chaos Castle
+427	53	30	37	104	5	//Chaos Castle
+426	53	30	41	96	5	//Chaos Castle
+427	53	30	39	87	5	//Chaos Castle
+426	53	30	41	76	5	//Chaos Castle
+427	53	30	38	84	5	//Chaos Castle
+426	53	30	38	96	5	//Chaos Castle
+427	53	30	30	95	5	//Chaos Castle
+426	53	30	32	78	5	//Chaos Castle
+427	53	30	29	86	5	//Chaos Castle
+426	53	30	27	104	5	//Chaos Castle
+427	53	30	40	104	5	//Chaos Castle
+426	53	30	44	102	5	//Chaos Castle
+427	53	30	43	98	5	//Chaos Castle
+426	53	30	39	93	5	//Chaos Castle
+427	53	30	41	84	5	//Chaos Castle
+end
+
+//=========================================================================================						
+//	Kalima NPC's					
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0
+259	24	0	19	31	1	//Potion Girl Flotante
+259	25	0	19	31	1	//Potion Girl Flotante
+259	26	0	19	31	1	//Potion Girl Flotante
+259	27	0	19	31	1	//Potion Girl Flotante
+259	28	0	19	31	1	//Potion Girl Flotante
+259	29	0	19	31	1	//Potion Girl Flotante
+259	36	0	19	31	1	//Potion Girl Flotante
+end
+
+
+//Kalima 1
+//Mob	Map	Radio	CordX	CordY	Strong	Name
+2
+144 	24 	30 	112 	37 	-1	//Death Angel 
+144 	24 	30 	113 	55 	-1 	//Death Angel 
+144 	24 	30 	113 	49 	-1 	//Death Angel 
+144 	24 	30 	113 	56 	-1 	//Death Angel 
+144 	24 	30 	104 	58 	-1 	//Death Angel 
+144 	24 	30 	119 	63 	-1 	//Death Angel 
+144 	24 	30 	109 	85 	-1 	//Death Angel 
+144 	24 	30 	122 	80 	-1 	//Death Angel 
+145 	24 	30 	92 	86 	-1	//Death Centurion 
+145 	24 	30 	73 	80 	-1 	//Death Centurion
+145 	24 	30 	74 	70 	-1 	//Death Centurion
+145 	24 	30 	66 	76 	-1 	//Death Centurion
+145 	24 	30 	66 	79 	-1 	//Death Centurion
+146 	24 	30 	75 	18 	-1 	//Bloody Soldier
+146 	24 	30 	88 	20 	-1  	//Bloody Soldier
+146 	24 	30 	79 	17 	-1  	//Bloody Soldier
+146 	24 	30 	99 	15 	-1  	//Bloody Soldier
+146 	24 	30 	98 	19 	-1  	//Bloody Soldier
+146 	24 	30 	98 	15 	-1  	//Bloody Soldier
+146 	24 	30 	110 	10 	-1  	//Bloody Soldier
+146 	24 	30 	111 	33 	-1  	//Bloody Soldier
+146 	24 	30 	106 	32 	-1  	//Bloody Soldier
+146 	24 	30 	105 	40 	-1  	//Bloody Soldier
+146 	24 	30 	122 	40 	-1  	//Bloody Soldier
+146 	24 	30 	121 	37 	-1  	//Bloody Soldier
+147 	24 	30 	34 	22 	-1 	//Aegis
+147 	24 	30 	25 	12 	-1  	//Aegis
+147 	24 	30 	30 	16 	-1  	//Aegis
+147 	24 	30 	29 	22 	-1  	//Aegis
+147 	24 	30 	41 	11 	-1  	//Aegis
+148 	24 	30 	44 	31 	-1 	//Lord Centurion
+148 	24 	30 	50 	22 	-1  	//Lord Centurion
+148 	24 	30 	54 	17 	-1  	//Lord Centurion
+148 	24 	30 	55 	16 	-1  	//Lord Centurion
+148 	24 	30 	71 	27 	-1  	//Lord Centurion
+148 	24 	30 	64 	12 	-1  	//Lord Centurion
+148 	24 	30 	64 	21 	-1  	//Lord Centurion
+149 	24 	30 	98 	84 	-1 	//Necron
+149 	24 	30 	103 	92 	-1  	//Necron
+149 	24 	30 	105 	108 	-1  	//Necron
+149 	24 	30 	100 	97 	-1  	//Necron
+149 	24 	30 	103 	108 	-1  	//Necron
+149 	24 	30 	104 	109 	-1  	//Necron
+149 	24 	30 	97 	83 	-1  	//Necron
+149 	24 	30 	92 	81 	-1  	//Necron
+160 	24 	30 	38 	48 	-1 	//Schriker
+160 	24 	30 	41 	53 	-1  	//Schriker
+160 	24 	30 	43 	57 	-1  	//Schriker
+160 	24 	30 	46 	113 	-1  	//Schriker
+160 	24 	30 	42 	98 	-1  	//Schriker
+160 	24 	30 	44 	84 	-1  	//Schriker
+160 	24 	30 	40 	113 	-1  	//Schriker
+161 	24 	30 	33 	79 	-1	//Illusion of Kundun 
+end
+
+//Kalima 2
+//Mob	Map	Radio	CordX	CordY	Strong	Name
+2
+174 	25 	30 	109 	35 	-1 	//Death Angel
+174 	25 	30 	113 	43 	-1  	//Death Angel
+174 	25 	30 	109 	46 	-1  	//Death Angel
+174 	25 	30 	112 	61 	-1  	//Death Angel
+174 	25 	30 	119 	75 	-1  	//Death Angel
+175 	25 	30 	96 	99 	-1 	//Death Centurion
+175 	25 	30 	70 	77 	-1  	//Death Centurion
+175 	25 	30 	86 	73 	-1  	//Death Centurion
+175 	25 	30 	80 	69 	-1  	//Death Centurion
+175 	25 	30 	57 	77 	-1  	//Death Centurion
+176 	25 	30 	90 	21 	-1 	//Bloody Soldier
+176 	25 	30 	96 	9 	-1  	//Bloody Soldier
+176 	25 	30 	100 	17 	-1  	//Bloody Soldier
+176 	25 	30 	112 	28 	-1  	//Bloody Soldier
+176 	25 	30 	122 	27 	-1  	//Bloody Soldier
+177 	25 	30 	34 	18 	-1 	//Aegis
+177 	25 	30 	24 	26 	-1  	//Aegis
+177 	25 	30 	32 	20 	-1  	//Aegis
+177 	25 	30 	29 	20 	-1  	//Aegis
+177 	25 	30 	52 	28 	-1  	//Aegis
+177 	25 	30 	49 	24 	-1  	//Aegis
+177 	25 	30 	41 	20 	-1  	//Aegis
+178 	25 	30 	55 	24 	-1 	//Lord Centurion
+178 	25 	30 	71 	20 	-1  	//Lord Centurion
+178 	25 	30 	63 	23 	-1  	//Lord Centurion
+178 	25 	30 	61 	24 	-1  	//Lord Centurion
+178 	25 	30 	78 	17 	-1  	//Lord Centurion
+178 	25 	30 	92 	16 	-1  	//Lord Centurion
+178 	25 	30 	88 	13 	-1  	//Lord Centurion
+179 	25 	30 	119 	71 	-1 	//Necron
+179 	25 	30 	121 	78 	-1  	//Necron
+179 	25 	30 	105 	85 	-1  	//Necron
+179 	25 	30 	111 	89 	-1  	//Necron
+179 	25 	30 	103 	98 	-1  	//Necron
+180 	25 	30 	46 	68 	-1  	//Schriker
+180 	25 	30 	33 	73 	-1  	//Schriker
+180 	25 	30 	42 	61 	-1  	//Schriker
+180 	25 	30 	38 	87 	-1  	//Schriker
+180 	25 	30 	54 	98 	-1  	//Schriker
+180 	25 	30 	45 	105 	-1 	//Schriker
+181 	25 	30 	30 	76 	-1  	//Illusion of Kundun 
+end
+
+//Kalima 3
+//Mob	Map	Radio	CordX	CordY	Strong	Name
+2
+182 	26 	30 	103 	49 	-1 	//Death Angel 
+182 	26 	30 	110 	53 	-1 	//Death Angel 
+182 	26 	30 	103 	60 	-1 	//Death Angel 
+182 	26 	30 	113 	72 	-1 	//Death Angel 
+182 	26 	30 	121 	67 	-1 	//Death Angel 
+182 	26 	30 	108 	81 	-1 	//Death Angel 
+182 	26 	30 	113 	86 	-1 	//Death Angel 
+182 	26 	30 	111 	85 	-1 	//Death Angel 
+182 	26 	30 	118 	97 	-1 	//Death Angel 
+182 	26 	30 	114 	96 	-1 	//Death Angel 
+183 	26 	30 	77 	71 	-1  	//Death Centurion
+183 	26 	30 	81 	87 	-1   	//Death Centurion
+183 	26 	30 	80 	78 	-1   	//Death Centurion
+183 	26 	30 	76 	80 	-1   	//Death Centurion
+183 	26 	30 	67 	71 	-1   	//Death Centurion
+183 	26 	30 	60 	74 	-1   	//Death Centurion
+183 	26 	30 	64 	79 	-1   	//Death Centurion
+183 	26 	30 	62 	79 	-1   	//Death Centurion
+184 	26	30 	103 	11 	-1 	//Bloody Soldier 
+184 	26 	30 	94 	20 	-1  	//Bloody Soldier
+184 	26 	30 	94 	17 	-1  	//Bloody Soldier
+184 	26 	30 	105 	27 	-1  	//Bloody Soldier
+184 	26 	30 	112 	40 	-1  	//Bloody Soldier
+184 	26 	30 	108 	35 	-1  	//Bloody Soldier
+184 	26 	30 	111 	39 	-1  	//Bloody Soldier
+184 	26 	30 	121 	39 	-1  	//Bloody Soldier
+185 	26 	30 	35 	11 	-1   	//Aegis
+185 	26 	30 	21 	15 	-1    	//Aegis
+185 	26 	30 	47 	13 	-1   	//Aegis
+185 	26 	30 	44 	29 	-1    	//Aegis
+185 	26 	30 	42 	23 	-1    	//Aegis
+186 	26 	30 	67 	24 	-1 	//Lord Centurion
+186 	26 	30 	73 	11 	-1  	//Lord Centurion
+186 	26 	30 	82 	15 	-1  	//Lord Centurion
+186 	26 	30 	79 	25 	-1  	//Lord Centurion
+187 	26 	30 	120 	102 	-1 	//Necron
+187 	26 	30 	107 	96 	-1  	//Necron
+187 	26 	30 	95 	99 	-1  	//Necron
+187 	26 	30 	104 	97 	-1  	//Necron
+187 	26 	30 	111 	107	-1  	//Necron
+187 	26 	30 	101 	101 	-1  	//Necron
+187 	26 	30 	98 	88 	-1  	//Necron
+187 	26 	30 	101 	86 	-1  	//Necron
+187 	26 	30 	81 	86 	-1  	//Necron
+188 	26 	30 	45 	65 	-1 	//Schriker
+188 	26 	30 	43 	56 	-1  	//Schriker
+188 	26 	30 	38 	58 	-1  	//Schriker
+188 	26 	30 	33 	112 	-1  	//Schriker
+188 	26 	30 	34 	101 	-1  	//Schriker
+188 	26 	30 	38 	94 	-1  	//Schriker
+188 	26 	30 	41 	93 	-1  	//Schriker
+188 	26 	30 	46 	97 	-1  	//Schriker
+189 	26 	30 	33 	72 	-1  	//Illusion of Kundun 
+end
+
+//Kalima 4
+//Mob	Map	Radio	CordX	CordY	Strong	Name
+2
+190 	27 	30 	116 	48 	-1 	//Death Angel
+190 	27 	30 	114 	62 	-1 	//Death Angel
+190 	27 	30 	116 	60 	-1 	//Death Angel
+190 	27 	30 	109 	60 	-1 	//Death Angel
+190 	27 	30 	114 	69 	-1 	//Death Angel
+191 	27 	30 	81	85 	-1 	//Death Centurion
+191 	27 	30 	80 	81 	-1 	//Death Centurion
+191 	27 	30 	78 	84 	-1 	//Death Centurion
+191 	27 	30 	82 	78 	-1 	//Death Centurion
+191 	27 	30 	76 	77 	-1 	//Death Centurion
+191 	27 	30 	62 	72 	-1 	//Death Centurion
+191 	27 	30 	60 	73 	-1	//Death Centurion
+192 	27 	30 	98 	22 	-1 	//Bloody Soldier
+192 	27 	30 	101 	19 	-1 	//Bloody Soldier
+192 	27 	30 	112 	32 	-1 	//Bloody Soldier
+192 	27 	30 	115 	33 	-1 	//Bloody Soldier
+192 	27 	30 	121 	40 	-1 	//Bloody Soldier
+192 	27 	30 	105 	33 	-1 	//Bloody Soldier
+193 	27 	30 	20 	18 	-1 	//Aegis
+193 	27 	30 	39 	27 	-1  	//Aegis
+193 	27 	30 	47 	31 	-1  	//Aegis
+193 	27 	30 	18 	25 	-1  	//Aegis
+193 	27 	30 	46 	18 	-1  	//Aegis
+193 	27 	30 	40 	24 	-1  	//Aegis
+193 	27 	30 	44 	18 	-1  	//Aegis
+193 	27 	30 	48 	10 	-1  	//Aegis
+193 	27 	30 	54 	17 	-1 	//Aegis
+194 	27 	30 	60 	19 	-1 	//Lord Centurion
+194 	27 	30 	51 	27 	-1  	//Lord Centurion
+194 	27 	30 	63 	30 	-1  	//Lord Centurion
+194 	27 	30 	62 	23 	-1  	//Lord Centurion
+194 	27 	30 	64 	13 	-1  	//Lord Centurion
+194 	27 	30 	80 	22 	-1  	//Lord Centurion
+194 	27 	30 	75 	18 	-1  	//Lord Centurion
+194 	27 	30 	71 	26 	-1  	//Lord Centurion
+194 	27 	30 	78 	12 	-1  	//Lord Centurion
+195 	27 	30 	120 	67 	-1 	//Necron
+195 	27 	30 	112 	87 	-1 	//Necron
+195 	27 	30 	119 	81 	-1 	//Necron
+195 	27 	30 	120 	99 	-1 	//Necron
+195 	27 	30 	103 	80 	-1 	//Necron
+195 	27 	30 	98 	91 	-1 	//Necron
+195 	27 	30 	101 	100 	-1 	//Necron
+195 	27 	30 	118 	105 	-1 	//Necron
+195 	27 	30 	108 	106 	-1 	//Necron
+196 	27 	30 	41 	63 	-1 	//Schriker
+196 	27 	30 	29 	73 	-1  	//Schriker
+196 	27 	30 	34 	83 	-1  	//Schriker
+196 	27 	30 	35 	94 	-1  	//Schriker
+197 	27 	30 	33 	81 	-1  	//Illusion of Kundun 
+end
+
+//Kalima 5
+//Mob	Map	Radio	CordX	CordY	Strong	Name
+2
+260 	28 	30 	110 	35 	-1	//Death Angel 
+260 	28 	30 	109 	25 	-1 	//Death Angel 
+260 	28 	30 	115 	30 	-1 	//Death Angel 
+260 	28 	30 	103 	41 	-1 	//Death Angel 
+260 	28 	30 	112 	52 	-1 	//Death Angel 
+260 	28 	30 	111 	44 	-1 	//Death Angel 
+260 	28 	30 	112 	45 	-1 	//Death Angel 
+260 	28 	30 	118 	54 	-1 	//Death Angel 
+260 	28 	30 	117 	66 	-1 	//Death Angel 
+260 	28 	30 	116 	78 	-1 	//Death Angel 
+261 	28 	30 	85 	89 	-1 	//Death Centurion
+261 	28 	30 	76 	77 	-1  	//Death Centurion
+261 	28 	30 	82 	87 	-1  	//Death Centurion
+261 	28 	30 	69 	79 	-1  	//Death Centurion
+261 	28 	30 	59 	73 	-1  	//Death Centurion
+262 	28 	30 	92 	19 	-1	//Bloody Soldier
+262 	28 	30 	93 	15 	-1 	//Bloody Soldier
+262 	28 	30 	107 	11 	-1 	//Bloody Soldier
+262 	28 	30 	112 	11 	-1 	//Bloody Soldier
+262 	28 	30 	109 	35 	-1 	//Bloody Soldier
+262 	28 	30 	117 	20 	-1 	//Bloody Soldier
+263 	28	30 	38 	19 	-1 	//Aegis
+263 	28 	30 	41 	15 	-1 	//Aegis
+263 	28 	30 	47 	13 	-1 	//Aegis
+264 	28 	30 	62 	14 	-1 	//Lord Centurion
+264 	28 	30 	56 	9 	-1  	//Lord Centurion
+264 	28 	30 	58 	20 	-1  	//Lord Centurion
+264 	28 	30 	65 	14 	-1  	//Lord Centurion
+264 	28 	30 	68 	29 	-1  	//Lord Centurion
+264 	28 	30 	91 	19 	-1  	//Lord Centurion
+265 	28 	30 	110 	72 	-1 	//Necron
+265 	28 	30 	115 	71 	-1  	//Necron
+265 	28 	30 	120 	97 	-1  	//Necron
+265 	28 	30 	101 	88 	-1  	//Necron
+265 	28 	30 	102 	81 	-1  	//Necron
+265 	28 	30 	113 	96 	-1  	//Necron
+265 	28 	30 	118 	104 	-1  	//Necron
+265 	28 	30 	114 	105 	-1  	//Necron
+265 	28 	30 	88 	91 	-1  	//Necron
+266 	28 	30 	44 	57 	-1  	//Schriker 	
+266 	28 	30 	27 	57 	-1   	//Schriker
+266 	28 	30 	36 	79 	-1   	//Schriker
+266 	28 	30 	40 	94 	-1   	//Schriker
+266 	28 	30 	37 	105 	-1   	//Schriker
+267 	28 	30 	23 	87 	-1  	//Illusion of Kundun 
+end
+
+//Kalima 6
+//Mob	Map	Radio	CordX	CordY	Strong	Name
+2
+268 	29 	30 	109 	54 	-1 	//Death Angel
+268 	29 	30 	107 	54 	-1  	//Death Angel
+268 	29 	30 	120 	67 	-1  	//Death Angel
+268 	29 	30 	115 	78 	-1  	//Death Angel
+268 	29 	30 	118 	78 	-1  	//Death Angel
+268 	29 	30 	105 	91 	-1  	//Death Angel
+268 	29 	30 	97 	96 	-1  	//Death Angel
+268 	29 	30 	101 	92 	-1  	//Death Angel
+268 	29 	30 	109 	101 	-1  	//Death Angel
+268 	29 	30 	88 	87 	-1  	//Death Angel
+269 	29 	30 	77 	86 	-1 	//Death Centurion
+269 	29 	30 	82 	91 	-1 	//Death Centurion
+269 	29 	30 	70 	69 	-1 	//Death Centurion
+269 	29 	30 	54 	78 	-1 	//Death Centurion
+269 	29 	30 	65 	71 	-1 	//Death Centurion
+270 	29 	30 	94 	19 	-1 	//Bloody Soldier
+270 	29 	30 	113 	20 	-1 	//Bloody Soldier
+270 	29 	30 	109 	24 	-1 	//Bloody Soldier
+270 	29 	30 	104 	32 	-1 	//Bloody Soldier
+270 	29 	30 	112 	40 	-1 	//Bloody Soldier
+270 	29 	30 	108 	29 	-1 	//Bloody Soldier
+270 	29 	30 	108 	37 	-1 	//Bloody Soldier
+270 	29 	30 	107 	41 	-1 	//Bloody Soldier
+270 	29 	30 	115 	65 	-1 	//Bloody Soldier
+270 	29 	30 	115 	60 	-1 	//Bloody Soldier
+270 	29 	30 	104 	66 	-1 	//Bloody Soldier
+270 	29 	30 	116 	75 	-1 	//Bloody Soldier
+271 	29 	30 	40 	9 	-1 	//Aegis
+271 	29 	30 	36 	26 	-1  	//Aegis
+271 	29 	30 	33 	19 	-1  	//Aegis
+271 	29 	30 	37 	16 	-1  	//Aegis
+271 	29 	30 	42 	23 	-1  	//Aegis
+271 	29 	30 	42 	9 	-1  	//Aegis
+271 	29 	30 	45 	16 	-1  	//Aegis
+271 	29 	30 	50 	25 	-1  	//Aegis
+271 	29 	30 	52 	14 	-1  	//Aegis
+271 	29 	30 	58 	24 	-1  	//Aegis
+271 	29 	30 	62 	23 	-1  	//Aegis
+271 	29 	30 	69 	24 	-1 	//Aegis
+272 	29 	30 	75 	13 	-1 	//Lord Centurion
+272 	29 	30 	78 	19 	-1 	//Lord Centurion
+272 	29 	30 	80 	12 	-1 	//Lord Centurion
+272 	29 	30 	79 	26 	-1 	//Lord Centurion
+272 	29 	30 	97 	17 	-1 	//Lord Centurion
+272 	29 	30 	81 	14 	-1 	//Lord Centurion
+272 	29 	30 	91 	9 	-1 	//Lord Centurion
+272 	29 	30 	98 	10 	-1 	//Lord Centurion
+272 	29 	30 	109 	26 	-1 	//Lord Centurion
+272 	29 	30 	119 	44 	-1 	//Lord Centurion
+273 	29 	30 	113 	83 	-1 	//Necron
+273 	29 	30 	122 	96 	-1 	//Necron 
+273 	29 	30 	101 	108 	-1  	//Necron
+273 	29 	30 	81 	81 	-1  	//Necron
+273 	29 	30 	87 	92 	-1  	//Necron
+273 	29 	30 	73 	77 	-1  	//Necron
+273 	29 	30 	77 	82 	-1  	//Necron
+273 	29 	30 	63 	69 	-1  	//Necron
+274 	29 	30 	37 	68 	-1 	//Schriker
+274 	29 	30 	45 	70 	-1 	//Schriker
+274 	29 	30 	36 	49 	-1 	//Schriker
+274 	29 	30 	30 	62 	-1 	//Schriker
+274 	29 	30 	27 	48 	-1 	//Schriker
+274 	29 	30 	41 	76 	-1 	//Schriker
+274 	29 	30 	45 	90 	-1 	//Schriker
+274 	29 	30 	36 	104 	-1 	//Schriker
+274 	29 	30 	48 	112 	-1 	//Schriker
+274 	29 	30 	43 	91 	-1 	//Schriker
+274 	29 	30 	42 	94 	-1 	//Schriker
+274 	29 	30 	38 	112 	-1 	//Schriker
+338	29 	30 	23 	86 	-1	//Illusion of Kundun
+end
+
+//Kalima 7
+//Mob	Map	Radio	CordX	CordY	Strong	Name
+2
+331 	36 	30 	40 	9 	-1 	//Aegis
+331 	36 	30 	36 	26 	-1  	//Aegis
+331 	36 	30 	33 	19 	-1  	//Aegis
+331 	36 	30 	37 	16 	-1  	//Aegis
+331 	36 	30 	42 	23 	-1  	//Aegis
+331 	36 	30 	42 	9 	-1  	//Aegis
+331 	36 	30 	45 	16 	-1  	//Aegis
+331 	36 	30 	50 	25 	-1  	//Aegis
+331 	36 	30 	52 	14 	-1  	//Aegis
+331 	36 	30 	58 	24 	-1  	//Aegis
+331 	36 	30 	62 	23 	-1  	//Aegis
+331 	36 	30 	69 	24 	-1  	//Aegis
+332 	36 	30 	75 	13 	-1 	//Lord Centurion
+332 	36 	30 	78 	19 	-1  	//Lord Centurion
+332 	36 	30 	80 	12 	-1  	//Lord Centurion
+332 	36 	30 	79 	26 	-1  	//Lord Centurion
+332 	36 	30 	97 	17 	-1  	//Lord Centurion
+332 	36 	30 	81 	14 	-1  	//Lord Centurion
+332 	36 	30 	91 	9 	-1  	//Lord Centurion
+332 	36 	30 	98 	10 	-1  	//Lord Centurion
+332 	36 	30 	109 	26 	-1  	//Lord Centurion
+332 	36 	30 	119 	44 	-1  	//Lord Centurion
+333 	36 	30 	94 	19 	-1 	//Bloody Soldier
+333 	36 	30 	113 	20 	-1 	//Bloody Soldier
+333 	36 	30 	109 	24 	-1 	//Bloody Soldier
+333 	36 	30	104 	32 	-1 	//Bloody Soldier
+333 	36 	30 	112 	40 	-1 	//Bloody Soldier
+333 	36 	30 	108 	36 	-1 	//Bloody Soldier
+333 	36 	30 	108 	37 	-1 	//Bloody Soldier
+333 	36 	30 	107 	41 	-1 	//Bloody Soldier
+333 	36 	30	115 	65 	-1 	//Bloody Soldier
+333 	36 	30 	115 	60 	-1 	//Bloody Soldier
+333 	36 	30 	104 	66 	-1 	//Bloody Soldier
+333 	36 	30 	116 	75 	-1 	//Bloody Soldier
+334 	36 	30 	109 	54 	-1 	//Death Angel
+334 	36 	30 	107 	54 	-1  	//Death Angel
+334 	36 	30 	120 	67 	-1  	//Death Angel
+334 	36 	30 	115 	78 	-1  	//Death Angel
+334 	36 	30 	118 	78 	-1  	//Death Angel
+334 	36 	30 	105 	91 	-1  	//Death Angel
+334 	36 	30 	97 	96 	-1  	//Death Angel
+334 	36 	30 	101 	92 	-1  	//Death Angel
+334 	36 	30 	109 	101 	-1  	//Death Angel
+334 	36 	30 	88 	87 	-1  	//Death Angel
+335 	36 	30 	113 	83 	-1 	//Necron
+335 	36 	30 	122 	96 	-1 	//Necron
+335 	36 	30 	101 	108 	-1 	//Necron
+335 	36 	30 	81 	81 	-1 	//Necron
+335 	36 	30 	87 	92 	-1 	//Necron
+335 	36 	30 	73 	77 	-1 	//Necron
+335 	36 	30 	77 	82 	-1 	//Necron
+335 	36 	30 	63 	69 	-1 	//Necron
+336 	36	30 	77 	86 	-1 	//Death Centurion
+336 	36 	30 	82 	91 	-1  	//Death Centurion
+336 	36 	30 	70 	69 	-1  	//Death Centurion
+336 	36 	30 	54 	78 	-1  	//Death Centurion
+336 	36 	30 	65 	71 	-1  	//Death Centurion
+337 	36 	30 	37 	68 	-1 	//Schriker
+337 	36 	30 	45 	70 	-1 	//Schriker
+337 	36 	30 	36 	49 	-1 	//Schriker
+337 	36 	30 	30 	62 	-1 	//Schriker
+337 	36 	30 	27 	48 	-1 	//Schriker
+337 	36 	30 	41 	76 	-1 	//Schriker
+337 	36 	30 	45 	90 	-1 	//Schriker
+337 	36 	30 	36 	104 	-1 	//Schriker
+337 	36 	30 	48 	112 	-1 	//Schriker
+337 	36 	30 	43 	91 	-1 	//Schriker
+337 	36 	30 	42 	94 	-1 	//Schriker
+337 	36 	30 	38 	112 	-1 	//Schriker
+275	36 	30 	36 	76 	-1	//Illusion of Kundun
+275	36 	30 	36 	76 	-1	//Illusion of Kundun
+275	36 	30 	36 	76 	-1	//Illusion of Kundun
+end
+
+//=========================================================================================
+// Swamp of Calmness (Monsters)					        //
+//=========================================================================================
+2
+441	56	5	198	198	-1 	//Sapi-Unus
+441	56	5	207	202	-1 	//Sapi-Unus
+441	56	5	198	208	-1 	//Sapi-Unus
+441	56	5	198	214	-1 	//Sapi-Unus
+441	56	5	173	215	-1 	//Sapi-Unus
+441	56	5	173	222	-1 	//Sapi-Unus
+442	56	5	210	196	-1 	//Sapi-Duo
+442	56	5	220	192	-1 	//Sapi-Duo
+442	56	5	220	217	-1 	//Sapi-Duo
+442	56	5	224	217	-1 	//Sapi-Duo
+442	56	5	216	177	-1 	//Sapi-Duo
+442	56	5	230	173	-1 	//Sapi-Duo
+442	56	5	218	171	-1 // Sapi-Duo
+442	56	5	227	169	-1 // Sapi-Duo
+441	56	5	220	184	-1 // Sapi-Unus
+441	56	5	226	184	-1 // Sapi-Unus
+442	56	5	231	197	-1 // Sapi-Duo
+442	56	5	189	226	-1 // Sapi-Duo
+442	56	5	201	228	-1 // Sapi-Duo
+447	56	5	195	222	-1 // Thunder Napin
+447	56	5	180	218	-1 // Thunder Napin
+447	56	5	177	223	-1 // Thunder Napin
+447	56	5	190	233	-1 // Thunder Napin
+447	56	5	199	234	-1 // Thunder Napin
+442	56	5	207	234	-1 // Sapi-Duo
+447	56	5	214	234	-1 // Thunder Napin
+447	56	5	224	234	-1 // Thunder Napin
+447	56	5	231	235	-1 // Thunder Napin
+447	56	5	238	233	-1 // Thunder Napin
+447	56	5	236	238	-1 // Thunder Napin
+447	56	5	239	227	-1 // Thunder Napin
+441	56	5	203	198	-1 // Sapi-Unus
+441	56	5	233	204	-1 // Sapi-Unus
+441	56	5	229	202	-1 // Sapi-Unus
+441	56	5	236	201	-1 // Sapi-Unus
+442	56	5	228	194	-1 // Sapi-Duo
+442	56	5	235	194	-1 // Sapi-Duo
+441	56	5	226	210	-1 // Sapi-Unus
+441	56	5	237	210	-1 // Sapi-Unus
+444	56	5	222	10	-1 // Shadow Pawn
+444	56	5	228	10	-1 // Shadow Pawn
+444	56	5	224	14	-1 // Shadow Pawn
+444	56	5	217	24	-1 // Shadow Pawn
+444	56	5	229	27	-1 // Shadow Pawn
+444	56	5	209	29	-1 // Shadow Pawn
+444	56	5	206	39	-1 // Shadow Pawn
+444	56	5	236	56	-1 // Shadow Pawn
+444	56	5	236	68	-1 // Shadow Pawn
+444	56	5	236	80	-1 // Shadow Pawn
+444	56	5	232	88	-1 // Shadow Pawn
+444	56	5	221	88	-1 // Shadow Pawn
+444	56	5	217	82	-1 // Shadow Pawn
+445	56	5	234	9	-1 // Shadow Knight
+445	56	5	232	15	-1 // Shadow Knight
+445	56	5	237	14	-1 // Shadow Knight
+445	56	5	232	21	-1 // Shadow Knight
+445	56	5	225	28	-1 // Shadow Knight
+445	56	5	213	27	-1 // Shadow Knight
+445	56	5	205	33	-1 // Shadow Knight
+445	56	5	206	44	-1 // Shadow Knight
+445	56	5	236	63	-1 // Shadow Knight
+445	56	5	236	74	-1 // Shadow Knight
+445	56	5	236	86	-1 // Shadow Knight
+445	56	5	216	86	-1 // Shadow Knight
+448	56	5	206	49	-1 // Ghost Napin
+448	56	5	232	68	-1 // Ghost Napin
+448	56	5	231	82	-1 // Ghost Napin
+448	56	5	221	84	-1 // Ghost Napin
+448	56	5	236	90	-1 // Ghost Napin
+448	56	5	220	27	-1 // Ghost Napin
+448	56	5	210	34	-1 // Ghost Napin
+445	56	5	230	74	-1 // Shadow Knight
+448	56	5	233	77	-1 // Ghost Napin
+445	56	5	220	80	-1 // Shadow Knight
+445	56	5	226	89	-1 // Shadow Knight
+444	56	5	232	11	-1 // Shadow Pawn
+444	56	5	206	30	-1 // Shadow Pawn
+444	56	5	233	72	-1 // Shadow Pawn
+443	56	5	36	44	-1 // Sapi-Tres
+443	56	5	41	44	-1 // Sapi-Tres
+443	56	5	36	51	-1 // Sapi-Tres
+443	56	5	40	49	-1 // Sapi-Tres
+443	56	5	24	49	-1 // Sapi-Tres
+443	56	5	10	44	-1 // Sapi-Tres
+443	56	5	10	50	-1 // Sapi-Tres
+443	56	5	13	47	-1 // Sapi-Tres
+443	56	5	50	44	-1 // Sapi-Tres
+443	56	5	52	11	-1 // Sapi-Tres
+443	56	5	51	27	-1 // Sapi-Tres
+443	56	5	58	20	-1 // Sapi-Tres
+443	56	5	68	15	-1 // Sapi-Tres
+443	56	5	69	23	-1 // Sapi-Tres
+443	56	5	39	20	-1 // Sapi-Tres
+443	56	5	41	26	-1 // Sapi-Tres
+445	56	5	27	53	-1 // Shadow Knight
+445	56	5	32	53	-1 // Shadow Knight
+445	56	5	29	43	-1 // Shadow Knight
+445	56	5	9	47	-1 // Shadow Knight
+445	56	5	8	34	-1 // Shadow Knight
+445	56	5	9	22	-1 // Shadow Knight
+445	56	5	12	11	-1 // Shadow Knight
+445	56	5	19	11	-1 // Shadow Knight
+445	56	5	27	23	-1 // Shadow Knight
+445	56	5	33	23	-1 // Shadow Knight
+445	56	5	54	15	-1 // Shadow Knight
+445	56	5	55	24	-1 // Shadow Knight
+445	56	5	42	14	-1 // Shadow Knight
+445	56	5	62	16	-1 // Shadow Knight
+446	56	5	16	15	-1 // Shadow Look
+446	56	5	24	10	-1 // Shadow Look
+446	56	5	27	11	-1 // Shadow Look
+446	56	5	20	30	-1 // Shadow Look
+446	56	5	13	32	-1 // Shadow Look
+446	56	5	18	45	-1 // Shadow Look
+446	56	5	45	27	-1 // Shadow Look
+446	56	5	52	20	-1 // Shadow Look
+446	56	5	23	23	-1 // Shadow Look
+443	56	5	68	192	-1 // Sapi-Tres
+443	56	5	68	202	-1 // Sapi-Tres
+443	56	5	68	215	-1 // Sapi-Tres
+443	56	5	67	235	-1 // Sapi-Tres
+443	56	5	86	220	-1 // Sapi-Tres
+443	56	5	46	203	-1 // Sapi-Tres
+443	56	5	42	229	-1 // Sapi-Tres
+443	56	5	52	232	-1 // Sapi-Tres
+443	56	5	42	218	-1 // Sapi-Tres
+443	56	5	68	224	-1 // Sapi-Tres
+448	56	5	57	203	-1 // Ghost Napin
+448	56	5	34	231	-1 // Ghost Napin
+448	56	5	48	227	-1 // Ghost Napin
+448	56	5	57	237	-1 // Ghost Napin
+448	56	5	68	230	-1 // Ghost Napin
+448	56	5	82	223	-1 // Ghost Napin
+448	56	5	41	200	-1 // Ghost Napin
+448	56	5	29	235	-1 // Ghost Napin
+448	56	5	26	226	-1 // Ghost Napin
+448	56	5	34	192	-1 // Ghost Napin
+449	56	5	12	182	-1 // Blaze Napin
+449	56	5	19	182	-1 // Blaze Napin
+449	56	5	10	192	-1 // Blaze Napin
+449	56	5	14	224	-1 // Blaze Napin
+449	56	5	20	233	-1 // Blaze Napin
+449	56	5	30	186	-1 // Blaze Napin
+449	56	5	25	209	-1 // Blaze Napin
+449	56	5	46	234	-1 // Blaze Napin
+448	56	5	83	219	-1 // Blaze Napin
+449	56	5	20	211	-1 // Blaze Napin
+449	56	5	30	230	-1 // Blaze Napin
+449	56	5	85	223	-1 // Blaze Napin
+449	56	5	23	212	-1 // Blaze Napin
+449	56	5	23	205	-1 // Blaze Napin
+449	56	5	20	207	-1 // Blaze Napin
+449	56	5	28	188	-1 // Blaze Napin
+449	56	5	28	183	-1 // Blaze Napin
+448	56	5	33	184	-1 // Ghost Napin
+443	56	5	50	202	-1 // Sapi-Tres
+end
+
+//=========================================================================================
+// Raklion (Monsters)
+//=========================================================================================
+2
+454	57	30	203	204	-1 // Ice Walker
+454	57	30	196	203	-1 // Ice Walker
+454	57	30	188	203	-1 // Ice Walker
+454	57	30	179	204	-1 // Ice Walker
+455	57	30	171	207	-1 // Giant Mammoth
+455	57	30	174	214	-1 // Giant Mammoth
+455	57	30	164	212	-1 // Giant Mammoth
+456	57	30	168	217	-1 // Ice Giant
+456	57	30	157	217	-1 // Ice Giant
+456	57	30	153	210	-1 // Ice Giant
+456	57	30	172	188	-1 // Ice Giant
+456	57	30	166	187	-1 // Ice Giant
+456	57	30	162	182	-1 // Ice Giant
+457	57	30	149	197	-1 // Coolutin
+457	57	30	153	194	-1 // Coolutin
+457	57	30	143	214	-1 // Coolutin
+458	57	30	120	181	-1 // Iron Knight
+458	57	30	134	184	-1 // Iron Knight
+458	57	30	111	219	-1 // Iron Knight
+458	57	30	101	217	-1 // Iron Knight
+458	57	30	90	213	-1 // Iron Knight
+458	57	30	98	178	-1 // Iron Knight
+458	57	30	123	142	-1 // Iron Knight
+458	57	30	143	135	-1 // Iron Knight
+458	57	30	144	107	-1 // Iron Knight
+458	57	30	127	99	-1 // Iron Knight
+458	57	30	161	135	-1 // Iron Knight
+458	57	30	191	144	-1 // Iron Knight
+458	57	30	189	102	-1 // Iron Knight
+458	57	30	196	104	-1 // Iron Knight
+458	57	30	220	92	-1 // Iron Knight
+458	57	30	233	113	-1 // Iron Knight
+458	57	30	232	140	-1 // Iron Knight
+458	57	30	222	81	-1 // Iron Knight
+458	57	30	203	28	-1 // Iron Knight
+458	57	30	211	33	-1 // Iron Knight
+458	57	30	215	42	-1 // Iron Knight
+458	57	30	203	49	-1 // Iron Knight
+457	57	30	207	26	-1 // Coolutin
+457	57	30	210	39	-1 // Coolutin
+457	57	30	225	89	-1 // Coolutin
+457	57	30	212	95	-1 // Coolutin
+457	57	30	196	120	-1 // Coolutin
+457	57	30	185	140	-1 // Coolutin
+457	57	30	133	99	-1 // Coolutin
+457	57	30	130	135	-1 // Coolutin
+456	57	30	192	110	-1 // Ice Giant
+456	57	30	197	132	-1 // Ice Giant
+456	57	30	202	149	-1 // Ice Giant
+456	57	30	152	136	-1 // Ice Giant
+456	57	30	136	137	-1 // Ice Giant
+456	57	30	136	106	-1 // Ice Giant
+456	57	30	116	148	-1 // Ice Giant
+456	57	30	95	195	-1 // Ice Giant
+455	57	30	142	126	-1 // Giant Mammoth
+455	57	30	223	150	-1 // Giant Mammoth
+454	57	30	204	104	-1 // Ice Walker
+454	57	30	154	129	-1 // Ice Walker
+454	57	30	141	113	-1 // Ice Walker
+end
+
+//=========================================================================================
+// Raklion Hatchery (Monsters)					        //
+//=========================================================================================
+0
+459	58	0	145	31	-1 // Selupan
+460	58	0	141	27	0  // Spider Eggs (Small)
+461	58	0	141	28	0  // Spider Eggs (Medium)
+462	58	0	142	28	0  // Spider Eggs (Large)
+460	58	0	146	34	0  // Spider Eggs (Small)
+462	58	0	147	34	0  // Spider Eggs (Large)
+461	58	0	146	33	0  // Spider Eggs (Medium)
+460	58	0	152	31	0  // Spider Eggs (Small)
+460	58	0	152	30	0  // Spider Eggs (Small)
+461	58	0	151	30	0  // Spider Eggs (Medium)
+462	58	0	146	29	0  // Spider Eggs (Large)
+462	58	0	146	30	0  // Spider Eggs (Large)
+461	58	0	147	29	0  // Spider Eggs (Medium)
+460	58	0	145	24	0  // Spider Eggs (Small)
+460	58	0	144	24	0  // Spider Eggs (Small)
+461	58	0	144	25	0  // Spider Eggs (Medium)
+457	58	30	144	25	-1 // Coolutin
+457	58	30	144	29	-1 // Coolutin
+457	58	30	144	32	-1 // Coolutin
+457	58	30	144	35	-1 // Coolutin
+457	58	30	144	38	-1 // Coolutin
+457	58	30	153	24	-1 // Coolutin
+457	58	30	153	28	-1 // Coolutin
+457	58	30	153	32	-1 // Coolutin
+457	58	30	153	35	-1 // Coolutin
+457	58	30	153	38	-1 // Coolutin
+end
+
+//=========================================================================================
+// Santa Village (Monsters)					        //
+//=========================================================================================
+0
+467	62	0	202	41	1 // Snowman
+465	62	0	234	38	1 // Santa Claus
+468	62	0	222	24	1 // Little Santa1
+469	62	0	202	33	1 // Little Santa2
+470	62	0	192	24	1 // Little Santa3
+471	62	0	207	9	1 // Little Santa4
+472	62	0	225	11	1 // Little Santa5
+473	62	0	232	13	1 // Little Santa6
+474	62	0	216	19	1 // Little Santa7
+475	62	0	193	27	1 // Little Santa8
+end
+
+//=========================================================================================
+//Events - Mobs - Thanksgiving Event
+//=========================================================================================
+3
+413	37	30	1	1	255	255	-1	25	//Lunar Rabbit
+413	33	30	1	1	255	255	-1	25	//Lunar Rabbit
+413	8	30	1	1	255	255	-1	25	//Lunar Rabbit
+413	4	30	1	1	255	255	-1	25	//Lunar Rabbit
+413	7	30	1	1	255	255	-1	15	//Lunar Rabbit
+end
+
+//=========================================================================================
+//Events - Npcs - Thanksgiving Event
+//=========================================================================================
+0
+end
+
+//==========================================================================
+// Events - Fortune Pouch
+//==========================================================================
+3
+365	37	30	1	1	255	255	-1	25	//Fortune Pouch
+365	33	30	1	1	255	255	-1	25	//Fortune Pouch
+365	8	30	1	1	255	255	-1	25	//Fortune Pouch
+365	4	30	1	1	255	255	-1	25	//Fortune Pouch
+365	7	30	1	1	255	255	-1	15	//Fortune Pouch
+end
+
+//=========================================================================================
+// Vulcanus NPC's
+//=========================================================================================
+//Mob	Map	Rad	X	Y	Str	Name
+0
+240	63	0	115	117	3	//Baz the Vault Keeper
+253	63	0	115	127	3	//Potion Girl
+249	63	0	95	158	-1	//Crossbow Guard
+247	63	0	94	155	-1	//Berdysh Guard
+249	63	0	153	144	-1	//Crossbow Guard
+247	63	0	153	138	-1	//Berdysh Guard
+//479	63	0	122	136	1	//Gatekeeper
+end
+
+//=========================================================================================
+// Vulcan Monster's
+//=========================================================================================
+//Mob	Map	Rad	X	Y	X2	Y2	Dir 	Cant  	Name
+1
+480	63	10	174	103	184	118	-1	5	//Zombie Fighter
+481	63	10	193	104	224	118	-1	5	//Zombie Fighter
+481	63	10	147	12	225	70	-1	5	//Zombie Fighter
+482	63	10	185	120	218	155	-1	5	//Resurgent Gladiator
+482	63	10	228	41	240	73	-1	5	//Resurgent Gladiator
+482	63	10	147	12	225	70	-1	5	//Resurgent Gladiator
+482	63	10	230	108	224	130	-1	5	//Resurgent Gladiator
+484	63	10	147	12	225	70	-1	5	//Ashes Butcher
+484	63	10	127	186	165	226	-1	5	//Ashes Butcher
+486	63	10	178	168	235	188	-1	5	//Bloody assassin
+486	63	10	53	53	122	87	-1	5	//Bloody assassin
+486	63	10	53	53	122	87	-1	5	//Bloody assassin
+487	63	10	170	197	238	230	-1	5	//Cold Blooded
+489	63	10	36	10	102	47	-1	5	//Burning Lava Giant
+489	63	10	26	59	56	228	-1	5	//Burning Lava Giant
+491	63	10	53	126	95	232	-1	5	//Outrageous Giant Lava
+end

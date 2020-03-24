@@ -1,0 +1,94 @@
+// Box of Kundun +2
+
+//--------------------------------------//
+// Drop Options                         //
+//--------------------------------------//
+1
+//        Name         ZenAmount    ItemType  Index   ItemLvl DropRate NormDrop ExcDrop
+     "BoxOfKundun2"	  0		0	0	 0	 0	 100	  1
+end
+
+//--------------------------------------//
+// Item Drops                           //
+//--------------------------------------//
+2
+//  ItemType  Index  MinLvl MaxLvl    Skill    Luck   Option  Excellent
+
+10000
+0	5	0	0	1	1	1	1	//Blade
+0	6	0	0	1	1	1	1	//Gladius
+0	7	0	0	1	1	1	1	//Falchion
+0	8	0	0	1	1	1	1	//Serpent Sword
+0	9	0	0	1	1	1	1	//Sword of Salamander
+0	10	0	0	1	1	1	1	//Light Saber
+1	4	0	0	1	1	1	1	//Elven Axe
+1	5	0	0	1	1	1	1	//Battle Axe
+1	6	0	0	1	1	1	1	//Nikea Axe
+1	7	0	0	1	1	1	1	//Larkan Axe
+2	3	0	0	1	1	1	1	//Great Hammer
+2	4	0	0	1	1	1	1	//Crystal Morning Star
+2	8	0	0	1	1	1	1	//Battle Scepter
+2	9	0	0	1	1	1	1	//Master Scepter
+3	0	0	0	1	1	1	1	//Light Spear
+3	3	0	0	1	1	1	1	//Giant Trident
+3	4	0	0	1	1	1	1	//Serpent Spear
+3	8	0	0	1	1	1	1	//Great Scythe
+4	3	0	0	1	1	1	1	//Battle Bow
+4	4	0	0	1	1	1	1	//Tiger Bow
+4	10	0	0	1	1	1	1	//Arquebus
+4	11	0	0	1	1	1	1	//Light Crossbow
+4	12	0	0	1	1	1	1	//Serpent Crossbow
+5	3	0	0	0	1	1	1	//Thunder Staff
+5	4	0	0	0	1	1	1	//Gorgon Staff
+5	16	0	0	0	1	1	1	//Red Wing Stick	
+6	5	0	0	1	1	1	1	//Dragon Slayer Shield
+6	6	0	0	1	1	1	1	//Skull Shield
+6	7	0	0	1	1	1	1	//Spiked Shield
+6	8	0	0	1	1	1	1	//Tower Shield
+7	6	0	0	0	1	1	1	//Scale Helm
+7	8	0	0	0	1	1	1	//Brass Helm
+7	4	0	0	0	1	1	1	//Bone Helm
+7	7	0	0	0	1	1	1	//Sphinx Mask
+7	12	0	0	0	1	1	1	//Wind Helm
+7	13	0	0	0	1	1	1	//Spirit Helm
+7	25	0	0	0	1	1	1	//Light Plate Mask
+7	41	0	0	0	1	1	1	//Ancient Helm
+8	6	0	0	0	1	1	1	//Scale Armor
+8	8	0	0	0	1	1	1	//Brass Armor
+8	4	0	0	0	1	1	1	//Bone Armor
+8	7	0	0	0	1	1	1	//Sphinx Armor
+8	12	0	0	0	1	1	1	//Wind Armor
+8	13	0	0	0	1	1	1	//Spirit Armor
+8	25	0	0	0	1	1	1	//Light Plate Armor
+8	41	0	0	0	1	1	1	//Ancient Armor
+9	6	0	0	0	1	1	1	//Scale Pants
+9	8	0	0	0	1	1	1	//Brass Pants
+9	4	0	0	0	1	1	1	//Bone Pants
+9	7	0	0	0	1	1	1	//Sphinx Pants
+9	12	0	0	0	1	1	1	//Wind Pants
+9	13	0	0	0	1	1	1	//Spirit Pants
+9	25	0	0	0	1	1	1	//Light Plate Pants
+9	41	0	0	0	1	1	1	//Ancient Pants
+10	6	0	0	0	1	1	1	//Scale Gloves
+10	8	0	0	0	1	1	1	//Brass Gloves
+10	4	0	0	0	1	1	1	//Bone Gloves
+10	7	0	0	0	1	1	1	//Sphinx Gloves
+10	12	0	0	0	1	1	1	//Wind Gloves
+10	13	0	0	0	1	1	1	//Spirit Gloves
+10	25	0	0	0	1	1	1	//Light Plate Gloves
+10	41	0	0	0	1	1	1	//Ancient Gloves
+11	6	0	0	0	1	1	1	//Scale Boots
+11	8	0	0	0	1	1	1	//Brass Boots
+11	4	0	0	0	1	1	1	//Bone Boots
+11	7	0	0	0	1	1	1	//Sphinx Boots
+11	12	0	0	0	1	1	1	//Wind Boots
+11	13	0	0	0	1	1	1	//Spirit Boots
+11	25	0	0	0	1	1	1	//Light Plate Boots
+11	41	0	0	0	1	1	1	//Ancient Boots
+13	8	0	0	0	0	1	1	//Anillo de Hielo
+13	9	0	0	0	0	1	1	//Anillo de Veneno
+13	12	0	0	0	0	1	1	//Pendiente de Rayo
+13	13	0	0	0	0	1	1	//Pendiente de Fuego
+13	41	0	0	0	0	1	1	//Ancient Boots
+end
+end

@@ -1,0 +1,10 @@
+//------------------------------------------------------//
+//	            CashShop Configs	       		//
+//------------------------------------------------------//
+[CashShopOption]
+UseCashShop				= 1
+ConnectShopServer			= 1
+ShopServerIP				= 192.168.0.27
+ShopServerPort				= 55821
+UseLotteryEvent				= 1
+MapMoveBoundCheck			= 0

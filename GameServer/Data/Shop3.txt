@@ -1,0 +1,26 @@
+//---------------------------------------------------------------------------------------------------------
+// Harold the Merchant
+//---------------------------------------------------------------------------------------------------------
+//Type	Index	Lvl	Dur	Skill	Luck	Opt	Exc	Anc	Name
+//---------------------------------------------------------------------------------------------------------
+7 	25 	3 	255 	0 	1 	0 	0	0	//Light Plate Mask
+7 	26 	3 	255 	0 	1 	0 	0	0	//Adamantine Mask
+7 	27 	3 	255 	0 	1 	0 	0	0	//Dark Steel Mask
+2 	8 	3 	255 	1 	0 	0 	0	0	//Battle Scepter
+2 	9 	3 	255 	1 	0 	0 	0	0	//Master Scepter
+8 	25 	3 	255 	0 	1 	0 	0	0	//Light Plate Armor
+8 	26 	3 	255 	0 	1 	0 	0	0	//Adamantine Armor
+8 	27 	3 	255 	0 	1 	0 	0	0	//Dark Steel Armor
+2 	10 	3 	255 	1 	0 	0 	0	0	//Great Scepter
+2 	11 	3 	255 	1 	0 	0 	0	0	//Lord Scepter
+9 	25 	3 	255 	0 	1 	0 	0	0	//Light Plate Pants
+9 	26 	3 	255 	0 	1 	0 	0	0	//Adamantine Pants
+9 	27 	3 	255 	0 	1 	0 	0	0	//Dark Steel Pants
+10 	25 	3 	255 	0 	1 	0 	0	0	//Light Plate Gloves
+10 	26 	3 	255 	0 	1 	0 	0	0	//Adamantine Gloves
+10 	27 	3 	255 	0 	1 	0 	0	0	//Dark Steel Gloves
+11 	25 	3 	255 	0 	1 	0 	0	0	//Light Plate Boots
+11 	26 	3 	255 	0 	1 	0 	0	0	//Adamantine Boots
+11 	27 	3 	255 	0 	1 	0 	0	0	//Dark Steel Boots
+12 	21 	0 	255 	0 	0 	0 	0	0	//Scroll of Fire Burst
+end

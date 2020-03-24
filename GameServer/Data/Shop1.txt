@@ -1,0 +1,40 @@
+//----------------------------------------------------------------------------------------------------------
+// Lumen the Barmaid
+//----------------------------------------------------------------------------------------------------------
+//Type	Index	Lvl	Dur	Skill	Luck	Opt	Exc	Anc	Name
+//----------------------------------------------------------------------------------------------------------
+14 	3 	0 	50 	0 	0 	0 	0	0	//Large Healing Potion
+14 	6 	0 	50	0 	0 	0  	0	0	//Large Mana Potion
+13 	0 	0 	255 	0 	0 	0 	0	0	//Angel
+13 	1 	0 	255 	0 	0 	0 	0	0	//Satan
+14 	28 	1 	255 	0 	0 	0 	0	0	//Lost Map +1
+14 	28 	2 	255 	0 	0 	0 	0	0	//Lost Map +2
+14 	28 	3 	255 	0 	0 	0 	0	0	//Lost Map +3
+14 	28 	4 	255 	0 	0 	0 	0	0	//Lost Map +4
+14 	28 	5 	255 	0 	0 	0 	0	0	//Lost Map +5
+14 	28 	6 	255 	0 	0 	0 	0	0	//Lost Map +6
+14 	28 	7 	255 	0 	0	0 	0	0	//Lost Map +7
+14 	19 	1 	255 	0 	0 	0 	0	0	//Devil Invitation+1
+14 	19 	2 	255 	0 	0 	0 	0	0	//Devil Invitation+2
+14 	19 	3 	255 	0 	0 	0 	0	0	//Devil Invitation+3
+14 	19 	4 	255 	0 	0 	0 	0	0	//Devil Invitation+4
+14 	19 	5 	255 	0 	0 	0 	0	0	//Devil Invitation+5
+14 	19 	6 	255 	0 	0 	0 	0	0	//Devil Invitation+6
+14 	19 	7 	255 	0 	0 	0 	0	0	//Devil Invitation+7
+13 	18 	2 	255 	0 	0 	0 	0	0	//Cloak of Invisiblity +2
+13 	18 	3 	255 	0 	0 	0 	0	0	//Cloak of Invisiblity +3
+13 	18 	4 	255 	0 	0 	0 	0	0	//Cloak of Invisiblity +4
+13 	18 	5 	255 	0 	0 	0 	0	0	//Cloak of Invisiblity +5
+13 	18 	6 	255 	0 	0 	0 	0	0	//Cloak of Invisiblity +6
+13 	18 	7 	255 	0 	0 	0 	0	0	//Cloak of Invisiblity +7
+13 	18 	8 	255 	0 	0 	0 	0	0	//Cloak of Invisiblity +8
+13 	51 	1 	255 	0 	0 	0 	0	0	//Scroll of Blood +1
+13 	51 	2 	255 	0 	0 	0 	0	0	//Scroll of Blood +2
+13 	51 	3 	255 	0 	0 	0 	0	0	//Scroll of Blood +3
+13 	51 	4 	255 	0 	0 	0 	0	0	//Scroll of Blood +4
+13 	51 	5 	255 	0 	0 	0 	0	0	//Scroll of Blood +5
+13 	51 	6 	255 	0 	0 	0 	0	0	//Scroll of Blood +6
+13 	29 	0 	255 	0 	0 	0 	0	0	//Armor of Guardman
+13      4       1       255     62      0       0       0       0       //Dark Horse
+13      5       1       255     0      0       0       0       0       //Dark Raven
+end
