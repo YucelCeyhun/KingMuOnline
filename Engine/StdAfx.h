@@ -107,9 +107,11 @@ using namespace std;
 #include "MiniMap.h"
 #include "Loader.h"
 #include "Point.h"
+#include "Version.h"
 
 #include "VisualFix.h"
 
+#define VERSION_INI     ".\\version.ini"
 #define ENGINE_INI		".\\Engine.ini"
 #define LAUNCH_FILE		".\\Data\\Custom\\Local\\LaunchGame.bmd"
 #define TITLE_FILE		".\\Data\\Custom\\Local\\WinTitle.bmd"

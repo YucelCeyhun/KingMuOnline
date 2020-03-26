@@ -6,134 +6,152 @@ void cProtocol::DataRecv(DWORD Case, LPBYTE lpMsg, int Len, int aIndex)
 {
 	BYTE ProtocolType = lpMsg[0];
 	// ----
-	if(ProtocolType == 0xC1)
+	if (ProtocolType == 0xC1)
 	{
-		switch(BYTE(Case))
+		switch (BYTE(Case))
 		{
-			case PROTOCOL_KILLED:
-			{
-				gVisualFix.RecvKilledObject((PMSG_DIEPLAYER*)lpMsg);
-				//gUser.RecvKilledObject((PMSG_DIEPLAYER*)lpMsg);
-			}
-			break;
-			// ----
-			case PROTOCOL_ATTACK:
-			{
-				gVisualFix.RecvDamage((PMSG_ATTACKRESULT*)lpMsg);
-				//gUser.RecvAttackResult((PMSG_ATTACKRESULT*)lpMsg);
-			}
-			break;
-			// ----
-			case PROTOCOL_RECVHPTOSD:
-			{
-				gVisualFix.RecvHPSD((PMSG_REFILL*)lpMsg);
-			}
-			break;
-			// ----
-			case PROTOCOL_RECVMPTOAG:
-			{
-				gVisualFix.RecvMPAG((PMSG_MANASEND*)lpMsg);
-			}
-			break;
-			// ----
-			/*
-			case 0x30: // Wharehouse Opened ?
-			{
-				
-			}
-			break;
-			// ----
-			case PROTOCOL_TELEPORT:
-			{
-				if (lpMsg[4] == 1)
-				{
-					gHPMobBar.isDraw = false;
-				}
-				break;
-			}
-			*/
-			// ----
-			case 0xF1:
-			{
-				PMSG_DEFAULT2 * lpDef = (PMSG_DEFAULT2*)lpMsg;
-				// ----
-				switch(lpDef->subcode)
-				{
-					case PROTOCOL_CHARJOINRESULT:
-					{
-						gVisualFix.RecvIndex((PMSG_JOINRESULT*)lpMsg);
-					}
-					break;
-				}
-				break;
-			}
-			// ----
-			case 0xF3:
-			{
-				switch(lpMsg[3])
-				{
-					case PROTOCOL_CHARJOINMAP:
-					{
-						gVisualFix.RecvUpPoint((PMSG_CHARMAPJOINRESULT*)lpMsg);
-						gVisualFix.RecvRespawn();
-					}
-					break;
+		case PROTOCOL_KILLED:
+		{
+			gVisualFix.RecvKilledObject((PMSG_DIEPLAYER*)lpMsg);
+			//gUser.RecvKilledObject((PMSG_DIEPLAYER*)lpMsg);
+		}
+		break;
+		// ----
+		case PROTOCOL_ATTACK:
+		{
+			gVisualFix.RecvDamage((PMSG_ATTACKRESULT*)lpMsg);
+			//gUser.RecvAttackResult((PMSG_ATTACKRESULT*)lpMsg);
+		}
+		break;
+		// ----
+		case PROTOCOL_RECVHPTOSD:
+		{
+			gVisualFix.RecvHPSD((PMSG_REFILL*)lpMsg);
+		}
+		break;
+		// ----
+		case PROTOCOL_RECVMPTOAG:
+		{
+			gVisualFix.RecvMPAG((PMSG_MANASEND*)lpMsg);
+		}
+		break;
+		// ----
+		/*
+		case 0x30: // Wharehouse Opened ?
+		{
 
-					case PROTOCOL_CHARRESPAWN:
-					{
-						gVisualFix.RecvRespawn();
-					}
-					break;
-
-					case PROTOCOL_CHARLEVELUP:
-					{
-						gVisualFix.RecvUpLevel((PMSG_LEVELUP*)lpMsg);
-						PMSG_LEVELUP *pResult = (PMSG_LEVELUP*)lpMsg;
-					}
-					break;
-
-					case PROTOCOL_CHARPOINTDOWN:
-					{
-						gVisualFix.RecvDownPoint((PMSG_LVPOINTADDRESULT*)lpMsg);
-					}
-					break;
-				}
-				break;
-			}
-			// ----
-			case 0xFB:
+		}
+		break;
+		// ----
+		case PROTOCOL_TELEPORT:
+		{
+			if (lpMsg[4] == 1)
 			{
-				PMSG_DEFAULT2 * lpDef = (PMSG_DEFAULT2*)lpMsg;
-				// ----
-				switch(lpDef->subcode)
-				{
-					case PROTO_CUSTOM_RESETDATA:
-					{
-						gReset.SetData((RESET_ANS_USERDATA*)lpMsg);
-					}
-					break;
-				}
-				break;
+				gHPMobBar.isDraw = false;
 			}
+			break;
+		}
+		*/
+		// ----
+
+		case 0x70: //version_checked
+		{
+			PMSG_VERSION* Data = (PMSG_VERSION*)lpMsg;
+			BOOL versionStatus = gVControl.getVersion(Data->ClientVersion);
+
+			PMSG_VERSION_CHECKED pMsg;
+			pMsg.h.headcode = 0xF2;
+			pMsg.h.c = 0xC1;
+			pMsg.VersionChecked = versionStatus;
+			pMsg.h.size = sizeof(pMsg);
+
+			gProtocol.DataSend((LPBYTE)&pMsg, pMsg.h.size);
+
+			if (!versionStatus)
+				MessageBox(NULL, "You need the client update.Please run Launcher.exe to update the client.After that try again.", "CLIENT VERSION FAIL", MB_ICONERROR);
+
+		}
+		case 0xF1:
+		{
+			PMSG_DEFAULT2* lpDef = (PMSG_DEFAULT2*)lpMsg;
 			// ----
-			case 0xBB:
+			switch (lpDef->subcode)
 			{
-				PMSG_DEFAULT2 * lpDef = (PMSG_DEFAULT2*)lpMsg;
-				// ----
-				switch(lpDef->subcode)
-				{
-					case PROTO_CUSTOM_LIFEBAR:
-					{
-						gExHP.InfoRecv((LPMSG_ANS_LIFEBAR_SEND)lpMsg);
-					}
-					break;
-				}
-				break;
+			case PROTOCOL_CHARJOINRESULT:
+			{
+				gVisualFix.RecvIndex((PMSG_JOINRESULT*)lpMsg);
 			}
+			break;
+			}
+			break;
+		}
+		// ----
+		case 0xF3:
+		{
+			switch (lpMsg[3])
+			{
+			case PROTOCOL_CHARJOINMAP:
+			{
+				gVisualFix.RecvUpPoint((PMSG_CHARMAPJOINRESULT*)lpMsg);
+				gVisualFix.RecvRespawn();
+			}
+			break;
+
+			case PROTOCOL_CHARRESPAWN:
+			{
+				gVisualFix.RecvRespawn();
+			}
+			break;
+
+			case PROTOCOL_CHARLEVELUP:
+			{
+				gVisualFix.RecvUpLevel((PMSG_LEVELUP*)lpMsg);
+				PMSG_LEVELUP* pResult = (PMSG_LEVELUP*)lpMsg;
+			}
+			break;
+
+			case PROTOCOL_CHARPOINTDOWN:
+			{
+				gVisualFix.RecvDownPoint((PMSG_LVPOINTADDRESULT*)lpMsg);
+			}
+			break;
+			}
+			break;
+		}
+		// ----
+		case 0xFB:
+		{
+			PMSG_DEFAULT2* lpDef = (PMSG_DEFAULT2*)lpMsg;
+			// ----
+			switch (lpDef->subcode)
+			{
+			case PROTO_CUSTOM_RESETDATA:
+			{
+				gReset.SetData((RESET_ANS_USERDATA*)lpMsg);
+			}
+			break;
+			}
+			break;
+		}
+		// ----
+		case 0xBB:
+		{
+			PMSG_DEFAULT2* lpDef = (PMSG_DEFAULT2*)lpMsg;
+			// ----
+			switch (lpDef->subcode)
+			{
+			case PROTO_CUSTOM_LIFEBAR:
+			{
+				gExHP.InfoRecv((LPMSG_ANS_LIFEBAR_SEND)lpMsg);
+			}
+			break;
+			}
+			break;
+		}
 		}
 	}
 	// ----
-	pDataRecv(Case,lpMsg,Len,aIndex);
+	pDataRecv(Case, lpMsg, Len, aIndex);
 }
 
 void cProtocol::DataSend(LPBYTE Data, int Size)
@@ -156,10 +174,10 @@ void cProtocol::DataSend(LPBYTE Data, int Size)
 
 	XorData(Data, StartPos, Size);
 
-	send(pActiveSocket,(PCHAR)Data,Size,0);
+	send(pActiveSocket, (PCHAR)Data, Size, 0);
 }
 
-void cProtocol::XorData(LPBYTE &Data, int iStart, int iSize)
+void cProtocol::XorData(LPBYTE& Data, int iStart, int iSize)
 {
 	if (iStart > iSize)
 	{
@@ -209,5 +227,5 @@ void cProtocol::XorData(LPBYTE &Data, int iStart, int iSize)
 
 void cProtocol::Load()
 {
-	gToolKit.SetOp((LPVOID)oDataRecv_Call,this->DataRecv,ASM::CALL);
+	gToolKit.SetOp((LPVOID)oDataRecv_Call, this->DataRecv, ASM::CALL);
 }

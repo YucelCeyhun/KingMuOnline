@@ -913,6 +913,7 @@
     <ClCompile Include="Commands.cpp" />
     <ClCompile Include="Configs.cpp" />
     <ClCompile Include="HealthBar.cpp" />
+    <ClCompile Include="HttpRequest.cpp" />
     <ClCompile Include="ItemDrop.cpp" />
     <ClCompile Include="MonsterHerd.cpp" />
     <ClCompile Include="KalimaGate.cpp" />
@@ -1156,8 +1157,10 @@
     <ClInclude Include="CashLotterySystem.h" />
     <ClInclude Include="Commands.h" />
     <ClInclude Include="Configs.h" />
+    <ClInclude Include="cpr.h" />
     <ClInclude Include="Enums.h" />
     <ClInclude Include="HealthBar.h" />
+    <ClInclude Include="HttpRequest.h" />
     <ClInclude Include="ItemDrop.h" />
     <ClInclude Include="NewOptions.h" />
     <ClInclude Include="NewPVP.h" />
@@ -1356,6 +1359,9 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="GameServer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeLists.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

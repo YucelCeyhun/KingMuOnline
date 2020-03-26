@@ -43,6 +43,7 @@
 //CUSTOM FILES
 #define CONFIG_FILE ".\\Configs.ini"
 #define JEWELS_FILE ".\\Jewels.ini"
+#define PATCH_FILE  ".\\Patch.ini"
 #define COMMANDS_FILE ".\\Commands.ini"
 //#define WAREHOUSE_FILE ".\\WareHouse.ini"
 //#define RESETSYSTEM_FILE ".\\ResetSystem.ini"

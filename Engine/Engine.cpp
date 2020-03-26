@@ -2,7 +2,7 @@
 #include "Engine.h"
 #include "Graphics.h"
 #include "FogEffect.h"
-
+#include "Version.h"
 
 BOOL APIENTRY DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved)
 {
@@ -25,6 +25,8 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved)
 			gInterface.Load();
 			gConnection.Load();
 			gControl.Load();
+			//gVControl.getVersion();
+
 			// ----
 			gUser.Load();
 			gExHP.Load();

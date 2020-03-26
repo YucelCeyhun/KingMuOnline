@@ -14,6 +14,8 @@ struct CConfigs
 		// ----
 		int m_iLifeRate;
 		// ----
+		char patchVersion[5];
+		//----
 		int m_iSoulRate;
 		int m_iSoulRateWithLuck;
 		// ----

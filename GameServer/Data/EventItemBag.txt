@@ -1,3 +1,0 @@
-// Box of Luck & Box of Heaven
-
-12 15 0 0 0 0 // Jewel of Chaos

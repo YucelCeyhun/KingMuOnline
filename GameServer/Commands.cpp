@@ -7,7 +7,7 @@
 #include "DBSockMng.h"
 #include "LogProc.h"
 #include "Utilities.h"
-
+//#include "HttpRequest.h";
 CCommands Commands;
 
 void CCommands::SendPost(int aIndex, LPCSTR Message)
@@ -220,7 +220,8 @@ void CCommands::PkClear(int aIndex)
 
 	GCPkLevelSend(aIndex,0);
 	LogAddTD("pkclear operation is succeeded for [%s][%S]",lpObj->AccountID,lpObj->Name);
-	GCServerMsgStringSend("Pk Clear operation is succeeded",aIndex,1);
+	//GCServerMsgStringSend(httpRequest.getVersion(),aIndex,1);
+	//GCServerMsgStringSend("Pk Clear operation is succeeded",aIndex,1);
 }
 
 void CCommands::PackLevel(int aIndex)

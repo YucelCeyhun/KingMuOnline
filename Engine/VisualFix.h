@@ -13,6 +13,22 @@ struct PMSG_JOINRESULT
 	BYTE CliVersion[5];	// 7
 };
 
+struct PMSG_VERSION
+{
+	PBMSG_HEAD h;		// C1:70
+	BYTE scode;			// 3
+	BYTE result;		// 4
+	BYTE NumberH;		// 5
+	BYTE NumberL;		// 6
+	BYTE ClientVersion[5];	// 7
+};
+
+struct PMSG_VERSION_CHECKED
+{
+	PBMSG_HEAD h;
+	BOOL VersionChecked;
+};
+
 struct PMSG_REFILL
 {
 	PBMSG_HEAD h;		// C1:26
@@ -130,68 +146,69 @@ struct PMSG_LVPOINTADDRESULT
 
 class cVisualFix
 {
-	public:
-		cVisualFix();
+public:
+	cVisualFix();
 
-		short aIndex;
-		int AttackHP;
-		int AttackSD;
-		int Life;
-		int SD;
-		int Mana;
-		int AG;
-		int MaxLife;
-		int MaxSD;
-		int MaxMana;
-		int MaxAG;
-		int UpPoint;
-		int AttackRate;
-		int DamageRate;
+	short aIndex;
+	int AttackHP;
+	int AttackSD;
+	int Life;
+	int SD;
+	int Mana;
+	int AG;
+	int MaxLife;
+	int MaxSD;
+	int MaxMana;
+	int MaxAG;
+	int UpPoint;
+	int AttackRate;
+	int DamageRate;
 
-		bool PlayerKill;
+	bool PlayerKill;
 
-		char LifeTab[50];
-		char ManaTab[50];
-		char SDTab[50];
-		char AGTab[50];
+	char LifeTab[50];
+	char ManaTab[50];
+	char SDTab[50];
+	char AGTab[50];
 
-		void Load();
+	void Load();
 
-		void RecvIndex(PMSG_JOINRESULT * Data);
-		void RecvDamage(PMSG_ATTACKRESULT * Data);
-		void RecvHPSD(PMSG_REFILL * Data);
-		void RecvMPAG(PMSG_MANASEND * Data);
-		void RecvUpPoint(PMSG_CHARMAPJOINRESULT * Data);
-		void RecvUpLevel(PMSG_LEVELUP * Data);
-		void RecvDownPoint(PMSG_LVPOINTADDRESULT * Data);
-		void RecvRespawn();
-		void RecvKilledObject(PMSG_DIEPLAYER * Data);
+	void RecvIndex(PMSG_JOINRESULT* Data);
+	void RecvClientVersion(PMSG_VERSION* Data);
+	void RecvDamage(PMSG_ATTACKRESULT* Data);
+	void RecvHPSD(PMSG_REFILL* Data);
+	void RecvMPAG(PMSG_MANASEND* Data);
+	void RecvUpPoint(PMSG_CHARMAPJOINRESULT* Data);
+	void RecvUpLevel(PMSG_LEVELUP* Data);
+	void RecvDownPoint(PMSG_LVPOINTADDRESULT* Data);
+	void RecvRespawn();
+	void RecvKilledObject(PMSG_DIEPLAYER* Data);
 
-		static void DrawDamageHP(int a1, int a2, int a3, float a4, char a5);
-		static void DrawDamageSD(int a1, int a2, int a3, float a4, char a5);
+	static void DrawDamageHP(int a1, int a2, int a3, float a4, char a5);
+	static void DrawDamageSD(int a1, int a2, int a3, float a4, char a5);
 
-		static double DrawHp(float a1, float a2, int a3, float a4);
-		static double DrawMp(float a1, float a2, int a3, float a4);
-		static double DrawAg(float a1, float a2, int a3, float a4);
-		static double DrawSd(float a1, float a2, int a3, float a4);
+	static double DrawHp(float a1, float a2, int a3, float a4);
+	static double DrawMp(float a1, float a2, int a3, float a4);
+	static double DrawAg(float a1, float a2, int a3, float a4);
+	static double DrawSd(float a1, float a2, int a3, float a4);
 
-		static int DrawTabHP(signed int a1,signed int a2,LPCSTR lpMultiByteStr);
-		static int DrawTabMP(signed int a1,signed int a2,LPCSTR lpMultiByteStr);
-		static int DrawTabSD(signed int a1,signed int a2,LPCSTR lpMultiByteStr);
-		static int DrawTabAG(signed int a1,signed int a2,LPCSTR lpMultiByteStr);
+	static int DrawTabHP(signed int a1, signed int a2, LPCSTR lpMultiByteStr);
+	static int DrawTabMP(signed int a1, signed int a2, LPCSTR lpMultiByteStr);
+	static int DrawTabSD(signed int a1, signed int a2, LPCSTR lpMultiByteStr);
+	static int DrawTabAG(signed int a1, signed int a2, LPCSTR lpMultiByteStr);
 
-		static int InfoHp(int a1,const char *a2,...);
-		static int InfoMp(int a1,const char *a2,...);
-		static int InfoPoint(int a1,const char *a2,...);
+	static int InfoHp(int a1, const char* a2, ...);
+	static int InfoMp(int a1, const char* a2, ...);
+	static int InfoPoint(int a1, const char* a2, ...);
 
-		static void DrawCircle(DWORD ModelID,float Arg2,float Arg3,float Arg4,float Arg5,float Arg6,float Arg7,float Arg8,float Arg9,bool Arg10,bool Arg11,float Arg12);
+	static void DrawCircle(DWORD ModelID, float Arg2, float Arg3, float Arg4, float Arg5, float Arg6, float Arg7, float Arg8, float Arg9, bool Arg10, bool Arg11, float Arg12);
 
-		static void __fastcall CalculateAttackRate(lpCharObj lpUser, LPVOID EDX);
-		static void __fastcall CalculateDamageRate(lpCharObj lpUser, LPVOID EDX);
-		static void __fastcall CalculateAttackSpeed(lpCharObj lpUser, LPVOID EDX);
+	static void __fastcall CalculateAttackRate(lpCharObj lpUser, LPVOID EDX);
+	static void __fastcall CalculateDamageRate(lpCharObj lpUser, LPVOID EDX);
+	static void __fastcall CalculateAttackSpeed(lpCharObj lpUser, LPVOID EDX);
 
-		static int GetAttackRate();
-		static int GetDamageRate();
+	static int GetAttackRate();
+	static int GetDamageRate();
 };
 
 extern cVisualFix gVisualFix;

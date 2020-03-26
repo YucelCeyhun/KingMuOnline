@@ -585,6 +585,11 @@ void ProtocolCore(BYTE protoNum, BYTE * aRecv, int aLen, int aIndex, BOOL Encryp
 					}
 				}
 				break;
+			case 0xF2: //version_check
+				{
+					GCVersionChecked((PMSG_VERSION_CHECKED*)aRecv,aIndex);
+					break;
+				}
 			case 0x71:
 				GCPingSendRecv((PMSG_PING_RESULT *)aRecv, aIndex);
 				break;
@@ -1562,6 +1567,26 @@ void SCPJoinResultSend(int aIndex, BYTE result) //join_jay
 
 	DataSend(aIndex, (LPBYTE)&pResult, pResult.h.size);
 	gObj[aIndex].ConnectCheckTime = GetTickCount();
+}
+
+void CSVersionControl(int aIndex,BYTE result)
+{
+	PMSG_VERSION pResult;
+	memset(&pResult,0,sizeof(pResult));
+	pResult.h.size = sizeof(pResult);
+	pResult.h.c = 0xC1;
+	pResult.h.headcode = 0x70;
+	pResult.scode = 0x00;
+	pResult.result = result;
+	pResult.NumberH = SET_NUMBERH(aIndex);
+	pResult.NumberL = SET_NUMBERL(aIndex);
+	pResult.ClientVersion[0] = g_Configs.patchVersion[0];
+	pResult.ClientVersion[1] = g_Configs.patchVersion[1];
+	pResult.ClientVersion[2] = g_Configs.patchVersion[2];
+	pResult.ClientVersion[3] = g_Configs.patchVersion[3];
+
+	DataSend(aIndex,(LPBYTE)&pResult, pResult.h.size);
+
 }
 
 void CSPJoinIdPassRequest(PMSG_IDPASS* lpMsg, int aIndex) //password
@@ -14185,6 +14210,16 @@ void CGReqMoveOtherServer(PMSG_REQ_MOVE_OTHERSERVER * lpMsg, int aIndex)
 void GCPacketCheckSumRecv(PMSG_PACKETCHECKSUM * aRecv, int aIndex) 
 {
 	gPacketCheckSum.AddCheckSum(aIndex, aRecv->funcindex, aRecv->CheckSum);
+}
+
+void GCVersionChecked(PMSG_VERSION_CHECKED* aRecv, int aIndex)
+{
+	LPOBJ lpObj = &gObj[aIndex];
+
+	if(!aRecv->VersionChecked){
+		CloseClient(aIndex);
+		LogAddTD("Client Version is Fail for [%s]", lpObj->Ip_addr);
+	}
 }
 
 void GCNPggSendCheckSum(int aIndex, _GG_AUTH_DATA * pggAuthData) 

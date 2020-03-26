@@ -13,6 +13,11 @@ void CConfigs::LoadConfigs()
 		MessageBoxA(0,"Configs.ini file not found","Error",MB_OK);
 		ExitProcess(0);
 	}
+	else if(FindFirstFileA(PATCH_FILE,&wFileData)==INVALID_HANDLE_VALUE)
+	{
+		MessageBoxA(0,"Patch.ini file not found","Error",MB_OK);
+		ExitProcess(0);
+	}
 	else if(FindFirstFileA(JEWELS_FILE,&wFileData)==INVALID_HANDLE_VALUE)
 	{
 		MessageBoxA(0,"Jewels.ini file not found","Error",MB_OK);
@@ -53,6 +58,9 @@ void CConfigs::LoadConfigs()
 		MessageBoxA(0,"Character.ini file not found","Error",MB_OK);
 		ExitProcess(0);
 	}
+
+	//Version
+	GetPrivateProfileString("Patch","Version","1.0", this->patchVersion, sizeof(this->patchVersion),PATCH_FILE);
 
 	//Jewel of Life
 	this->m_iLifeRate			= GetPrivateProfileInt("JewelOfLife","LifeRateWithoutLuck",50,JEWELS_FILE);

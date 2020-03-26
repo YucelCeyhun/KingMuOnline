@@ -34,6 +34,7 @@ bool cControl::Load()
 			return false;
 		}
 	}
+
 	// ----
 	return true;
 }

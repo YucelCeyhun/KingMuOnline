@@ -73,6 +73,22 @@ struct PMSG_JOINRESULT
 	BYTE CliVersion[5];	// 7
 };
 
+struct PMSG_VERSION
+{
+	PBMSG_HEAD h;	// C1:70
+	BYTE scode;	// 3
+	BYTE result;	// 4
+	BYTE NumberH;	// 5
+	BYTE NumberL;	// 6
+	char ClientVersion[4];// 7
+};
+
+struct PMSG_VERSION_CHECKED
+{
+	PBMSG_HEAD h;	// C1:70
+	BOOL VersionChecked;
+};
+
 struct PMSG_ANS_DUEL_SCORE
 {
 	PBMSG_HEAD h;	// C1:AD
@@ -2085,10 +2101,12 @@ void GCEventStateSend(int aIndex, BYTE state, BYTE event);
 void GCMapEventStateSend(int map, BYTE state, BYTE event);
 void CGChatWhisperRecv(PMSG_CHATDATA_WHISPER* lpMsg, int aIndex);
 void SCPJoinResultSend(int aIndex, BYTE result);
+void CSVersionControl(int aIndex,BYTE result);
 void CSPJoinIdPassRequest(PMSG_IDPASS* lpMsg, int aIndex);
 void CSPJoinIdPassRequestTEST(PMSG_IDPASS* lpMsg, int aIndex);
 void GCJoinBillCheckSend(char* AccountId, int aIndex);
 void GCJoinResult(BYTE result, int aIndex);
+void GCVersionChecked(PMSG_VERSION_CHECKED*aRecv,int aIndex);
 void GCJoinSocketResult(BYTE result, SOCKET Socket);
 void CGClientCloseMsg(PMSG_CLIENTCLOSE* lpMsg, int aIndex);
 void GCCloseMsgSend(int aIndex, BYTE result);

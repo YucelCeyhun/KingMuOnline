@@ -657,6 +657,9 @@
     <ClCompile Include="NewPVP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HttpRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\GGSvr\Release\GGSvr.lib">
@@ -1300,6 +1303,12 @@
     <ClInclude Include="NewPVP.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="HttpRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="GameServer.ico">
@@ -1310,5 +1319,10 @@
     <ResourceCompile Include="GameServer.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeLists.txt">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

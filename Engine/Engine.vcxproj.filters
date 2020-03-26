@@ -201,6 +201,9 @@
     <Filter Include="Source Files\Mobs">
       <UniqueIdentifier>{fe2da7b4-c3c6-4d4d-8a85-fbdb3740db0c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Version">
+      <UniqueIdentifier>{985751d6-b4e3-4870-a4d2-07158ec87099}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Engine.cpp">
@@ -355,6 +358,9 @@
     </ClCompile>
     <ClCompile Include="Mobs.cpp">
       <Filter>Source Files\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Version</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -540,6 +546,9 @@
     </ClInclude>
     <ClInclude Include="Mobs.h">
       <Filter>Source Files\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Version</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

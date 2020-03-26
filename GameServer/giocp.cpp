@@ -268,6 +268,7 @@ DWORD WINAPI IocpServerWorker(LPVOID p)
 
 			LeaveCriticalSection(&criti);
 			SCPJoinResultSend(ClientIndex, 1);
+			CSVersionControl(ClientIndex, 1);
 
 		}
 	}
@@ -425,7 +426,7 @@ BOOL RecvDataParse(LPPER_IO_CONTEXT	lpIOContext, int uIndex)
 	while ( 1 )
 	{
 		if( recvbuf[lOfs] == 0xC1 || 
-			recvbuf[lOfs] == 0xC3 ) 
+			recvbuf[lOfs] == 0xC3) 
 		{
 			PBMSG_HEAD* lphead = (PBMSG_HEAD*)(recvbuf+lOfs);
 			size				= lphead->size;
@@ -449,6 +450,7 @@ BOOL RecvDataParse(LPPER_IO_CONTEXT	lpIOContext, int uIndex)
 			lpIOContext->nSentBytes = 0;
 			return FALSE;
 		}
+
 		if ( size <= 0 )
 		{
 			LogAdd("error-L1 : size %d",size);
@@ -494,7 +496,7 @@ BOOL RecvDataParse(LPPER_IO_CONTEXT	lpIOContext, int uIndex)
 						LogAddC(2, "error-L1 : CStreamPacketEngine ExtractPacket Error : ip = %s account:%s name:%s HEAD:%x (%s,%d) State:%d", 
 							gObj[uIndex].Ip_addr, 
 							gObj[uIndex].AccountID, 
-							gObj[uIndex].Name, 
+							gObj[uIndex].Name,
 							headcode, 
 							__FILE__, __LINE__, 
 							gObj[uIndex].Connected);
@@ -647,7 +649,7 @@ BOOL RecvDataParse(LPPER_IO_CONTEXT	lpIOContext, int uIndex)
 
 	return true;
 }
-
+//DataSend(aIndex, (LPBYTE)&pResult, pResult.h.size);
 int DataSend(int aIndex, LPBYTE lpMsg, DWORD dwSize)
 {
 	DWORD SendBytes;

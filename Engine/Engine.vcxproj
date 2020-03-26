@@ -22,7 +22,6 @@
     <ProjectGuid>{D047F3D4-581C-4986-9252-65634A7B450E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Engine</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -195,6 +194,7 @@
     <ClCompile Include="Skills.cpp" />
     <ClCompile Include="SkyBox.cpp" />
     <ClCompile Include="Smoke.cpp" />
+    <ClCompile Include="Version.cpp" />
     <ClCompile Include="Splash.cpp" />
     <ClCompile Include="ToolKit.cpp" />
     <ClCompile Include="ToolTip.cpp" />
@@ -262,6 +262,7 @@
     <ClInclude Include="ToolKit.h" />
     <ClInclude Include="ToolTip.h" />
     <ClInclude Include="User.h" />
+    <ClInclude Include="Version.h" />
     <ClInclude Include="VisualFix.h" />
     <ClInclude Include="Wings.h" />
     <ClInclude Include="WinTitle.h" />
